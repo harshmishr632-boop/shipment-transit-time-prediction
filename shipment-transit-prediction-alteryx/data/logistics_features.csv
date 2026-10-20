@@ -1,0 +1,1966 @@
+Origin_Warehouse,Destination,Carrier,Weight_kg,Distance_miles,Cost_Numeric,Cost_Was_Null,Transit_Days,Status,Cost_Per_Mile,Weight_Per_Mile,Distance_Band,Is_Heavy
+Warehouse_MIA,San Francisco,UPS,25.7,291.0,67.46,0,2.0,Delivered,0.231821,0.088316,Short,0
+Warehouse_MIA,Atlanta,DHL,38.9,1225.0,268.85,0,3.0,Delivered,0.219469,0.031755,Medium,0
+Warehouse_LA,Houston,DHL,37.2,220.0,74.35,0,2.0,Delivered,0.337955,0.169091,Short,0
+Warehouse_BOS,Seattle,OnTrac,42.6,1156.0,187.04,0,9.0,Delivered,0.161799,0.036851,Medium,0
+Warehouse_SF,Dallas,OnTrac,7.9,1017.0,120.01,0,3.0,Delivered,0.118004,0.007768,Medium,0
+Warehouse_ATL,New York,FedEx,9.1,898.0,143.26,0,3.0,Delivered,0.159532,0.010134,Medium,0
+Warehouse_BOS,Houston,UPS,0.4,1522.0,225.23,0,4.0,Delivered,0.147983,0.000263,Long,0
+Warehouse_CHI,Portland,Amazon Logistics,16.7,2013.0,281.23,0,9.0,Delivered,0.139707,0.008296,Long,0
+Warehouse_HOU,Detroit,Amazon Logistics,15.1,2072.0,341.93,0,7.0,Delivered,0.165024,0.007288,Long,0
+Warehouse_SF,Detroit,LaserShip,27.7,214.0,55.24,0,2.0,Delivered,0.258131,0.129439,Short,0
+Warehouse_MIA,Chicago,FedEx,7.1,1736.0,251.53,0,5.0,Delivered,0.144891,0.00409,Long,0
+Warehouse_ATL,Boston,Amazon Logistics,38.2,2366.0,357.12,0,6.0,Delayed,0.150938,0.016145,Long,0
+Warehouse_SEA,New York,FedEx,34.4,650.0,121.14,0,5.0,Delivered,0.186369,0.052923,Medium,0
+Warehouse_NYC,Phoenix,UPS,20.7,1574.0,272.48,0,6.0,Delivered,0.173113,0.013151,Long,0
+Warehouse_BOS,Miami,FedEx,12.5,1849.0,266.08,0,6.0,Delivered,0.143905,0.00676,Long,0
+Warehouse_DEN,Minneapolis,OnTrac,28.6,1489.0,221.21,0,6.0,Delivered,0.148563,0.019208,Medium,0
+Warehouse_CHI,Detroit,USPS,24.1,283.0,60.27,0,1.0,Lost,0.212968,0.085159,Short,0
+Warehouse_LA,San Francisco,OnTrac,43.2,223.0,80.6,0,3.0,In Transit,0.361435,0.193722,Short,0
+Warehouse_ATL,Atlanta,OnTrac,6.3,1055.0,124.52,0,9.0,Delivered,0.118028,0.005972,Medium,0
+Warehouse_MIA,Portland,DHL,51.2,1660.0,290.72,0,5.0,Delivered,0.175133,0.030843,Long,1
+Warehouse_MIA,Miami,FedEx,7.8,1696.0,216.42,0,5.0,Delivered,0.127606,0.004599,Long,0
+Warehouse_SEA,Houston,LaserShip,29.6,1407.0,216.63,0,4.0,Returned,0.153966,0.021038,Medium,0
+Warehouse_CHI,San Francisco,USPS,15.2,440.0,67.11,0,2.0,Delivered,0.152523,0.034545,Short,0
+Warehouse_SEA,Los Angeles,DHL,22.2,1402.0,228.57,0,3.0,Delivered,0.163031,0.015835,Medium,0
+Warehouse_DEN,Phoenix,USPS,5.3,256.0,37.32,0,4.0,Delivered,0.145781,0.020703,Short,0
+Warehouse_NYC,Portland,UPS,40.0,519.0,124.29,0,2.0,Delivered,0.23948,0.077071,Medium,0
+Warehouse_DEN,Miami,UPS,8.7,386.0,73.52,0,2.0,Delivered,0.190466,0.022539,Short,0
+Warehouse_DEN,Boston,USPS,10.1,1986.0,309.59,0,5.0,Delayed,0.155886,0.005086,Long,0
+Warehouse_SF,Dallas,LaserShip,22.8,2229.0,373.64,0,5.0,Delivered,0.167627,0.010229,Long,0
+Warehouse_SEA,Chicago,DHL,13.0,2310.0,347.94,0,6.0,Delivered,0.150623,0.005628,Long,0
+Warehouse_BOS,Dallas,OnTrac,30.2,1048.0,162.68,0,4.0,Delivered,0.155229,0.028817,Medium,0
+Warehouse_CHI,New York,FedEx,11.3,1551.0,206.19,0,4.0,Delivered,0.13294,0.007286,Long,0
+Warehouse_SF,Denver,USPS,15.8,431.0,66.35,0,2.0,Delayed,0.153944,0.036659,Short,0
+Warehouse_SEA,Denver,OnTrac,10.7,528.0,76.52,0,2.0,Delivered,0.144924,0.020265,Medium,0
+Warehouse_BOS,Dallas,OnTrac,37.7,131.0,55.09,0,1.0,Lost,0.420534,0.287786,Short,0
+Warehouse_ATL,Los Angeles,FedEx,27.9,659.0,123.81,0,3.0,Delayed,0.187876,0.042337,Medium,0
+Warehouse_SF,Dallas,Amazon Logistics,26.6,2209.0,333.35,0,5.0,Delivered,0.150905,0.012042,Long,0
+Warehouse_SF,Detroit,LaserShip,30.7,1674.0,282.71,0,6.0,Returned,0.168883,0.018339,Long,0
+Warehouse_BOS,Denver,Amazon Logistics,13.4,1550.0,209.01,0,6.0,Delivered,0.134845,0.008645,Long,0
+Warehouse_NYC,Los Angeles,UPS,31.9,1696.0,263.06,0,4.0,Delivered,0.155106,0.018809,Long,0
+Warehouse_NYC,Los Angeles,USPS,37.8,660.0,129.73,0,3.0,Delivered,0.196561,0.057273,Medium,0
+Warehouse_SEA,New York,DHL,17.4,1153.0,194.58,0,4.0,Delivered,0.16876,0.015091,Medium,0
+Warehouse_CHI,San Francisco,OnTrac,4.7,343.0,49.68,0,3.0,Delivered,0.14484,0.013703,Short,0
+Warehouse_NYC,Miami,LaserShip,29.7,1973.0,245.98,0,5.0,Delivered,0.124673,0.015053,Long,0
+Warehouse_LA,Los Angeles,DHL,9.0,2335.0,356.77,0,6.0,Delivered,0.152792,0.003854,Long,0
+Warehouse_SF,Dallas,USPS,25.4,816.0,127.22,0,3.0,Delivered,0.155907,0.031127,Medium,0
+Warehouse_SF,Phoenix,LaserShip,14.2,1758.0,248.03,0,7.0,Delivered,0.141086,0.008077,Long,0
+Warehouse_MIA,Boston,UPS,84.1,1010.0,251.24,0,4.0,Delivered,0.248752,0.083267,Medium,1
+Warehouse_MIA,New York,FedEx,29.5,2396.0,340.07,0,6.0,Delayed,0.141932,0.012312,Long,0
+Warehouse_SEA,Minneapolis,USPS,19.6,1267.0,156.03,0,5.0,Delivered,0.123149,0.01547,Medium,0
+Warehouse_BOS,Chicago,Amazon Logistics,25.9,1365.0,206.17,0,5.0,Delivered,0.15104,0.018974,Medium,0
+Warehouse_BOS,Dallas,UPS,26.6,1847.0,277.97,0,5.0,Delivered,0.150498,0.014402,Long,0
+Warehouse_DEN,Minneapolis,LaserShip,31.6,2249.0,283.13,0,6.0,Delivered,0.125892,0.014051,Long,0
+Warehouse_CHI,Chicago,OnTrac,24.7,342.0,68.63,0,3.0,Delivered,0.200673,0.072222,Short,0
+Warehouse_SF,Minneapolis,LaserShip,23.2,1913.0,231.64,0,5.0,Delivered,0.121087,0.012128,Long,0
+Warehouse_HOU,Los Angeles,LaserShip,6.8,255.0,42.06,0,3.0,Lost,0.164941,0.026667,Short,0
+Warehouse_SF,Los Angeles,USPS,8.9,600.0,78.37,0,2.0,Delivered,0.130617,0.014833,Medium,0
+Warehouse_BOS,San Francisco,OnTrac,28.5,622.0,128.94,0,5.0,Delivered,0.207299,0.04582,Medium,0
+Warehouse_HOU,Denver,OnTrac,59.8,1030.0,196.89,0,3.0,Delivered,0.191155,0.058058,Medium,1
+Warehouse_ATL,Chicago,LaserShip,9.8,708.0,93.3,0,3.0,Delivered,0.13178,0.013842,Medium,0
+Warehouse_SEA,Detroit,FedEx,61.9,1914.0,316.41,0,5.0,Delayed,0.165313,0.032341,Long,1
+Warehouse_BOS,Los Angeles,UPS,25.6,740.0,128.53,0,3.0,Delivered,0.173689,0.034595,Medium,0
+Warehouse_CHI,Los Angeles,UPS,67.6,1007.0,232.32,0,3.0,Delivered,0.230705,0.06713,Medium,1
+Warehouse_LA,Miami,LaserShip,50.3,864.0,152.13,0,4.0,Delivered,0.176076,0.058218,Medium,1
+Warehouse_SF,Miami,Amazon Logistics,15.9,2463.0,325.16,0,6.0,Delivered,0.132018,0.006456,Long,0
+Warehouse_SEA,Seattle,DHL,42.3,998.0,195.98,0,3.0,Delivered,0.196373,0.042385,Medium,0
+Warehouse_SEA,Atlanta,FedEx,26.2,1801.0,261.81,0,8.0,Delivered,0.145369,0.014547,Long,0
+Warehouse_SEA,Houston,FedEx,35.7,989.0,180.2,0,4.0,Delivered,0.182204,0.036097,Medium,0
+Warehouse_HOU,Chicago,DHL,6.9,383.0,56.51,0,3.0,Delayed,0.147546,0.018016,Short,0
+Warehouse_CHI,Seattle,OnTrac,30.7,2307.0,196.325,1,5.0,Delivered,0.0851,0.013307,Long,0
+Warehouse_NYC,Los Angeles,LaserShip,10.8,1727.0,225.74,0,6.0,Delayed,0.130712,0.006254,Long,0
+Warehouse_LA,Seattle,USPS,0.6,1135.0,199.78,0,3.0,In Transit,0.176018,0.000529,Medium,0
+Warehouse_MIA,Phoenix,UPS,93.0,757.0,221.01,0,3.0,Delivered,0.291955,0.122853,Medium,1
+Warehouse_HOU,Dallas,OnTrac,35.3,1673.0,261.49,0,4.0,Delivered,0.1563,0.0211,Long,0
+Warehouse_DEN,Houston,Amazon Logistics,25.4,319.0,85.28,0,1.0,Delivered,0.267335,0.079624,Short,0
+Warehouse_CHI,Seattle,USPS,20.8,994.0,130.21,0,2.0,Lost,0.130996,0.020926,Medium,0
+Warehouse_LA,Portland,UPS,10.9,612.0,119.38,0,3.0,Delivered,0.195065,0.01781,Medium,0
+Warehouse_SF,Detroit,UPS,22.4,2214.0,309.17,0,7.0,Delayed,0.139643,0.010117,Long,0
+Warehouse_LA,Los Angeles,LaserShip,15.1,1051.0,152.16,0,3.0,Delivered,0.144776,0.014367,Medium,0
+Warehouse_SF,New York,DHL,22.9,1714.0,289.37,0,5.0,Delivered,0.168827,0.013361,Long,0
+Warehouse_CHI,Denver,OnTrac,14.1,1000.0,144.14,0,2.0,Delivered,0.14414,0.0141,Medium,0
+Warehouse_SF,Phoenix,LaserShip,9.3,2210.0,333.26,0,8.0,Delivered,0.150796,0.004208,Long,0
+Warehouse_CHI,Atlanta,FedEx,22.9,1510.0,233.89,0,4.0,Delivered,0.154894,0.015166,Long,0
+Warehouse_CHI,Los Angeles,UPS,31.7,1777.0,282.19,0,6.0,Delivered,0.158801,0.017839,Long,0
+Warehouse_SEA,Minneapolis,DHL,13.5,2388.0,422.32,0,7.0,Delivered,0.176851,0.005653,Long,0
+Warehouse_CHI,Chicago,OnTrac,17.1,1284.0,214.99,0,4.0,Delayed,0.167438,0.013318,Medium,0
+Warehouse_HOU,Miami,USPS,37.0,1198.0,184.07,0,3.0,Delivered,0.153648,0.030885,Medium,0
+Warehouse_NYC,Portland,LaserShip,127.8,1482.0,247.54,0,4.0,Delivered,0.167031,0.086235,Medium,1
+Warehouse_MIA,Chicago,OnTrac,10.8,530.0,83.32,0,2.0,Returned,0.157208,0.020377,Medium,0
+Warehouse_ATL,Los Angeles,Amazon Logistics,8.5,920.0,151.64,0,4.0,Delayed,0.164826,0.009239,Medium,0
+Warehouse_DEN,Los Angeles,LaserShip,16.0,1950.0,277.61,0,5.0,Delivered,0.142364,0.008205,Long,0
+Warehouse_MIA,Houston,UPS,32.9,2233.0,337.04,0,5.0,Delivered,0.150936,0.014734,Long,0
+Warehouse_ATL,San Francisco,OnTrac,29.5,1022.0,167.82,0,7.0,Delivered,0.164207,0.028865,Medium,0
+Warehouse_MIA,Detroit,Amazon Logistics,18.6,1447.0,191.08,0,3.0,Delivered,0.132053,0.012854,Medium,0
+Warehouse_MIA,Atlanta,DHL,9.6,241.0,42.77,0,1.0,Delivered,0.177469,0.039834,Short,0
+Warehouse_BOS,Miami,OnTrac,11.1,2053.0,273.63,0,5.0,Delivered,0.133283,0.005407,Long,0
+Warehouse_SEA,Phoenix,LaserShip,14.6,1158.0,141.34,0,3.0,Delivered,0.122055,0.012608,Medium,0
+Warehouse_CHI,Atlanta,Amazon Logistics,11.9,2109.0,277.05,0,7.0,Delivered,0.131366,0.005642,Long,0
+Warehouse_DEN,Miami,LaserShip,51.0,179.0,196.325,1,2.0,Delivered,1.096788,0.284916,Short,1
+Warehouse_BOS,Houston,DHL,8.6,2465.0,352.85,0,7.0,Delivered,0.143144,0.003489,Long,0
+Warehouse_SEA,New York,FedEx,16.6,543.0,121.29,0,3.0,Delivered,0.22337,0.030571,Medium,0
+Warehouse_MIA,New York,DHL,40.7,1682.0,270.27,0,6.0,Delayed,0.160684,0.024197,Long,0
+Warehouse_HOU,Denver,OnTrac,22.6,1030.0,149.52,0,3.0,Delivered,0.145165,0.021942,Medium,0
+Warehouse_NYC,Chicago,UPS,44.3,790.0,140.74,0,3.0,Delivered,0.178152,0.056076,Medium,0
+Warehouse_MIA,Minneapolis,LaserShip,12.8,1534.0,198.31,0,4.0,Delivered,0.129276,0.008344,Long,0
+Warehouse_CHI,Houston,DHL,46.1,2306.0,409.06,0,7.0,Delivered,0.177389,0.019991,Long,0
+Warehouse_SF,New York,FedEx,19.2,1810.0,273.26,0,5.0,Delivered,0.150972,0.010608,Long,0
+Warehouse_HOU,Chicago,Amazon Logistics,7.6,277.0,41.42,0,2.0,Delayed,0.149531,0.027437,Short,0
+Warehouse_CHI,Chicago,USPS,38.1,1953.0,272.16,0,6.0,Delivered,0.139355,0.019508,Long,0
+Warehouse_SF,Los Angeles,FedEx,23.2,1800.0,270.43,0,4.0,Delivered,0.150239,0.012889,Long,0
+Warehouse_NYC,Portland,LaserShip,22.8,1951.0,267.89,0,5.0,Delivered,0.137309,0.011686,Long,0
+Warehouse_BOS,Houston,FedEx,18.8,1744.0,249.35,0,7.0,Delivered,0.142976,0.01078,Long,0
+Warehouse_CHI,Minneapolis,Amazon Logistics,14.0,1323.0,171.55,0,4.0,Delivered,0.129667,0.010582,Medium,0
+Warehouse_DEN,Denver,OnTrac,17.6,1646.0,215.18,0,4.0,Delayed,0.130729,0.010693,Long,0
+Warehouse_DEN,Minneapolis,DHL,21.6,261.0,64.74,0,1.0,Delivered,0.248046,0.082759,Short,0
+Warehouse_SEA,Denver,Amazon Logistics,8.2,2330.0,278.34,0,6.0,Delivered,0.119459,0.003519,Long,0
+Warehouse_CHI,Houston,FedEx,25.1,973.0,165.41,0,5.0,Delivered,0.17,0.025797,Medium,0
+Warehouse_HOU,New York,Amazon Logistics,14.4,2399.0,280.59,0,7.0,Delivered,0.116961,0.006003,Long,0
+Warehouse_ATL,Phoenix,OnTrac,50.1,1297.0,210.77,0,4.0,Delivered,0.162506,0.038628,Medium,1
+Warehouse_ATL,San Francisco,USPS,20.3,1200.0,150.38,0,6.0,Delivered,0.125317,0.016917,Medium,0
+Warehouse_CHI,Miami,USPS,11.8,1350.0,180.52,0,4.0,Delivered,0.133719,0.008741,Medium,0
+Warehouse_SEA,Miami,UPS,90.2,2188.0,384.64,0,7.0,Delivered,0.175795,0.041225,Long,1
+Warehouse_LA,Miami,UPS,30.1,1075.0,156.74,0,8.0,Delivered,0.145805,0.028,Medium,0
+Warehouse_BOS,Miami,LaserShip,3.2,1260.0,159.82,0,9.0,Delivered,0.126841,0.00254,Medium,0
+Warehouse_MIA,Miami,LaserShip,31.9,1926.0,260.72,0,5.0,Delivered,0.135369,0.016563,Long,0
+Warehouse_MIA,Phoenix,LaserShip,15.1,2204.0,321.82,0,5.0,Delivered,0.146016,0.006851,Long,0
+Warehouse_SF,Seattle,OnTrac,19.2,2048.0,253.39,0,7.0,Returned,0.123726,0.009375,Long,0
+Warehouse_NYC,Atlanta,UPS,26.4,870.0,186.75,0,3.0,Delivered,0.214655,0.030345,Medium,0
+Warehouse_SF,Portland,LaserShip,24.4,2314.0,313.23,0,7.0,Delivered,0.135363,0.010545,Long,0
+Warehouse_LA,San Francisco,DHL,59.4,1070.0,234.64,0,3.0,Delivered,0.21929,0.055514,Medium,1
+Warehouse_CHI,Miami,FedEx,15.9,1350.0,257.13,0,6.0,Delivered,0.190467,0.011778,Medium,0
+Warehouse_DEN,Boston,Amazon Logistics,17.5,1476.0,208.17,0,4.0,Delivered,0.141037,0.011856,Medium,0
+Warehouse_NYC,Houston,OnTrac,66.5,672.0,199.04,0,3.0,Delivered,0.29619,0.098958,Medium,1
+Warehouse_CHI,Houston,USPS,19.4,1300.0,169.99,0,3.0,Delivered,0.130762,0.014923,Medium,0
+Warehouse_SEA,Portland,USPS,48.0,593.0,133.98,0,2.0,Delivered,0.225936,0.080944,Medium,0
+Warehouse_BOS,Chicago,USPS,18.4,1939.0,237.17,0,5.0,Delivered,0.122316,0.009489,Long,0
+Warehouse_NYC,Chicago,OnTrac,38.9,790.0,137.82,0,3.0,Delivered,0.174456,0.049241,Medium,0
+Warehouse_LA,San Francisco,OnTrac,36.6,2497.0,310.16,0,7.0,Delivered,0.124213,0.014658,Long,0
+Warehouse_SEA,New York,USPS,19.2,510.0,81.43,0,2.0,Delivered,0.159667,0.037647,Medium,0
+Warehouse_HOU,Atlanta,UPS,23.4,800.0,142.13,0,3.0,Delayed,0.177662,0.02925,Medium,0
+Warehouse_BOS,Portland,USPS,23.7,1459.0,196.325,1,5.0,Delivered,0.134561,0.016244,Medium,0
+Warehouse_ATL,San Francisco,UPS,66.8,2262.0,336.2,0,5.0,Delivered,0.14863,0.029531,Long,1
+Warehouse_NYC,Minneapolis,Amazon Logistics,25.8,2078.0,258.31,0,6.0,Delivered,0.124307,0.012416,Long,0
+Warehouse_LA,New York,DHL,38.2,775.0,151.35,0,3.0,Lost,0.19529,0.04929,Medium,0
+Warehouse_SF,Phoenix,LaserShip,11.6,2080.0,278.85,0,5.0,Delivered,0.134062,0.005577,Long,0
+Warehouse_ATL,San Francisco,UPS,21.8,573.0,123.4,0,2.0,Delayed,0.215358,0.038045,Medium,0
+Warehouse_HOU,Seattle,FedEx,11.5,1125.0,167.08,0,3.0,Delivered,0.148516,0.010222,Medium,0
+Warehouse_MIA,Chicago,LaserShip,45.0,382.0,118.74,0,5.0,Delayed,0.310838,0.117801,Short,0
+Warehouse_SF,Seattle,USPS,12.2,2161.0,278.15,0,5.0,Delivered,0.128714,0.005646,Long,0
+Warehouse_LA,New York,FedEx,54.9,2244.0,332.76,0,5.0,Delivered,0.148289,0.024465,Long,1
+Warehouse_SEA,Seattle,LaserShip,11.9,561.0,83.93,0,2.0,Delivered,0.149608,0.021212,Medium,0
+Warehouse_NYC,Phoenix,Amazon Logistics,11.5,388.0,69.7,0,2.0,Delivered,0.179639,0.029639,Short,0
+Warehouse_HOU,Portland,UPS,32.2,2453.0,334.49,0,9.0,Delivered,0.13636,0.013127,Long,0
+Warehouse_LA,Atlanta,UPS,22.1,821.0,169.82,0,4.0,Delivered,0.206845,0.026918,Medium,0
+Warehouse_HOU,Chicago,LaserShip,23.8,1566.0,206.9,0,4.0,Delivered,0.13212,0.015198,Long,0
+Warehouse_BOS,Houston,USPS,22.1,465.0,79.13,0,2.0,Delivered,0.170172,0.047527,Short,0
+Warehouse_CHI,Miami,Amazon Logistics,19.7,1350.0,196.56,0,4.0,Delivered,0.1456,0.014593,Medium,0
+Warehouse_CHI,Atlanta,USPS,14.6,648.0,94.67,0,2.0,Delivered,0.146096,0.022531,Medium,0
+Warehouse_LA,Denver,OnTrac,23.3,586.0,117.91,0,2.0,Delivered,0.201212,0.039761,Medium,0
+Warehouse_SEA,Minneapolis,FedEx,20.2,1964.0,309.57,0,5.0,Delivered,0.157622,0.010285,Long,0
+Warehouse_LA,Miami,UPS,5.7,143.0,24.11,0,2.0,Delivered,0.168601,0.03986,Short,0
+Warehouse_CHI,Houston,Amazon Logistics,7.5,1262.0,157.13,0,4.0,Delivered,0.124509,0.005943,Medium,0
+Warehouse_DEN,Phoenix,FedEx,84.2,2302.0,414.53,0,5.0,Delivered,0.180074,0.036577,Long,1
+Warehouse_MIA,Atlanta,USPS,18.2,679.0,103.05,0,3.0,Delivered,0.151767,0.026804,Medium,0
+Warehouse_LA,Chicago,Amazon Logistics,12.9,755.0,114.88,0,2.0,Delivered,0.152159,0.017086,Medium,0
+Warehouse_SEA,New York,Amazon Logistics,35.1,2056.0,272.06,0,8.0,Delivered,0.132325,0.017072,Long,0
+Warehouse_MIA,Detroit,UPS,6.6,1222.0,156.36,0,4.0,In Transit,0.127954,0.005401,Medium,0
+Warehouse_LA,Houston,FedEx,11.5,1814.0,244.22,0,8.0,Delayed,0.134631,0.00634,Long,0
+Warehouse_MIA,Minneapolis,USPS,11.6,1454.0,184.5,0,6.0,Delivered,0.126891,0.007978,Medium,0
+Warehouse_NYC,Miami,USPS,105.0,543.0,180.26,0,2.0,Returned,0.331971,0.19337,Medium,1
+Warehouse_BOS,Atlanta,DHL,13.8,1142.0,167.23,0,3.0,Delivered,0.146436,0.012084,Medium,0
+Warehouse_MIA,Portland,FedEx,14.1,810.0,137.25,0,3.0,Delivered,0.169444,0.017407,Medium,0
+Warehouse_CHI,Portland,Amazon Logistics,30.3,1081.0,154.16,0,3.0,Delayed,0.142609,0.02803,Medium,0
+Warehouse_DEN,Phoenix,Amazon Logistics,19.4,152.0,40.24,0,1.0,Delivered,0.264737,0.127632,Short,0
+Warehouse_NYC,Phoenix,DHL,10.0,1120.0,156.13,0,5.0,Delivered,0.139402,0.008929,Medium,0
+Warehouse_SEA,Portland,Amazon Logistics,22.8,2327.0,319.99,0,9.0,Delivered,0.137512,0.009798,Long,0
+Warehouse_HOU,Dallas,Amazon Logistics,7.1,1376.0,196.325,1,5.0,Delayed,0.142678,0.00516,Medium,0
+Warehouse_SF,Houston,Amazon Logistics,17.5,2380.0,347.71,0,5.0,Delivered,0.146097,0.007353,Long,0
+Warehouse_LA,Minneapolis,LaserShip,25.6,694.0,108.01,0,4.0,Delivered,0.155634,0.036888,Medium,0
+Warehouse_HOU,New York,FedEx,19.6,1791.0,261.42,0,4.0,Delivered,0.145963,0.010944,Long,0
+Warehouse_LA,New York,OnTrac,15.7,411.0,67.25,0,2.0,Delivered,0.163625,0.0382,Short,0
+Warehouse_SEA,San Francisco,OnTrac,7.5,1073.0,158.02,0,6.0,Delivered,0.147269,0.00699,Medium,0
+Warehouse_MIA,Minneapolis,FedEx,23.5,1634.0,261.49,0,4.0,Delivered,0.160031,0.014382,Long,0
+Warehouse_BOS,San Francisco,USPS,4.5,2411.0,277.56,0,6.0,Delivered,0.115122,0.001866,Long,0
+Warehouse_SEA,Detroit,UPS,11.9,2481.0,196.325,1,8.0,Delivered,0.079131,0.004796,Long,0
+Warehouse_SEA,Detroit,FedEx,26.5,2052.0,345.27,0,5.0,Delivered,0.16826,0.012914,Long,0
+Warehouse_NYC,Dallas,LaserShip,12.8,2465.0,378.16,0,8.0,Delivered,0.153412,0.005193,Long,0
+Warehouse_LA,Chicago,DHL,29.3,1213.0,206.8,0,5.0,Delivered,0.170486,0.024155,Medium,0
+Warehouse_LA,Houston,LaserShip,15.5,1247.0,174.55,0,4.0,Delivered,0.139976,0.01243,Medium,0
+Warehouse_SF,New York,OnTrac,19.0,2278.0,321.04,0,6.0,Lost,0.140931,0.008341,Long,0
+Warehouse_BOS,San Francisco,USPS,15.3,2406.0,300.44,0,7.0,Delayed,0.124871,0.006359,Long,0
+Warehouse_BOS,Denver,UPS,4.2,1596.0,208.73,0,4.0,Delivered,0.130783,0.002632,Long,0
+Warehouse_HOU,San Francisco,OnTrac,20.1,1108.0,169.98,0,3.0,Delivered,0.153412,0.018141,Medium,0
+Warehouse_LA,Portland,LaserShip,9.6,1380.0,195.3,0,6.0,Delivered,0.141522,0.006957,Medium,0
+Warehouse_DEN,Dallas,UPS,5.3,1605.0,197.9,0,5.0,Delivered,0.123302,0.003302,Long,0
+Warehouse_LA,Atlanta,USPS,10.8,1504.0,232.88,0,4.0,Delayed,0.15484,0.007181,Long,0
+Warehouse_SF,Boston,DHL,61.1,2138.0,350.67,0,5.0,Delivered,0.164018,0.028578,Long,1
+Warehouse_HOU,New York,OnTrac,20.1,754.0,112.36,0,3.0,Delayed,0.149019,0.026658,Medium,0
+Warehouse_LA,Houston,LaserShip,22.8,1657.0,242.14,0,4.0,Delivered,0.146132,0.01376,Long,0
+Warehouse_MIA,Detroit,DHL,14.7,1423.0,285.59,0,4.0,Delivered,0.200696,0.01033,Medium,0
+Warehouse_LA,Seattle,FedEx,32.1,1135.0,193.72,0,5.0,Delivered,0.170678,0.028282,Medium,0
+Warehouse_BOS,Phoenix,DHL,8.7,737.0,121.73,0,4.0,Delayed,0.16517,0.011805,Medium,0
+Warehouse_BOS,Detroit,DHL,33.7,796.0,162.31,0,2.0,Delivered,0.203907,0.042337,Medium,0
+Warehouse_CHI,Chicago,FedEx,28.8,308.0,96.12,0,2.0,Delivered,0.312078,0.093506,Short,0
+Warehouse_HOU,San Francisco,FedEx,9.1,787.0,125.92,0,5.0,Returned,0.16,0.011563,Medium,0
+Warehouse_ATL,Denver,Amazon Logistics,28.5,2074.0,284.4,0,8.0,Delivered,0.137126,0.013742,Long,0
+Warehouse_HOU,Chicago,DHL,88.0,1145.0,297.28,0,5.0,Delivered,0.259633,0.076856,Medium,1
+Warehouse_DEN,Minneapolis,OnTrac,21.9,1719.0,196.325,1,5.0,Delivered,0.114209,0.01274,Long,0
+Warehouse_NYC,Los Angeles,USPS,24.1,1082.0,141.81,0,5.0,Delivered,0.131063,0.022274,Medium,0
+Warehouse_ATL,Dallas,FedEx,11.9,1204.0,192.63,0,3.0,Delivered,0.159992,0.009884,Medium,0
+Warehouse_HOU,Denver,LaserShip,17.9,1030.0,133.27,0,3.0,Delivered,0.129388,0.017379,Medium,0
+Warehouse_BOS,Dallas,Amazon Logistics,38.1,603.0,120.04,0,2.0,Delivered,0.199071,0.063184,Medium,0
+Warehouse_ATL,Boston,UPS,4.9,1660.0,203.03,0,5.0,Delivered,0.122307,0.002952,Long,0
+Warehouse_CHI,Chicago,FedEx,86.2,862.0,210.89,0,3.0,Delivered,0.244652,0.1,Medium,1
+Warehouse_CHI,Dallas,UPS,12.6,1322.0,176.77,0,5.0,Delivered,0.133714,0.009531,Medium,0
+Warehouse_HOU,Denver,UPS,33.8,1030.0,161.45,0,3.0,Delivered,0.156748,0.032816,Medium,0
+Warehouse_MIA,Minneapolis,FedEx,14.1,573.0,87.12,0,3.0,Delayed,0.152042,0.024607,Medium,0
+Warehouse_BOS,Portland,Amazon Logistics,19.3,585.0,98.54,0,1.0,Delayed,0.168444,0.032991,Medium,0
+Warehouse_HOU,Phoenix,USPS,16.6,1469.0,219.37,0,3.0,Delivered,0.149333,0.0113,Medium,0
+Warehouse_SEA,New York,OnTrac,16.1,1053.0,161.74,0,6.0,Delivered,0.153599,0.01529,Medium,0
+Warehouse_SEA,Boston,DHL,10.8,1329.0,188.69,0,3.0,In Transit,0.141979,0.008126,Medium,0
+Warehouse_DEN,Portland,Amazon Logistics,8.8,156.0,27.23,0,1.0,Delivered,0.174551,0.05641,Short,0
+Warehouse_BOS,Portland,Amazon Logistics,12.1,1760.0,247.5,0,4.0,Delayed,0.140625,0.006875,Long,0
+Warehouse_CHI,Detroit,FedEx,19.8,283.0,63.39,0,2.0,Delayed,0.223993,0.069965,Short,0
+Warehouse_HOU,Houston,OnTrac,22.2,397.0,81.13,0,3.0,Delivered,0.204358,0.055919,Short,0
+Warehouse_ATL,Los Angeles,Amazon Logistics,18.5,816.0,109.5,0,4.0,Delivered,0.134191,0.022672,Medium,0
+Warehouse_HOU,Los Angeles,LaserShip,10.0,715.0,96.03,0,3.0,Returned,0.134308,0.013986,Medium,0
+Warehouse_NYC,Phoenix,UPS,25.9,1956.0,285.87,0,4.0,Delivered,0.14615,0.013241,Long,0
+Warehouse_BOS,Chicago,Amazon Logistics,22.8,2187.0,277.9,0,5.0,Delivered,0.127069,0.010425,Long,0
+Warehouse_NYC,Seattle,USPS,85.5,2172.0,345.35,0,6.0,Delivered,0.159001,0.039365,Long,1
+Warehouse_MIA,Denver,OnTrac,31.8,816.0,125.07,0,3.0,Delivered,0.153272,0.038971,Medium,0
+Warehouse_LA,Atlanta,DHL,3.1,1236.0,185.13,0,7.0,Delivered,0.149782,0.002508,Medium,0
+Warehouse_SF,New York,Amazon Logistics,54.9,1902.0,319.88,0,5.0,Delivered,0.168181,0.028864,Long,1
+Warehouse_SEA,Denver,DHL,17.6,1038.0,167.63,0,4.0,Delivered,0.161493,0.016956,Medium,0
+Warehouse_SEA,Houston,LaserShip,8.7,1590.0,188.16,0,4.0,Delivered,0.11834,0.005472,Long,0
+Warehouse_ATL,Chicago,DHL,11.8,590.0,92.57,0,5.0,In Transit,0.156898,0.02,Medium,0
+Warehouse_HOU,Houston,LaserShip,44.0,1105.0,167.48,0,4.0,Delivered,0.151566,0.039819,Medium,0
+Warehouse_MIA,Minneapolis,USPS,16.7,1153.0,152.32,0,3.0,Delivered,0.132108,0.014484,Medium,0
+Warehouse_LA,Minneapolis,USPS,21.9,1124.0,167.58,0,3.0,Delivered,0.149093,0.019484,Medium,0
+Warehouse_LA,New York,LaserShip,3.6,2074.0,230.21,0,5.0,Delivered,0.110998,0.001736,Long,0
+Warehouse_HOU,Seattle,UPS,32.7,302.0,97.49,0,2.0,Delivered,0.322815,0.108278,Short,0
+Warehouse_DEN,Chicago,USPS,13.6,2073.0,316.04,0,5.0,Delivered,0.152455,0.006561,Long,0
+Warehouse_NYC,Portland,Amazon Logistics,5.5,2132.0,259.45,0,7.0,Delivered,0.121693,0.00258,Long,0
+Warehouse_BOS,Chicago,Amazon Logistics,27.5,569.0,111.16,0,3.0,Delivered,0.19536,0.04833,Medium,0
+Warehouse_BOS,Los Angeles,UPS,21.5,2433.0,437.58,0,5.0,Delivered,0.179852,0.008837,Long,0
+Warehouse_ATL,Denver,LaserShip,24.8,677.0,110.65,0,2.0,Delivered,0.163442,0.036632,Medium,0
+Warehouse_BOS,Portland,LaserShip,11.2,2379.0,324.52,0,6.0,In Transit,0.13641,0.004708,Long,0
+Warehouse_LA,Denver,UPS,17.9,984.0,191.48,0,5.0,Delivered,0.194593,0.018191,Medium,0
+Warehouse_DEN,Miami,DHL,34.9,420.0,102.14,0,3.0,Delivered,0.24319,0.083095,Short,0
+Warehouse_MIA,Dallas,FedEx,27.1,338.0,79.46,0,1.0,Delivered,0.235089,0.080178,Short,0
+Warehouse_CHI,Los Angeles,Amazon Logistics,46.8,410.0,105.98,0,2.0,Delayed,0.258488,0.114146,Short,0
+Warehouse_LA,Minneapolis,UPS,10.4,1486.0,204.87,0,5.0,Delivered,0.137867,0.006999,Medium,0
+Warehouse_HOU,Detroit,DHL,39.2,605.0,159.9,0,4.0,Delivered,0.264298,0.064793,Medium,0
+Warehouse_LA,Phoenix,USPS,10.0,373.0,196.325,1,3.0,Delivered,0.52634,0.02681,Short,0
+Warehouse_DEN,Portland,FedEx,8.6,165.0,34.32,0,1.0,Delivered,0.208,0.052121,Short,0
+Warehouse_LA,Dallas,UPS,10.9,1435.0,191.54,0,4.0,Delivered,0.133477,0.007596,Medium,0
+Warehouse_SF,Detroit,USPS,35.3,533.0,102.36,0,3.0,Delivered,0.192045,0.066229,Medium,0
+Warehouse_BOS,Phoenix,Amazon Logistics,40.9,1122.0,224.12,0,6.0,Delivered,0.19975,0.036453,Medium,0
+Warehouse_ATL,Minneapolis,DHL,22.4,263.0,70.43,0,1.0,Delivered,0.267795,0.085171,Short,0
+Warehouse_DEN,Miami,Amazon Logistics,8.7,1348.0,202.52,0,5.0,Delivered,0.150237,0.006454,Medium,0
+Warehouse_SF,Atlanta,USPS,10.9,340.0,55.96,0,3.0,In Transit,0.164588,0.032059,Short,0
+Warehouse_DEN,Phoenix,FedEx,4.9,159.0,27.41,0,3.0,Delivered,0.17239,0.030818,Short,0
+Warehouse_BOS,Chicago,FedEx,45.1,2054.0,322.54,0,5.0,Delivered,0.15703,0.021957,Long,0
+Warehouse_SEA,Chicago,Amazon Logistics,24.8,274.0,66.9,0,1.0,In Transit,0.244161,0.090511,Short,0
+Warehouse_CHI,Miami,LaserShip,26.5,1350.0,196.325,1,4.0,Delivered,0.145426,0.01963,Medium,0
+Warehouse_LA,Miami,LaserShip,13.4,916.0,196.325,1,5.0,Delivered,0.214329,0.014629,Medium,0
+Warehouse_LA,New York,LaserShip,25.3,742.0,107.88,0,2.0,In Transit,0.145391,0.034097,Medium,0
+Warehouse_ATL,Dallas,FedEx,18.0,2218.0,305.41,0,6.0,Delivered,0.137696,0.008115,Long,0
+Warehouse_DEN,Phoenix,OnTrac,8.2,1857.0,248.9,0,5.0,Delivered,0.134033,0.004416,Long,0
+Warehouse_LA,Los Angeles,OnTrac,9.6,2001.0,242.9,0,6.0,Delivered,0.121389,0.004798,Long,0
+Warehouse_SF,Minneapolis,USPS,37.7,293.0,77.3,0,1.0,Delivered,0.263823,0.128669,Short,0
+Warehouse_SEA,Dallas,OnTrac,20.1,1401.0,209.94,0,4.0,Delivered,0.14985,0.014347,Medium,0
+Warehouse_HOU,Phoenix,OnTrac,21.5,916.0,136.58,0,2.0,Delayed,0.149105,0.023472,Medium,0
+Warehouse_DEN,Los Angeles,Amazon Logistics,4.6,1778.0,230.19,0,4.0,Delivered,0.129466,0.002587,Long,0
+Warehouse_CHI,Boston,FedEx,29.5,1041.0,194.07,0,6.0,Delivered,0.186427,0.028338,Medium,0
+Warehouse_ATL,Los Angeles,USPS,8.0,676.0,92.47,0,5.0,Delivered,0.13679,0.011834,Medium,0
+Warehouse_SF,Miami,USPS,9.9,448.0,62.2,0,1.0,Delivered,0.138839,0.022098,Short,0
+Warehouse_NYC,New York,DHL,27.2,2033.0,334.23,0,5.0,Delivered,0.164402,0.013379,Long,0
+Warehouse_DEN,Minneapolis,DHL,75.9,939.0,251.01,0,4.0,Delivered,0.267316,0.080831,Medium,1
+Warehouse_DEN,Detroit,UPS,24.5,926.0,142.73,0,2.0,Delivered,0.154136,0.026458,Medium,0
+Warehouse_HOU,Los Angeles,OnTrac,38.5,2444.0,330.97,0,6.0,Delivered,0.135421,0.015753,Long,0
+Warehouse_LA,Dallas,OnTrac,10.6,1435.0,235.34,0,4.0,Delivered,0.164,0.007387,Medium,0
+Warehouse_HOU,Detroit,Amazon Logistics,10.1,1875.0,231.81,0,5.0,Lost,0.123632,0.005387,Long,0
+Warehouse_LA,New York,FedEx,18.4,2280.0,302.47,0,5.0,Delivered,0.132662,0.00807,Long,0
+Warehouse_MIA,Phoenix,DHL,16.7,1808.0,341.36,0,4.0,Delivered,0.188805,0.009237,Long,0
+Warehouse_DEN,Atlanta,UPS,4.1,1790.0,237.12,0,5.0,Delivered,0.132469,0.002291,Long,0
+Warehouse_MIA,New York,OnTrac,5.2,1049.0,127.1,0,4.0,Delivered,0.121163,0.004957,Medium,0
+Warehouse_SEA,Boston,LaserShip,23.7,461.0,82.89,0,6.0,Delayed,0.179805,0.05141,Short,0
+Warehouse_HOU,Portland,FedEx,21.8,1218.0,204.43,0,5.0,Delivered,0.167841,0.017898,Medium,0
+Warehouse_LA,Los Angeles,USPS,20.0,2144.0,255.06,0,6.0,Delivered,0.118965,0.009328,Long,0
+Warehouse_SEA,Boston,LaserShip,12.7,1547.0,261.22,0,4.0,Delivered,0.168856,0.008209,Long,0
+Warehouse_HOU,Dallas,DHL,22.8,370.0,76.07,0,2.0,Delivered,0.205595,0.061622,Short,0
+Warehouse_SEA,Boston,DHL,12.6,2400.0,332.46,0,9.0,Delivered,0.138525,0.00525,Long,0
+Warehouse_SEA,Atlanta,UPS,25.0,1477.0,203.15,0,4.0,Delivered,0.137542,0.016926,Medium,0
+Warehouse_DEN,Boston,DHL,30.5,2363.0,464.17,0,5.0,Delivered,0.196433,0.012907,Long,0
+Warehouse_SF,New York,Amazon Logistics,20.6,1442.0,246.74,0,5.0,Delivered,0.17111,0.014286,Medium,0
+Warehouse_CHI,Denver,OnTrac,46.9,1000.0,188.95,0,2.0,Delayed,0.18895,0.0469,Medium,0
+Warehouse_CHI,Portland,LaserShip,30.2,290.0,71.67,0,1.0,Delivered,0.247138,0.104138,Short,0
+Warehouse_DEN,Minneapolis,LaserShip,17.2,888.0,133.74,0,4.0,Delivered,0.150608,0.019369,Medium,0
+Warehouse_HOU,New York,DHL,14.4,2448.0,391.92,0,6.0,Delivered,0.160098,0.005882,Long,0
+Warehouse_DEN,Phoenix,Amazon Logistics,36.5,385.0,109.9,0,2.0,Delayed,0.285455,0.094805,Short,0
+Warehouse_SF,Boston,Amazon Logistics,17.5,1539.0,198.0,0,4.0,Delayed,0.128655,0.011371,Long,0
+Warehouse_LA,Dallas,LaserShip,60.6,1435.0,242.49,0,6.0,Delivered,0.168983,0.04223,Medium,1
+Warehouse_ATL,Minneapolis,Amazon Logistics,8.3,1713.0,208.92,0,5.0,Delivered,0.121961,0.004845,Long,0
+Warehouse_ATL,Seattle,Amazon Logistics,20.4,135.0,44.83,0,2.0,Lost,0.332074,0.151111,Short,0
+Warehouse_CHI,Portland,DHL,37.9,305.0,100.86,0,4.0,Delivered,0.330689,0.124262,Short,0
+Warehouse_DEN,New York,FedEx,16.2,2209.0,301.84,0,5.0,In Transit,0.136641,0.007334,Long,0
+Warehouse_CHI,Denver,USPS,23.8,1000.0,128.01,0,6.0,Delivered,0.12801,0.0238,Medium,0
+Warehouse_BOS,Boston,OnTrac,15.9,2374.0,284.07,0,9.0,Delivered,0.119659,0.006698,Long,0
+Warehouse_HOU,Los Angeles,OnTrac,77.8,2313.0,413.72,0,10.0,Delayed,0.178867,0.033636,Long,1
+Warehouse_CHI,Detroit,USPS,8.1,283.0,41.68,0,4.0,Delivered,0.147279,0.028622,Short,0
+Warehouse_BOS,Minneapolis,OnTrac,52.1,1861.0,282.08,0,5.0,Delivered,0.151574,0.027996,Long,1
+Warehouse_LA,Phoenix,Amazon Logistics,22.6,373.0,76.63,0,5.0,Delayed,0.205442,0.06059,Short,0
+Warehouse_ATL,Phoenix,USPS,31.9,1520.0,207.32,0,5.0,Delivered,0.136395,0.020987,Long,0
+Warehouse_BOS,Miami,FedEx,45.9,247.0,89.19,0,4.0,Delivered,0.361093,0.18583,Short,0
+Warehouse_ATL,Houston,FedEx,14.9,789.0,112.48,0,4.0,Delivered,0.14256,0.018885,Medium,0
+Warehouse_CHI,Denver,Amazon Logistics,27.6,1000.0,165.2,0,4.0,Delivered,0.1652,0.0276,Medium,0
+Warehouse_HOU,Atlanta,DHL,8.3,800.0,128.12,0,2.0,Delivered,0.16015,0.010375,Medium,0
+Warehouse_ATL,Chicago,DHL,41.8,773.0,174.68,0,5.0,Delivered,0.225977,0.054075,Medium,0
+Warehouse_DEN,Seattle,Amazon Logistics,10.7,1857.0,219.9,0,5.0,Lost,0.118417,0.005762,Long,0
+Warehouse_MIA,Detroit,Amazon Logistics,8.3,1155.0,154.62,0,3.0,Delivered,0.13387,0.007186,Medium,0
+Warehouse_NYC,Houston,UPS,67.9,1154.0,253.84,0,4.0,Delivered,0.219965,0.058839,Medium,1
+Warehouse_MIA,Denver,UPS,10.3,1477.0,233.37,0,4.0,Delivered,0.158003,0.006974,Medium,0
+Warehouse_NYC,Houston,OnTrac,22.7,1541.0,218.75,0,4.0,Delivered,0.141953,0.014731,Long,0
+Warehouse_LA,Miami,DHL,19.0,622.0,127.07,0,3.0,Delivered,0.204293,0.030547,Medium,0
+Warehouse_BOS,Minneapolis,Amazon Logistics,43.4,844.0,196.325,1,2.0,Delivered,0.232613,0.051422,Medium,0
+Warehouse_SEA,Phoenix,Amazon Logistics,12.7,1608.0,192.88,0,3.0,Delivered,0.11995,0.007898,Long,0
+Warehouse_SEA,Atlanta,UPS,45.3,1324.0,240.32,0,4.0,Delivered,0.181511,0.034215,Medium,0
+Warehouse_CHI,Portland,UPS,12.3,2328.0,310.02,0,5.0,Delivered,0.13317,0.005284,Long,0
+Warehouse_SF,Detroit,USPS,52.2,1608.0,253.33,0,4.0,Delayed,0.157544,0.032463,Long,1
+Warehouse_ATL,Phoenix,UPS,8.4,2388.0,280.39,0,9.0,Delivered,0.117416,0.003518,Long,0
+Warehouse_HOU,Chicago,Amazon Logistics,13.9,1028.0,136.58,0,3.0,Delivered,0.13286,0.013521,Medium,0
+Warehouse_LA,Atlanta,LaserShip,41.0,2061.0,278.39,0,5.0,Delayed,0.135075,0.019893,Long,0
+Warehouse_LA,Chicago,USPS,26.1,1772.0,232.56,0,5.0,Delivered,0.131242,0.014729,Long,0
+Warehouse_LA,Chicago,USPS,26.2,1707.0,210.07,0,4.0,Delivered,0.123064,0.015349,Long,0
+Warehouse_SEA,Detroit,USPS,47.6,636.0,135.78,0,1.0,Delayed,0.213491,0.074843,Medium,0
+Warehouse_SF,Houston,FedEx,10.8,1953.0,349.56,0,10.0,In Transit,0.178986,0.00553,Long,0
+Warehouse_NYC,Detroit,USPS,42.4,1319.0,192.86,0,5.0,Delivered,0.146217,0.032146,Medium,0
+Warehouse_SEA,Houston,UPS,26.1,325.0,75.76,0,3.0,Delivered,0.233108,0.080308,Short,0
+Warehouse_SF,Portland,UPS,21.1,347.0,73.7,0,2.0,Delivered,0.212392,0.060807,Short,0
+Warehouse_SF,Portland,Amazon Logistics,15.7,509.0,87.18,0,2.0,Delivered,0.171277,0.030845,Medium,0
+Warehouse_SEA,Minneapolis,OnTrac,14.3,421.0,88.22,0,2.0,Delivered,0.209549,0.033967,Short,0
+Warehouse_HOU,Minneapolis,OnTrac,34.3,2065.0,287.66,0,5.0,Delivered,0.139303,0.01661,Long,0
+Warehouse_CHI,Los Angeles,UPS,13.7,2361.0,341.16,0,7.0,Delivered,0.144498,0.005803,Long,0
+Warehouse_MIA,San Francisco,DHL,31.2,1415.0,274.73,0,4.0,Delivered,0.194155,0.022049,Medium,0
+Warehouse_SF,Detroit,LaserShip,18.7,1679.0,270.75,0,5.0,Delivered,0.161257,0.011138,Long,0
+Warehouse_SF,Boston,DHL,30.0,1180.0,187.33,0,3.0,Delivered,0.158754,0.025424,Medium,0
+Warehouse_SEA,Dallas,USPS,20.7,1515.0,201.34,0,3.0,Delivered,0.132898,0.013663,Long,0
+Warehouse_CHI,Detroit,Amazon Logistics,27.2,283.0,87.22,0,2.0,Delivered,0.308198,0.096113,Short,0
+Warehouse_MIA,Phoenix,UPS,10.6,517.0,78.78,0,2.0,Delayed,0.152379,0.020503,Medium,0
+Warehouse_DEN,Minneapolis,Amazon Logistics,6.9,140.0,23.19,0,3.0,Delivered,0.165643,0.049286,Short,0
+Warehouse_SEA,Los Angeles,FedEx,17.1,2081.0,309.74,0,6.0,Delivered,0.148842,0.008217,Long,0
+Warehouse_DEN,Los Angeles,UPS,33.1,1885.0,283.18,0,6.0,Delivered,0.150228,0.01756,Long,0
+Warehouse_SF,Portland,OnTrac,18.7,604.0,90.94,0,2.0,Delivered,0.150563,0.03096,Medium,0
+Warehouse_SF,Portland,DHL,21.1,847.0,141.98,0,4.0,Delivered,0.167627,0.024911,Medium,0
+Warehouse_BOS,Boston,FedEx,55.1,2247.0,474.36,0,6.0,Delayed,0.211108,0.024522,Long,1
+Warehouse_SF,Chicago,OnTrac,14.6,2420.0,293.83,0,6.0,Delivered,0.121417,0.006033,Long,0
+Warehouse_MIA,Denver,FedEx,20.5,2294.0,315.46,0,6.0,Delivered,0.137515,0.008936,Long,0
+Warehouse_SEA,Atlanta,DHL,16.8,2091.0,303.11,0,5.0,Delivered,0.144959,0.008034,Long,0
+Warehouse_BOS,Los Angeles,OnTrac,31.2,1358.0,206.1,0,4.0,Delivered,0.151767,0.022975,Medium,0
+Warehouse_SF,Los Angeles,FedEx,16.0,484.0,87.01,0,2.0,Returned,0.179773,0.033058,Short,0
+Warehouse_MIA,Miami,FedEx,11.0,675.0,122.5,0,1.0,Delivered,0.181481,0.016296,Medium,0
+Warehouse_ATL,Detroit,USPS,37.9,1884.0,236.61,0,6.0,Delivered,0.125589,0.020117,Long,0
+Warehouse_MIA,Chicago,FedEx,21.8,2196.0,299.4,0,5.0,Delivered,0.136339,0.009927,Long,0
+Warehouse_CHI,Atlanta,USPS,6.0,2325.0,253.02,0,6.0,Delivered,0.108826,0.002581,Long,0
+Warehouse_LA,Boston,USPS,37.9,1014.0,171.78,0,3.0,In Transit,0.169408,0.037377,Medium,0
+Warehouse_BOS,Dallas,UPS,14.8,2050.0,286.7,0,5.0,Delivered,0.139854,0.00722,Long,0
+Warehouse_DEN,Dallas,UPS,9.1,474.0,75.28,0,5.0,Delayed,0.158819,0.019198,Short,0
+Warehouse_ATL,Los Angeles,OnTrac,9.5,498.0,77.13,0,1.0,Delivered,0.15488,0.019076,Short,0
+Warehouse_BOS,Portland,OnTrac,33.6,1512.0,291.85,0,4.0,Delivered,0.193022,0.022222,Long,0
+Warehouse_MIA,Atlanta,USPS,40.3,1076.0,206.28,0,5.0,Delivered,0.19171,0.037454,Medium,0
+Warehouse_NYC,Portland,OnTrac,15.0,1115.0,141.6,0,3.0,Delivered,0.126996,0.013453,Medium,0
+Warehouse_SF,Chicago,LaserShip,75.4,242.0,109.7,0,2.0,Delivered,0.453306,0.31157,Short,1
+Warehouse_LA,Detroit,USPS,6.4,534.0,78.84,0,1.0,Delivered,0.14764,0.011985,Medium,0
+Warehouse_CHI,San Francisco,OnTrac,44.4,1059.0,179.93,0,6.0,Delivered,0.169906,0.041926,Medium,0
+Warehouse_SF,Minneapolis,Amazon Logistics,11.7,1060.0,140.32,0,5.0,Delivered,0.132377,0.011038,Medium,0
+Warehouse_HOU,Los Angeles,UPS,24.4,2330.0,326.92,0,5.0,Delivered,0.140309,0.010472,Long,0
+Warehouse_DEN,Chicago,FedEx,20.9,1867.0,268.01,0,5.0,Delivered,0.143551,0.011194,Long,0
+Warehouse_MIA,Boston,OnTrac,17.7,2465.0,196.325,1,8.0,Delivered,0.079645,0.007181,Long,0
+Warehouse_SEA,Dallas,UPS,9.2,2096.0,286.15,0,6.0,Delivered,0.136522,0.004389,Long,0
+Warehouse_LA,San Francisco,Amazon Logistics,32.4,2409.0,332.08,0,7.0,Delivered,0.13785,0.01345,Long,0
+Warehouse_SF,Boston,FedEx,110.9,1032.0,283.94,0,3.0,Delivered,0.275136,0.107461,Medium,1
+Warehouse_NYC,Atlanta,FedEx,50.4,870.0,175.48,0,2.0,Delivered,0.201701,0.057931,Medium,1
+Warehouse_LA,Portland,FedEx,54.4,1616.0,284.26,0,6.0,Delivered,0.175903,0.033663,Long,1
+Warehouse_SEA,Dallas,DHL,34.5,1366.0,233.71,0,4.0,Delayed,0.171091,0.025256,Medium,0
+Warehouse_LA,Denver,UPS,9.5,1802.0,228.41,0,6.0,Delivered,0.126754,0.005272,Long,0
+Warehouse_ATL,Detroit,Amazon Logistics,58.0,196.0,90.41,0,2.0,Delivered,0.461276,0.295918,Short,1
+Warehouse_BOS,Atlanta,OnTrac,10.8,2425.0,400.75,0,7.0,Delivered,0.165258,0.004454,Long,0
+Warehouse_SEA,Atlanta,OnTrac,26.0,1641.0,222.33,0,4.0,Delivered,0.135484,0.015844,Long,0
+Warehouse_ATL,San Francisco,Amazon Logistics,6.5,129.0,28.34,0,2.0,Lost,0.21969,0.050388,Short,0
+Warehouse_ATL,Portland,LaserShip,6.9,1649.0,194.18,0,4.0,Delivered,0.117756,0.004184,Long,0
+Warehouse_MIA,Boston,DHL,29.5,1289.0,224.76,0,8.0,Delayed,0.174368,0.022886,Medium,0
+Warehouse_NYC,Dallas,LaserShip,12.7,273.0,56.43,0,1.0,Delivered,0.206703,0.04652,Short,0
+Warehouse_HOU,Miami,UPS,29.1,940.0,160.14,0,3.0,Delivered,0.170362,0.030957,Medium,0
+Warehouse_ATL,Detroit,USPS,34.7,1913.0,329.19,0,4.0,Delivered,0.172081,0.018139,Long,0
+Warehouse_LA,San Francisco,LaserShip,13.3,252.0,42.44,0,1.0,Delivered,0.168413,0.052778,Short,0
+Warehouse_MIA,Phoenix,OnTrac,29.3,919.0,136.26,0,3.0,In Transit,0.14827,0.031882,Medium,0
+Warehouse_CHI,Atlanta,OnTrac,9.6,1040.0,154.66,0,5.0,Delivered,0.148712,0.009231,Medium,0
+Warehouse_BOS,New York,FedEx,6.3,2108.0,267.55,0,6.0,Delivered,0.126921,0.002989,Long,0
+Warehouse_SF,Phoenix,LaserShip,15.6,627.0,95.5,0,4.0,Delivered,0.152313,0.02488,Medium,0
+Warehouse_SEA,Houston,FedEx,8.6,178.0,33.61,0,1.0,Lost,0.18882,0.048315,Short,0
+Warehouse_MIA,Denver,USPS,34.1,616.0,114.04,0,2.0,Delivered,0.18513,0.055357,Medium,0
+Warehouse_HOU,Atlanta,OnTrac,21.1,800.0,109.65,0,2.0,Delivered,0.137062,0.026375,Medium,0
+Warehouse_LA,Dallas,Amazon Logistics,33.8,1435.0,204.1,0,4.0,Delivered,0.14223,0.023554,Medium,0
+Warehouse_ATL,Minneapolis,Amazon Logistics,331.7,1727.0,242.34,0,6.0,Delivered,0.140324,0.192067,Long,1
+Warehouse_HOU,Chicago,DHL,9.5,2007.0,271.59,0,4.0,Delivered,0.135321,0.004733,Long,0
+Warehouse_NYC,Dallas,LaserShip,21.6,1619.0,221.42,0,4.0,Delayed,0.136763,0.013342,Long,0
+Warehouse_ATL,Chicago,DHL,10.0,2344.0,360.44,0,7.0,Delivered,0.153771,0.004266,Long,0
+Warehouse_MIA,Dallas,OnTrac,7.8,2242.0,330.04,0,5.0,Delivered,0.147208,0.003479,Long,0
+Warehouse_MIA,Houston,OnTrac,26.8,1346.0,190.03,0,4.0,In Transit,0.141181,0.019911,Medium,0
+Warehouse_NYC,Miami,UPS,36.3,283.0,77.48,0,1.0,Delivered,0.273781,0.128269,Short,0
+Warehouse_DEN,Los Angeles,LaserShip,7.1,164.0,26.87,0,4.0,In Transit,0.163841,0.043293,Short,0
+Warehouse_SF,Boston,Amazon Logistics,14.6,1324.0,188.17,0,7.0,Delivered,0.142122,0.011027,Medium,0
+Warehouse_MIA,Minneapolis,FedEx,8.8,849.0,157.81,0,2.0,Delayed,0.185878,0.010365,Medium,0
+Warehouse_ATL,Denver,LaserShip,5.9,212.0,30.32,0,1.0,Delivered,0.143019,0.02783,Short,0
+Warehouse_SEA,Denver,FedEx,11.1,1035.0,139.42,0,6.0,Delivered,0.134705,0.010725,Medium,0
+Warehouse_LA,Phoenix,USPS,1062.2,373.0,51.54,0,1.0,Delivered,0.138177,2.847721,Short,1
+Warehouse_ATL,Atlanta,USPS,58.9,569.0,136.22,0,3.0,Delivered,0.239402,0.103515,Medium,1
+Warehouse_NYC,Detroit,OnTrac,36.6,2250.0,311.84,0,9.0,In Transit,0.138596,0.016267,Long,0
+Warehouse_DEN,Seattle,OnTrac,23.0,1171.0,166.87,0,5.0,Delivered,0.142502,0.019641,Medium,0
+Warehouse_HOU,New York,DHL,23.0,462.0,94.01,0,3.0,Delivered,0.203485,0.049784,Short,0
+Warehouse_HOU,San Francisco,FedEx,18.5,1761.0,232.87,0,4.0,Delivered,0.132237,0.010505,Long,0
+Warehouse_HOU,Minneapolis,DHL,16.8,658.0,118.63,0,2.0,Delivered,0.180289,0.025532,Medium,0
+Warehouse_HOU,Phoenix,DHL,14.2,978.0,161.26,0,3.0,Delivered,0.164888,0.014519,Medium,0
+Warehouse_CHI,Phoenix,DHL,45.1,1349.0,238.38,0,3.0,Delivered,0.176709,0.033432,Medium,0
+Warehouse_ATL,Houston,Amazon Logistics,19.0,483.0,77.14,0,1.0,Delivered,0.15971,0.039337,Short,0
+Warehouse_DEN,Houston,FedEx,9.9,1707.0,256.92,0,7.0,Delivered,0.15051,0.0058,Long,0
+Warehouse_ATL,Dallas,USPS,46.2,2333.0,329.57,0,5.0,Delivered,0.141264,0.019803,Long,0
+Warehouse_NYC,Chicago,LaserShip,10.2,790.0,120.04,0,2.0,Delivered,0.151949,0.012911,Medium,0
+Warehouse_CHI,San Francisco,DHL,5.2,1605.0,216.66,0,8.0,Delivered,0.134991,0.00324,Long,0
+Warehouse_SF,Seattle,UPS,26.0,1019.0,183.17,0,4.0,Delivered,0.179755,0.025515,Medium,0
+Warehouse_NYC,San Francisco,USPS,13.2,1945.0,256.53,0,4.0,Delivered,0.131892,0.006787,Long,0
+Warehouse_HOU,Phoenix,Amazon Logistics,55.5,804.0,169.22,0,2.0,Delivered,0.210473,0.06903,Medium,1
+Warehouse_LA,Dallas,Amazon Logistics,23.9,1435.0,188.32,0,6.0,Delivered,0.131233,0.016655,Medium,0
+Warehouse_HOU,Phoenix,Amazon Logistics,31.6,1081.0,152.35,0,3.0,In Transit,0.140934,0.029232,Medium,0
+Warehouse_SEA,Seattle,FedEx,34.0,1211.0,234.67,0,6.0,Delivered,0.193782,0.028076,Medium,0
+Warehouse_BOS,Chicago,USPS,87.5,1941.0,322.09,0,4.0,Delivered,0.16594,0.04508,Long,1
+Warehouse_CHI,Houston,OnTrac,6.6,1560.0,211.32,0,5.0,Delivered,0.135462,0.004231,Long,0
+Warehouse_BOS,Chicago,DHL,14.2,1843.0,279.38,0,5.0,Delivered,0.15159,0.007705,Long,0
+Warehouse_SEA,Seattle,OnTrac,8.3,2418.0,274.13,0,8.0,Delivered,0.113371,0.003433,Long,0
+Warehouse_BOS,San Francisco,LaserShip,18.0,2067.0,271.68,0,5.0,Delayed,0.131437,0.008708,Long,0
+Warehouse_NYC,Portland,OnTrac,45.0,568.0,124.14,0,2.0,Delivered,0.218556,0.079225,Medium,0
+Warehouse_NYC,San Francisco,FedEx,8.1,906.0,119.16,0,6.0,Delivered,0.131523,0.00894,Medium,0
+Warehouse_SEA,Houston,USPS,16.3,642.0,87.95,0,5.0,Delivered,0.136994,0.025389,Medium,0
+Warehouse_CHI,Houston,USPS,10.9,1954.0,281.08,0,5.0,Delivered,0.143849,0.005578,Long,0
+Warehouse_MIA,Boston,FedEx,6.0,2192.0,311.67,0,6.0,Delivered,0.142185,0.002737,Long,0
+Warehouse_SF,Denver,UPS,33.6,1113.0,195.61,0,3.0,Delivered,0.17575,0.030189,Medium,0
+Warehouse_SF,Detroit,DHL,11.8,1837.0,283.34,0,8.0,Delivered,0.154241,0.006424,Long,0
+Warehouse_SF,New York,USPS,68.9,447.0,196.325,1,1.0,Delivered,0.439206,0.154139,Short,1
+Warehouse_LA,Minneapolis,FedEx,21.4,162.0,49.49,0,1.0,Delivered,0.305494,0.132099,Short,0
+Warehouse_SEA,Minneapolis,USPS,31.3,2454.0,308.28,0,6.0,Delivered,0.125623,0.012755,Long,0
+Warehouse_HOU,Dallas,LaserShip,38.9,603.0,114.76,0,2.0,Delivered,0.190315,0.064511,Medium,0
+Warehouse_BOS,Chicago,LaserShip,29.0,1340.0,228.35,0,4.0,Delivered,0.17041,0.021642,Medium,0
+Warehouse_SF,Phoenix,USPS,39.6,1963.0,270.85,0,4.0,Delivered,0.137978,0.020173,Long,0
+Warehouse_LA,New York,LaserShip,11.8,2254.0,270.13,0,5.0,Delivered,0.119845,0.005235,Long,0
+Warehouse_SF,Dallas,USPS,15.7,664.0,121.5,0,3.0,In Transit,0.182982,0.023645,Medium,0
+Warehouse_LA,Dallas,USPS,45.3,1435.0,195.45,0,4.0,Delivered,0.136202,0.031568,Medium,0
+Warehouse_LA,Dallas,DHL,19.7,1435.0,244.45,0,6.0,Delivered,0.170348,0.013728,Medium,0
+Warehouse_MIA,Los Angeles,LaserShip,10.5,1072.0,133.36,0,6.0,Delivered,0.124403,0.009795,Medium,0
+Warehouse_HOU,Denver,DHL,52.6,1030.0,258.14,0,3.0,Delivered,0.250621,0.051068,Medium,1
+Warehouse_MIA,Atlanta,FedEx,27.7,1363.0,237.6,0,5.0,Delivered,0.174321,0.020323,Medium,0
+Warehouse_NYC,Minneapolis,USPS,29.6,515.0,84.55,0,2.0,Lost,0.164175,0.057476,Medium,0
+Warehouse_SEA,Detroit,OnTrac,10.8,262.0,48.75,0,3.0,Delivered,0.186069,0.041221,Short,0
+Warehouse_SEA,New York,Amazon Logistics,10.6,1866.0,217.45,0,4.0,Delivered,0.116533,0.005681,Long,0
+Warehouse_CHI,Phoenix,DHL,17.9,1998.0,373.8,0,5.0,Delayed,0.187087,0.008959,Long,0
+Warehouse_DEN,Chicago,UPS,14.8,1304.0,182.07,0,5.0,Delivered,0.139624,0.01135,Medium,0
+Warehouse_SEA,Dallas,UPS,11.9,187.0,41.55,0,2.0,Delivered,0.222193,0.063636,Short,0
+Warehouse_LA,Chicago,USPS,26.7,1486.0,209.87,0,5.0,Delivered,0.141231,0.017968,Medium,0
+Warehouse_SF,New York,Amazon Logistics,7.7,1468.0,170.97,0,4.0,Delivered,0.116465,0.005245,Medium,0
+Warehouse_CHI,Seattle,Amazon Logistics,17.8,2283.0,323.01,0,5.0,Delivered,0.141485,0.007797,Long,0
+Warehouse_SF,Houston,UPS,57.6,1950.0,346.17,0,4.0,Delivered,0.177523,0.029538,Long,1
+Warehouse_MIA,Detroit,LaserShip,13.4,119.0,31.36,0,2.0,Delayed,0.263529,0.112605,Short,0
+Warehouse_MIA,Chicago,LaserShip,11.5,983.0,143.87,0,3.0,Delivered,0.146358,0.011699,Medium,0
+Warehouse_DEN,Los Angeles,USPS,18.6,344.0,64.53,0,2.0,Lost,0.187587,0.05407,Short,0
+Warehouse_BOS,Detroit,Amazon Logistics,26.8,1996.0,280.97,0,5.0,Delivered,0.140767,0.013427,Long,0
+Warehouse_DEN,Los Angeles,OnTrac,8.6,1671.0,219.42,0,5.0,Delayed,0.131311,0.005147,Long,0
+Warehouse_NYC,Miami,FedEx,53.2,829.0,204.86,0,4.0,Delivered,0.247117,0.064174,Medium,1
+Warehouse_SF,Los Angeles,Amazon Logistics,14.9,1508.0,186.3,0,6.0,Delivered,0.123541,0.009881,Long,0
+Warehouse_LA,Boston,DHL,59.4,1504.0,316.73,0,3.0,Delivered,0.210592,0.039495,Long,1
+Warehouse_CHI,Seattle,USPS,16.9,1844.0,213.15,0,4.0,Delivered,0.115591,0.009165,Long,0
+Warehouse_HOU,Denver,FedEx,13.4,1030.0,139.6,0,4.0,Delivered,0.135534,0.01301,Medium,0
+Warehouse_SEA,New York,DHL,11.4,319.0,65.29,0,2.0,Delivered,0.204671,0.035737,Short,0
+Warehouse_SEA,Chicago,DHL,10.8,1635.0,256.45,0,6.0,Delivered,0.15685,0.006606,Long,0
+Warehouse_MIA,Denver,FedEx,68.5,1058.0,235.28,0,3.0,Delivered,0.222382,0.064745,Medium,1
+Warehouse_MIA,Denver,FedEx,22.1,309.0,69.52,0,1.0,Delivered,0.224984,0.071521,Short,0
+Warehouse_DEN,Houston,Amazon Logistics,9.0,1002.0,149.84,0,2.0,Delivered,0.149541,0.008982,Medium,0
+Warehouse_SF,Denver,DHL,10.7,295.0,51.05,0,2.0,Delivered,0.173051,0.036271,Short,0
+Warehouse_ATL,Seattle,UPS,4.4,2252.0,316.41,0,5.0,Delivered,0.140502,0.001954,Long,0
+Warehouse_LA,Seattle,UPS,39.0,1135.0,195.48,0,5.0,Delivered,0.172229,0.034361,Medium,0
+Warehouse_LA,Los Angeles,Amazon Logistics,15.9,2378.0,331.92,0,6.0,Delivered,0.139579,0.006686,Long,0
+Warehouse_SEA,Minneapolis,USPS,10.3,1473.0,227.04,0,4.0,Delivered,0.154134,0.006993,Medium,0
+Warehouse_MIA,Detroit,LaserShip,26.9,1433.0,260.4,0,4.0,Delivered,0.181717,0.018772,Medium,0
+Warehouse_MIA,Houston,FedEx,51.6,239.0,103.41,0,2.0,Delivered,0.432678,0.2159,Short,1
+Warehouse_ATL,Atlanta,UPS,8.9,2461.0,298.41,0,5.0,Delivered,0.121256,0.003616,Long,0
+Warehouse_NYC,Miami,DHL,12.5,1588.0,283.78,0,5.0,Delivered,0.178703,0.007872,Long,0
+Warehouse_BOS,Denver,USPS,9.9,328.0,52.96,0,1.0,Delivered,0.161463,0.030183,Short,0
+Warehouse_BOS,Los Angeles,UPS,11.2,2213.0,306.47,0,5.0,Delivered,0.138486,0.005061,Long,0
+Warehouse_SF,Phoenix,USPS,19.8,2186.0,263.66,0,6.0,Delayed,0.120613,0.009058,Long,0
+Warehouse_LA,Denver,FedEx,16.5,1228.0,196.73,0,4.0,Delayed,0.160204,0.013436,Medium,0
+Warehouse_CHI,Portland,LaserShip,12.1,1553.0,206.41,0,4.0,Delivered,0.13291,0.007791,Long,0
+Warehouse_ATL,Los Angeles,OnTrac,50.9,1225.0,224.98,0,4.0,Delivered,0.183657,0.041551,Medium,1
+Warehouse_ATL,Atlanta,Amazon Logistics,20.5,1428.0,202.83,0,3.0,Delivered,0.142038,0.014356,Medium,0
+Warehouse_HOU,Portland,LaserShip,24.1,267.0,79.56,0,1.0,Delivered,0.297978,0.090262,Short,0
+Warehouse_ATL,Minneapolis,UPS,8.9,650.0,89.78,0,1.0,Delivered,0.138123,0.013692,Medium,0
+Warehouse_HOU,Boston,USPS,80.0,2479.0,485.62,0,6.0,Delivered,0.195894,0.032271,Long,1
+Warehouse_MIA,Houston,UPS,15.4,1859.0,241.05,0,5.0,Delivered,0.129666,0.008284,Long,0
+Warehouse_LA,Phoenix,USPS,21.4,373.0,68.02,0,3.0,Delayed,0.182359,0.057373,Short,0
+Warehouse_LA,Boston,OnTrac,6.6,912.0,115.73,0,2.0,Delivered,0.126897,0.007237,Medium,0
+Warehouse_BOS,Atlanta,DHL,27.4,490.0,98.31,0,2.0,Delivered,0.200633,0.055918,Short,0
+Warehouse_CHI,Miami,LaserShip,20.1,1350.0,195.91,0,3.0,Delivered,0.145119,0.014889,Medium,0
+Warehouse_ATL,Portland,Amazon Logistics,24.7,1572.0,221.91,0,6.0,Delayed,0.141164,0.015712,Long,0
+Warehouse_ATL,Detroit,Amazon Logistics,6.9,1517.0,213.81,0,4.0,Delivered,0.140943,0.004548,Long,0
+Warehouse_SF,Denver,DHL,34.7,1785.0,304.3,0,4.0,Delivered,0.170476,0.01944,Long,0
+Warehouse_SF,Minneapolis,OnTrac,20.3,543.0,89.33,0,3.0,Delivered,0.164512,0.037385,Medium,0
+Warehouse_LA,Phoenix,OnTrac,32.2,373.0,83.7,0,3.0,Delivered,0.224397,0.086327,Short,0
+Warehouse_ATL,San Francisco,OnTrac,34.7,1055.0,183.65,0,3.0,Delivered,0.174076,0.032891,Medium,0
+Warehouse_MIA,Atlanta,FedEx,19.4,2177.0,323.37,0,6.0,Delivered,0.148539,0.008911,Long,0
+Warehouse_NYC,Houston,UPS,5.5,1769.0,248.81,0,5.0,Delivered,0.14065,0.003109,Long,0
+Warehouse_HOU,Boston,Amazon Logistics,37.9,1126.0,186.54,0,3.0,Delivered,0.165666,0.033659,Medium,0
+Warehouse_LA,Minneapolis,LaserShip,36.4,1685.0,257.54,0,5.0,Delivered,0.152843,0.021602,Long,0
+Warehouse_ATL,Dallas,OnTrac,31.4,838.0,130.31,0,5.0,Delivered,0.155501,0.03747,Medium,0
+Warehouse_ATL,Miami,OnTrac,13.3,2025.0,236.71,0,6.0,In Transit,0.116894,0.006568,Long,0
+Warehouse_NYC,Seattle,LaserShip,15.4,121.0,33.51,0,1.0,Delivered,0.276942,0.127273,Short,0
+Warehouse_NYC,Chicago,FedEx,11.1,790.0,113.5,0,4.0,Delayed,0.143671,0.014051,Medium,0
+Warehouse_ATL,Houston,LaserShip,51.4,582.0,143.25,0,3.0,Delivered,0.246134,0.088316,Medium,1
+Warehouse_ATL,New York,LaserShip,55.6,357.0,101.32,0,1.0,Delivered,0.28381,0.155742,Short,1
+Warehouse_SF,Dallas,Amazon Logistics,30.9,961.0,151.63,0,4.0,Delivered,0.157784,0.032154,Medium,0
+Warehouse_HOU,Miami,FedEx,5.4,1292.0,187.36,0,7.0,Delivered,0.145015,0.00418,Medium,0
+Warehouse_MIA,Los Angeles,FedEx,35.4,320.0,88.87,0,1.0,Delivered,0.277719,0.110625,Short,0
+Warehouse_MIA,Atlanta,Amazon Logistics,42.8,900.0,196.325,1,3.0,Delivered,0.218139,0.047556,Medium,0
+Warehouse_SEA,Seattle,LaserShip,27.5,1611.0,227.05,0,5.0,Delivered,0.140937,0.01707,Long,0
+Warehouse_ATL,Phoenix,LaserShip,22.8,1288.0,184.9,0,5.0,Delivered,0.143556,0.017702,Medium,0
+Warehouse_SF,Portland,FedEx,21.7,896.0,139.26,0,4.0,Delivered,0.155424,0.024219,Medium,0
+Warehouse_LA,Boston,UPS,37.0,1452.0,208.58,0,7.0,Delivered,0.14365,0.025482,Medium,0
+Warehouse_SF,Dallas,UPS,20.1,210.0,50.48,0,2.0,In Transit,0.240381,0.095714,Short,0
+Warehouse_CHI,Portland,FedEx,20.8,389.0,74.77,0,2.0,Delivered,0.192211,0.05347,Short,0
+Warehouse_LA,New York,USPS,7.4,643.0,88.25,0,2.0,Returned,0.137247,0.011509,Medium,0
+Warehouse_ATL,Boston,USPS,21.4,838.0,109.1,0,2.0,Delivered,0.130191,0.025537,Medium,0
+Warehouse_DEN,Detroit,FedEx,20.3,1383.0,228.9,0,4.0,Delivered,0.16551,0.014678,Medium,0
+Warehouse_MIA,New York,UPS,12.6,121.0,32.18,0,3.0,Delivered,0.26595,0.104132,Short,0
+Warehouse_DEN,Atlanta,DHL,17.5,2146.0,402.56,0,9.0,Delivered,0.187586,0.008155,Long,0
+Warehouse_LA,Boston,LaserShip,33.0,223.0,73.97,0,1.0,Delivered,0.331704,0.147982,Short,0
+Warehouse_MIA,Boston,USPS,69.3,1337.0,244.01,0,3.0,In Transit,0.182506,0.051832,Medium,1
+Warehouse_HOU,Minneapolis,DHL,10.8,1255.0,200.6,0,5.0,Delivered,0.159841,0.008606,Medium,0
+Warehouse_BOS,Phoenix,USPS,12.9,825.0,101.44,0,4.0,In Transit,0.122958,0.015636,Medium,0
+Warehouse_SF,Minneapolis,USPS,23.6,1852.0,229.43,0,4.0,Delivered,0.123882,0.012743,Long,0
+Warehouse_SF,Dallas,FedEx,41.0,1764.0,324.91,0,4.0,Returned,0.184189,0.023243,Long,0
+Warehouse_MIA,Phoenix,Amazon Logistics,19.5,713.0,114.24,0,3.0,Delivered,0.160224,0.027349,Medium,0
+Warehouse_LA,Chicago,UPS,17.8,1898.0,235.64,0,5.0,Delivered,0.124152,0.009378,Long,0
+Warehouse_CHI,San Francisco,LaserShip,67.5,1083.0,220.77,0,3.0,Delivered,0.20385,0.062327,Medium,1
+Warehouse_DEN,Portland,FedEx,17.7,1681.0,320.45,0,4.0,Delivered,0.190631,0.010529,Long,0
+Warehouse_ATL,Miami,USPS,23.2,1256.0,208.01,0,3.0,Delivered,0.165613,0.018471,Medium,0
+Warehouse_BOS,Los Angeles,UPS,17.2,1984.0,251.79,0,7.0,Delivered,0.12691,0.008669,Long,0
+Warehouse_MIA,Phoenix,USPS,61.6,2445.0,384.1,0,8.0,Delivered,0.157096,0.025194,Long,1
+Warehouse_CHI,Miami,OnTrac,25.3,1350.0,191.72,0,4.0,Delivered,0.142015,0.018741,Medium,0
+Warehouse_LA,Houston,LaserShip,45.8,2318.0,313.91,0,7.0,Delayed,0.135423,0.019758,Long,0
+Warehouse_LA,Miami,OnTrac,28.4,2243.0,304.15,0,7.0,Delivered,0.1356,0.012662,Long,0
+Warehouse_MIA,Chicago,UPS,31.7,2201.0,333.27,0,7.0,Delivered,0.151418,0.014403,Long,0
+Warehouse_MIA,Boston,DHL,33.7,2255.0,363.72,0,7.0,Delivered,0.161295,0.014945,Long,0
+Warehouse_SF,Atlanta,UPS,58.4,962.0,196.37,0,9.0,Delivered,0.204127,0.060707,Medium,1
+Warehouse_SF,Miami,LaserShip,28.7,1681.0,255.28,0,4.0,In Transit,0.151862,0.017073,Long,0
+Warehouse_CHI,Detroit,LaserShip,37.4,283.0,72.51,0,1.0,Delivered,0.256219,0.132155,Short,0
+Warehouse_SF,Boston,USPS,26.9,640.0,103.85,0,3.0,Delivered,0.162266,0.042031,Medium,0
+Warehouse_CHI,Phoenix,OnTrac,27.8,2409.0,294.98,0,6.0,Delivered,0.122449,0.01154,Long,0
+Warehouse_ATL,San Francisco,FedEx,23.3,1203.0,228.28,0,4.0,Lost,0.189759,0.019368,Medium,0
+Warehouse_CHI,Atlanta,Amazon Logistics,17.9,231.0,45.26,0,1.0,Delivered,0.195931,0.077489,Short,0
+Warehouse_ATL,Miami,LaserShip,32.5,2136.0,308.35,0,5.0,Delayed,0.144359,0.015215,Long,0
+Warehouse_SEA,Portland,OnTrac,19.8,1886.0,265.4,0,4.0,Delivered,0.140721,0.010498,Long,0
+Warehouse_MIA,Chicago,FedEx,11.9,1896.0,287.05,0,10.0,Delivered,0.151398,0.006276,Long,0
+Warehouse_CHI,Minneapolis,LaserShip,108.6,1869.0,221.52,0,5.0,Delivered,0.118523,0.058106,Long,1
+Warehouse_CHI,San Francisco,FedEx,15.9,1412.0,200.58,0,3.0,Delivered,0.142054,0.011261,Medium,0
+Warehouse_ATL,Chicago,DHL,19.8,110.0,44.0,0,3.0,Delivered,0.4,0.18,Short,0
+Warehouse_HOU,Miami,LaserShip,14.6,682.0,107.88,0,2.0,Delivered,0.158182,0.021408,Medium,0
+Warehouse_DEN,San Francisco,OnTrac,46.5,2264.0,334.7,0,6.0,Delivered,0.147836,0.020539,Long,0
+Warehouse_CHI,Boston,UPS,43.9,413.0,133.41,0,3.0,Delivered,0.323027,0.106295,Short,0
+Warehouse_MIA,Seattle,Amazon Logistics,17.5,1003.0,144.25,0,3.0,Delayed,0.143819,0.017448,Medium,0
+Warehouse_SF,Houston,OnTrac,82.9,893.0,189.53,0,3.0,Delivered,0.21224,0.092833,Medium,1
+Warehouse_HOU,Boston,DHL,16.2,1509.0,219.44,0,4.0,Delayed,0.145421,0.010736,Long,0
+Warehouse_BOS,Seattle,DHL,17.1,1749.0,265.04,0,5.0,Delayed,0.151538,0.009777,Long,0
+Warehouse_MIA,Los Angeles,OnTrac,9.4,377.0,59.03,0,1.0,Delivered,0.156578,0.024934,Short,0
+Warehouse_SF,Phoenix,FedEx,15.3,2483.0,343.33,0,5.0,Delivered,0.138272,0.006162,Long,0
+Warehouse_SEA,Seattle,OnTrac,17.4,1606.0,231.71,0,5.0,Delayed,0.144278,0.010834,Long,0
+Warehouse_NYC,Atlanta,OnTrac,11.8,870.0,119.5,0,5.0,Delivered,0.137356,0.013563,Medium,0
+Warehouse_ATL,San Francisco,UPS,56.8,1705.0,315.36,0,5.0,Delivered,0.184962,0.033314,Long,1
+Warehouse_DEN,Dallas,Amazon Logistics,14.6,1525.0,187.56,0,4.0,Delivered,0.12299,0.009574,Long,0
+Warehouse_MIA,Phoenix,DHL,9.9,1178.0,180.22,0,3.0,Delivered,0.152988,0.008404,Medium,0
+Warehouse_SF,Houston,FedEx,45.7,1612.0,247.43,0,4.0,Delivered,0.153493,0.02835,Long,0
+Warehouse_LA,New York,Amazon Logistics,19.9,2488.0,316.03,0,6.0,Delivered,0.127022,0.007998,Long,0
+Warehouse_HOU,Dallas,Amazon Logistics,10.5,2144.0,325.38,0,10.0,Delivered,0.151763,0.004897,Long,0
+Warehouse_NYC,Dallas,FedEx,4.2,341.0,45.59,0,3.0,Delivered,0.133695,0.012317,Short,0
+Warehouse_BOS,Boston,LaserShip,17.9,484.0,77.71,0,4.0,Delivered,0.160558,0.036983,Short,0
+Warehouse_SEA,Detroit,DHL,6.9,1461.0,218.92,0,5.0,Delivered,0.149843,0.004723,Medium,0
+Warehouse_LA,Chicago,Amazon Logistics,29.7,766.0,149.52,0,5.0,Delivered,0.195196,0.038773,Medium,0
+Warehouse_ATL,Dallas,FedEx,11.4,1151.0,179.35,0,5.0,Delivered,0.155821,0.009904,Medium,0
+Warehouse_MIA,San Francisco,LaserShip,11.0,412.0,59.43,0,2.0,Delivered,0.144248,0.026699,Short,0
+Warehouse_MIA,Dallas,Amazon Logistics,19.7,1858.0,254.01,0,4.0,Delivered,0.136712,0.010603,Long,0
+Warehouse_HOU,San Francisco,LaserShip,24.2,2188.0,284.17,0,5.0,Delayed,0.129877,0.01106,Long,0
+Warehouse_HOU,Dallas,FedEx,58.1,1113.0,217.03,0,3.0,Delivered,0.194996,0.052201,Medium,1
+Warehouse_HOU,Seattle,FedEx,0.3,1775.0,333.92,0,5.0,Delivered,0.188124,0.000169,Long,0
+Warehouse_DEN,New York,Amazon Logistics,39.0,109.0,61.95,0,4.0,Delivered,0.568349,0.357798,Short,0
+Warehouse_CHI,Denver,UPS,16.5,1000.0,143.91,0,4.0,Delivered,0.14391,0.0165,Medium,0
+Warehouse_ATL,Portland,UPS,12.9,354.0,56.83,0,1.0,Delayed,0.160537,0.036441,Short,0
+Warehouse_ATL,Miami,FedEx,11.5,752.0,114.38,0,2.0,Delivered,0.152101,0.015293,Medium,0
+Warehouse_ATL,Denver,Amazon Logistics,37.7,2253.0,286.4,0,6.0,Delivered,0.127119,0.016733,Long,0
+Warehouse_CHI,Denver,LaserShip,8.6,1000.0,119.7,0,4.0,Delivered,0.1197,0.0086,Medium,0
+Warehouse_SF,Phoenix,LaserShip,43.2,2266.0,416.42,0,7.0,Delayed,0.183769,0.019064,Long,0
+Warehouse_ATL,Minneapolis,DHL,51.8,1014.0,201.57,0,3.0,Delayed,0.198787,0.051085,Medium,1
+Warehouse_BOS,Portland,USPS,21.4,1837.0,276.47,0,8.0,Delivered,0.150501,0.011649,Long,0
+Warehouse_HOU,Chicago,OnTrac,34.2,264.0,73.58,0,3.0,Delivered,0.278712,0.129545,Short,0
+Warehouse_LA,Detroit,FedEx,27.8,920.0,172.58,0,3.0,Delivered,0.187587,0.030217,Medium,0
+Warehouse_BOS,Dallas,FedEx,3.3,385.0,52.34,0,4.0,Delivered,0.135948,0.008571,Short,0
+Warehouse_CHI,San Francisco,DHL,22.5,1650.0,252.88,0,4.0,Delivered,0.153261,0.013636,Long,0
+Warehouse_MIA,Minneapolis,OnTrac,16.3,2133.0,274.15,0,6.0,Delivered,0.128528,0.007642,Long,0
+Warehouse_SF,San Francisco,FedEx,7.0,1191.0,194.75,0,5.0,In Transit,0.163518,0.005877,Medium,0
+Warehouse_LA,Miami,USPS,27.1,836.0,133.42,0,3.0,Lost,0.159593,0.032416,Medium,0
+Warehouse_CHI,Denver,FedEx,11.9,1000.0,149.7,0,2.0,Delivered,0.1497,0.0119,Medium,0
+Warehouse_SF,Los Angeles,DHL,54.7,723.0,191.49,0,2.0,Delivered,0.264855,0.075657,Medium,1
+Warehouse_MIA,Los Angeles,FedEx,26.0,1990.0,304.66,0,6.0,Lost,0.153095,0.013065,Long,0
+Warehouse_BOS,Minneapolis,UPS,6.9,660.0,107.24,0,2.0,Delivered,0.162485,0.010455,Medium,0
+Warehouse_ATL,Houston,UPS,44.1,2174.0,340.74,0,6.0,Delivered,0.156734,0.020285,Long,0
+Warehouse_ATL,Minneapolis,USPS,16.2,651.0,93.12,0,3.0,Delivered,0.143041,0.024885,Medium,0
+Warehouse_CHI,Denver,FedEx,65.2,1000.0,264.64,0,3.0,Delivered,0.26464,0.0652,Medium,1
+Warehouse_DEN,Boston,LaserShip,29.9,508.0,95.19,0,2.0,Delivered,0.187382,0.058858,Medium,0
+Warehouse_CHI,Houston,LaserShip,22.5,2165.0,304.07,0,6.0,Delivered,0.140448,0.010393,Long,0
+Warehouse_HOU,Portland,USPS,27.2,1038.0,158.38,0,5.0,Delivered,0.152582,0.026204,Medium,0
+Warehouse_SF,Los Angeles,Amazon Logistics,37.7,2201.0,339.21,0,7.0,Delivered,0.154116,0.017129,Long,0
+Warehouse_DEN,Detroit,FedEx,10.2,1808.0,265.15,0,5.0,Delivered,0.146654,0.005642,Long,0
+Warehouse_SEA,Phoenix,OnTrac,10.2,553.0,79.74,0,2.0,Delivered,0.144195,0.018445,Medium,0
+Warehouse_SEA,New York,DHL,44.4,560.0,151.2,0,4.0,Delivered,0.27,0.079286,Medium,0
+Warehouse_MIA,Atlanta,USPS,21.9,2189.0,289.79,0,5.0,Delivered,0.132385,0.010005,Long,0
+Warehouse_ATL,Detroit,LaserShip,23.1,393.0,98.82,0,2.0,Delivered,0.25145,0.058779,Short,0
+Warehouse_SEA,Minneapolis,DHL,37.7,1505.0,336.06,0,3.0,Delivered,0.223296,0.02505,Long,0
+Warehouse_DEN,New York,OnTrac,37.1,1673.0,236.03,0,6.0,Delivered,0.141082,0.022176,Long,0
+Warehouse_LA,Portland,OnTrac,12.1,1029.0,144.44,0,4.0,Delivered,0.140369,0.011759,Medium,0
+Warehouse_SF,Miami,Amazon Logistics,6.9,2487.0,294.86,0,7.0,Delivered,0.118561,0.002774,Long,0
+Warehouse_SEA,Los Angeles,OnTrac,14.6,1495.0,204.47,0,4.0,Delivered,0.136769,0.009766,Medium,0
+Warehouse_BOS,Chicago,DHL,54.9,1121.0,243.58,0,5.0,Delivered,0.217288,0.048974,Medium,1
+Warehouse_NYC,Chicago,DHL,31.7,790.0,163.48,0,2.0,Delivered,0.206937,0.040127,Medium,0
+Warehouse_BOS,Minneapolis,OnTrac,15.7,1457.0,191.45,0,4.0,Delivered,0.1314,0.010776,Medium,0
+Warehouse_HOU,Miami,UPS,6.6,1832.0,261.19,0,5.0,Delivered,0.142571,0.003603,Long,0
+Warehouse_SF,Los Angeles,LaserShip,53.1,1208.0,197.62,0,3.0,Delivered,0.163593,0.043957,Medium,1
+Warehouse_SF,Denver,LaserShip,32.3,531.0,115.94,0,1.0,Delivered,0.218343,0.060829,Medium,0
+Warehouse_LA,Dallas,Amazon Logistics,67.3,1435.0,275.71,0,7.0,Delivered,0.192132,0.046899,Medium,1
+Warehouse_SF,Portland,UPS,11.7,1803.0,241.13,0,5.0,Delivered,0.133738,0.006489,Long,0
+Warehouse_SEA,Los Angeles,Amazon Logistics,6.3,2363.0,315.26,0,5.0,Delivered,0.133415,0.002666,Long,0
+Warehouse_ATL,Chicago,Amazon Logistics,57.7,1274.0,243.19,0,3.0,Delivered,0.190887,0.04529,Medium,1
+Warehouse_CHI,New York,OnTrac,5.9,1678.0,199.78,0,5.0,Delivered,0.119058,0.003516,Long,0
+Warehouse_CHI,Seattle,DHL,38.0,2447.0,416.88,0,6.0,Delayed,0.170364,0.015529,Long,0
+Warehouse_SF,Minneapolis,Amazon Logistics,9.7,1667.0,230.69,0,5.0,Delivered,0.138386,0.005819,Long,0
+Warehouse_LA,Dallas,Amazon Logistics,25.0,1435.0,220.62,0,4.0,Delivered,0.153742,0.017422,Medium,0
+Warehouse_DEN,Houston,OnTrac,9.7,1937.0,260.86,0,5.0,Delivered,0.134672,0.005008,Long,0
+Warehouse_ATL,Dallas,UPS,5.6,659.0,94.63,0,3.0,Returned,0.143596,0.008498,Medium,0
+Warehouse_SEA,Miami,UPS,18.1,663.0,102.98,0,5.0,Delivered,0.155324,0.0273,Medium,0
+Warehouse_LA,Dallas,LaserShip,39.0,1435.0,280.22,0,5.0,Delivered,0.195275,0.027178,Medium,0
+Warehouse_BOS,New York,LaserShip,28.1,1431.0,192.15,0,8.0,Delivered,0.134277,0.019637,Medium,0
+Warehouse_MIA,Minneapolis,DHL,22.8,2452.0,362.33,0,5.0,Delayed,0.147769,0.009299,Long,0
+Warehouse_HOU,Detroit,LaserShip,25.5,2427.0,298.33,0,6.0,Delayed,0.122921,0.010507,Long,0
+Warehouse_NYC,Seattle,LaserShip,13.9,872.0,131.13,0,5.0,Delivered,0.150378,0.01594,Medium,0
+Warehouse_ATL,Houston,DHL,7.7,1747.0,234.65,0,6.0,Delivered,0.134316,0.004408,Long,0
+Warehouse_LA,Houston,LaserShip,37.8,1314.0,199.44,0,4.0,Delivered,0.151781,0.028767,Medium,0
+Warehouse_MIA,Los Angeles,DHL,43.7,2460.0,401.12,0,5.0,Delivered,0.163057,0.017764,Long,0
+Warehouse_MIA,New York,OnTrac,20.6,2189.0,259.44,0,5.0,Delivered,0.11852,0.009411,Long,0
+Warehouse_SEA,Denver,FedEx,14.0,2105.0,295.69,0,6.0,Delivered,0.14047,0.006651,Long,0
+Warehouse_BOS,Miami,FedEx,6.5,2185.0,297.79,0,6.0,Delivered,0.136288,0.002975,Long,0
+Warehouse_ATL,Houston,FedEx,122.7,1984.0,432.92,0,5.0,Delivered,0.218206,0.061845,Long,1
+Warehouse_BOS,Phoenix,OnTrac,13.6,1123.0,141.3,0,3.0,Delivered,0.125824,0.01211,Medium,0
+Warehouse_ATL,San Francisco,OnTrac,35.9,348.0,89.84,0,2.0,Delivered,0.258161,0.103161,Short,0
+Warehouse_LA,Dallas,Amazon Logistics,52.3,1435.0,222.33,0,3.0,Delivered,0.154934,0.036446,Medium,1
+Warehouse_HOU,Detroit,DHL,14.6,265.0,58.01,0,1.0,Delivered,0.218906,0.055094,Short,0
+Warehouse_NYC,Atlanta,FedEx,36.8,870.0,166.16,0,3.0,Delivered,0.190989,0.042299,Medium,0
+Warehouse_BOS,Portland,LaserShip,25.8,2008.0,319.09,0,6.0,Lost,0.158909,0.012849,Long,0
+Warehouse_LA,Chicago,USPS,17.5,1305.0,165.72,0,3.0,Delivered,0.126989,0.01341,Medium,0
+Warehouse_SF,Portland,OnTrac,50.1,1646.0,282.69,0,4.0,Delivered,0.171744,0.030437,Long,1
+Warehouse_CHI,Atlanta,LaserShip,54.0,2448.0,326.08,0,5.0,Delivered,0.133203,0.022059,Long,1
+Warehouse_BOS,Dallas,DHL,9.6,1854.0,243.91,0,4.0,Delivered,0.131559,0.005178,Long,0
+Warehouse_BOS,Minneapolis,Amazon Logistics,14.5,1208.0,174.22,0,3.0,Delivered,0.144222,0.012003,Medium,0
+Warehouse_MIA,Dallas,USPS,14.5,1753.0,230.05,0,4.0,Delivered,0.131232,0.008272,Long,0
+Warehouse_MIA,Chicago,USPS,3.1,1098.0,124.09,0,6.0,Delayed,0.113015,0.002823,Medium,0
+Warehouse_DEN,Denver,FedEx,108.4,1964.0,397.96,0,5.0,Delivered,0.202627,0.055193,Long,1
+Warehouse_DEN,Houston,Amazon Logistics,26.6,1615.0,231.19,0,5.0,Delivered,0.143152,0.016471,Long,0
+Warehouse_NYC,Atlanta,FedEx,7.2,870.0,158.85,0,3.0,Delivered,0.182586,0.008276,Medium,0
+Warehouse_SF,Detroit,DHL,17.1,105.0,34.45,0,1.0,Delivered,0.328095,0.162857,Short,0
+Warehouse_SF,Atlanta,UPS,21.9,472.0,83.7,0,2.0,Delivered,0.177331,0.046398,Short,0
+Warehouse_HOU,Dallas,UPS,78.2,860.0,195.05,0,3.0,Delayed,0.226802,0.09093,Medium,1
+Warehouse_ATL,Seattle,LaserShip,14.5,530.0,83.98,0,3.0,Delivered,0.158453,0.027358,Medium,0
+Warehouse_SEA,Seattle,UPS,17.7,1498.0,198.87,0,4.0,Delivered,0.132757,0.011816,Medium,0
+Warehouse_CHI,Portland,OnTrac,14.1,154.0,33.49,0,1.0,Delivered,0.217468,0.091558,Short,0
+Warehouse_ATL,Chicago,USPS,6.7,357.0,52.0,0,1.0,Delivered,0.145658,0.018768,Short,0
+Warehouse_BOS,San Francisco,FedEx,11.9,2440.0,34.31,0,5.0,Delivered,0.014061,0.004877,Long,0
+Warehouse_NYC,Portland,UPS,60.4,1846.0,370.75,0,5.0,Delivered,0.20084,0.032719,Long,1
+Warehouse_NYC,Detroit,USPS,12.6,497.0,75.73,0,3.0,Delivered,0.152374,0.025352,Short,0
+Warehouse_BOS,Houston,DHL,43.8,632.0,143.51,0,3.0,Delivered,0.227073,0.069304,Medium,0
+Warehouse_DEN,Boston,LaserShip,27.5,1086.0,172.21,0,4.0,Delivered,0.158573,0.025322,Medium,0
+Warehouse_ATL,Chicago,UPS,30.6,284.0,89.12,0,2.0,Delivered,0.313803,0.107746,Short,0
+Warehouse_NYC,Los Angeles,LaserShip,139.4,1881.0,415.94,0,4.0,Delivered,0.221127,0.07411,Long,1
+Warehouse_LA,Detroit,USPS,3.8,1465.0,206.23,0,7.0,Delivered,0.140771,0.002594,Medium,0
+Warehouse_SEA,Denver,UPS,24.1,1000.0,148.09,0,4.0,Delivered,0.14809,0.0241,Medium,0
+Warehouse_HOU,New York,LaserShip,66.5,2301.0,345.16,0,7.0,Delayed,0.150004,0.0289,Long,1
+Warehouse_LA,Minneapolis,LaserShip,21.4,623.0,92.29,0,6.0,Delivered,0.148138,0.03435,Medium,0
+Warehouse_CHI,Houston,LaserShip,12.0,2422.0,321.79,0,8.0,Delivered,0.132861,0.004955,Long,0
+Warehouse_ATL,Detroit,FedEx,19.7,1284.0,201.01,0,5.0,Delivered,0.15655,0.015343,Medium,0
+Warehouse_LA,Seattle,Amazon Logistics,35.0,1135.0,196.325,1,3.0,Delivered,0.172974,0.030837,Medium,0
+Warehouse_DEN,Chicago,DHL,21.9,2344.0,196.325,1,6.0,Delivered,0.083756,0.009343,Long,0
+Warehouse_SEA,Chicago,DHL,19.0,593.0,117.94,0,5.0,Delayed,0.198887,0.03204,Medium,0
+Warehouse_NYC,Phoenix,DHL,66.1,796.0,181.39,0,5.0,Delivered,0.227877,0.08304,Medium,1
+Warehouse_SF,San Francisco,USPS,23.2,2164.0,295.97,0,5.0,Delivered,0.13677,0.010721,Long,0
+Warehouse_CHI,Boston,UPS,16.2,1217.0,157.6,0,3.0,Delivered,0.129499,0.013311,Medium,0
+Warehouse_CHI,San Francisco,USPS,14.4,140.0,34.45,0,2.0,Delivered,0.246071,0.102857,Short,0
+Warehouse_NYC,Minneapolis,USPS,27.4,1367.0,178.29,0,5.0,Delivered,0.130424,0.020044,Medium,0
+Warehouse_LA,Chicago,UPS,27.4,2072.0,286.48,0,7.0,Delivered,0.138263,0.013224,Long,0
+Warehouse_DEN,Atlanta,USPS,6.2,150.0,25.02,0,5.0,Delivered,0.1668,0.041333,Short,0
+Warehouse_BOS,Phoenix,DHL,24.1,1168.0,204.04,0,3.0,Delivered,0.174692,0.020634,Medium,0
+Warehouse_MIA,Denver,OnTrac,28.8,147.0,54.72,0,1.0,Delivered,0.372245,0.195918,Short,0
+Warehouse_NYC,Chicago,LaserShip,12.5,790.0,106.43,0,3.0,Delivered,0.134722,0.015823,Medium,0
+Warehouse_LA,Los Angeles,DHL,48.5,159.0,84.38,0,2.0,Delivered,0.530692,0.305031,Short,0
+Warehouse_SF,Dallas,LaserShip,15.0,1632.0,266.53,0,5.0,Delayed,0.163315,0.009191,Long,0
+Warehouse_DEN,Los Angeles,OnTrac,12.0,607.0,95.74,0,2.0,Delivered,0.157727,0.019769,Medium,0
+Warehouse_SF,Detroit,FedEx,39.9,475.0,138.47,0,5.0,Delivered,0.291516,0.084,Short,0
+Warehouse_BOS,Houston,FedEx,6.6,1370.0,199.12,0,4.0,Delivered,0.145343,0.004818,Medium,0
+Warehouse_DEN,Los Angeles,LaserShip,474.2,2200.0,341.15,0,6.0,Delivered,0.155068,0.215545,Long,1
+Warehouse_ATL,Miami,USPS,15.1,1795.0,236.63,0,6.0,In Transit,0.131827,0.008412,Long,0
+Warehouse_DEN,Phoenix,FedEx,32.0,2208.0,340.57,0,5.0,Delivered,0.154244,0.014493,Long,0
+Warehouse_HOU,Boston,USPS,14.5,585.0,86.35,0,2.0,Delivered,0.147607,0.024786,Medium,0
+Warehouse_DEN,Phoenix,Amazon Logistics,9.2,974.0,141.68,0,3.0,Delayed,0.145462,0.009446,Medium,0
+Warehouse_LA,Atlanta,FedEx,32.2,1610.0,247.76,0,5.0,Delivered,0.153888,0.02,Long,0
+Warehouse_HOU,Denver,FedEx,27.1,1030.0,165.65,0,4.0,Delivered,0.160825,0.026311,Medium,0
+Warehouse_HOU,Boston,LaserShip,22.8,2380.0,342.44,0,9.0,Delivered,0.143882,0.00958,Long,0
+Warehouse_HOU,Atlanta,FedEx,10.2,800.0,111.08,0,2.0,Delivered,0.13885,0.01275,Medium,0
+Warehouse_NYC,Miami,Amazon Logistics,30.8,1692.0,255.81,0,4.0,Delivered,0.151188,0.018203,Long,0
+Warehouse_BOS,Miami,USPS,11.9,1032.0,139.28,0,2.0,Delivered,0.134961,0.011531,Medium,0
+Warehouse_ATL,Los Angeles,USPS,16.8,1003.0,124.3,0,2.0,Delivered,0.123928,0.01675,Medium,0
+Warehouse_SF,Phoenix,UPS,7.2,367.0,59.98,0,2.0,Delivered,0.163433,0.019619,Short,0
+Warehouse_SEA,Miami,LaserShip,11.6,1614.0,264.5,0,7.0,Delivered,0.163879,0.007187,Long,0
+Warehouse_LA,Portland,LaserShip,7.8,402.0,53.18,0,5.0,Delivered,0.132289,0.019403,Short,0
+Warehouse_BOS,Phoenix,LaserShip,43.8,691.0,138.23,0,3.0,Delayed,0.200043,0.063386,Medium,0
+Warehouse_DEN,Miami,USPS,10.1,469.0,61.2,0,2.0,Delivered,0.13049,0.021535,Short,0
+Warehouse_MIA,Detroit,USPS,24.7,2030.0,280.23,0,8.0,Delivered,0.138044,0.012167,Long,0
+Warehouse_DEN,Minneapolis,FedEx,26.5,810.0,155.2,0,3.0,Delivered,0.191605,0.032716,Medium,0
+Warehouse_LA,San Francisco,LaserShip,6.2,735.0,111.44,0,3.0,Delivered,0.151619,0.008435,Medium,0
+Warehouse_DEN,Minneapolis,DHL,10.0,236.0,45.28,0,2.0,Delivered,0.191864,0.042373,Short,0
+Warehouse_SEA,Phoenix,DHL,9.5,1346.0,194.71,0,5.0,Delivered,0.144658,0.007058,Medium,0
+Warehouse_SEA,Chicago,USPS,71.0,706.0,148.26,0,4.0,Delivered,0.21,0.100567,Medium,1
+Warehouse_BOS,Miami,DHL,35.3,1056.0,212.84,0,8.0,Delivered,0.201553,0.033428,Medium,0
+Warehouse_DEN,Miami,DHL,18.1,1660.0,229.06,0,5.0,Delivered,0.137988,0.010904,Long,0
+Warehouse_HOU,Los Angeles,UPS,10.3,2174.0,332.84,0,6.0,Delivered,0.1531,0.004738,Long,0
+Warehouse_LA,Chicago,Amazon Logistics,72.9,1270.0,236.99,0,4.0,Delivered,0.186606,0.057402,Medium,1
+Warehouse_DEN,Portland,USPS,18.7,2308.0,312.02,0,5.0,Delivered,0.135191,0.008102,Long,0
+Warehouse_BOS,Houston,LaserShip,39.6,307.0,90.47,0,2.0,Delivered,0.294691,0.12899,Short,0
+Warehouse_MIA,Phoenix,LaserShip,10.8,912.0,125.78,0,4.0,Delivered,0.137917,0.011842,Medium,0
+Warehouse_LA,Dallas,FedEx,48.5,1435.0,261.64,0,5.0,Delivered,0.182328,0.033798,Medium,0
+Warehouse_MIA,Chicago,DHL,57.5,1260.0,257.6,0,3.0,Delayed,0.204444,0.045635,Medium,1
+Warehouse_DEN,New York,USPS,13.6,1646.0,204.17,0,4.0,Delivered,0.12404,0.008262,Long,0
+Warehouse_CHI,Boston,UPS,7.7,2012.0,284.59,0,6.0,Delivered,0.141446,0.003827,Long,0
+Warehouse_CHI,Detroit,FedEx,41.8,283.0,84.62,0,2.0,Delivered,0.299011,0.147703,Short,0
+Warehouse_LA,San Francisco,USPS,43.9,1342.0,222.74,0,3.0,Delivered,0.165976,0.032712,Medium,0
+Warehouse_SEA,Phoenix,UPS,30.0,2030.0,266.62,0,6.0,Delivered,0.13134,0.014778,Long,0
+Warehouse_SEA,New York,DHL,73.6,2241.0,437.29,0,6.0,Delayed,0.195132,0.032842,Long,1
+Warehouse_MIA,Miami,LaserShip,23.2,147.0,51.9,0,5.0,Delivered,0.353061,0.157823,Short,0
+Warehouse_SF,Chicago,Amazon Logistics,23.2,1277.0,191.94,0,4.0,Delivered,0.150305,0.018168,Medium,0
+Warehouse_ATL,Boston,UPS,38.0,527.0,108.83,0,2.0,Delayed,0.206509,0.072106,Medium,0
+Warehouse_BOS,Portland,OnTrac,12.8,1012.0,147.18,0,4.0,Delivered,0.145435,0.012648,Medium,0
+Warehouse_ATL,Portland,USPS,103.4,779.0,226.95,0,3.0,Delivered,0.291335,0.132734,Medium,1
+Warehouse_ATL,Chicago,Amazon Logistics,44.1,2372.0,319.84,0,9.0,Delivered,0.13484,0.018592,Long,0
+Warehouse_SF,Dallas,LaserShip,22.3,1234.0,223.83,0,4.0,Delivered,0.181386,0.018071,Medium,0
+Warehouse_NYC,Houston,OnTrac,17.3,1246.0,218.41,0,4.0,Delivered,0.175289,0.013884,Medium,0
+Warehouse_BOS,Dallas,LaserShip,19.3,1068.0,147.73,0,3.0,Delivered,0.138324,0.018071,Medium,0
+Warehouse_DEN,Phoenix,USPS,22.5,1164.0,196.325,1,5.0,Delivered,0.168664,0.01933,Medium,0
+Warehouse_ATL,Denver,LaserShip,34.0,1192.0,193.6,0,4.0,Lost,0.162416,0.028523,Medium,0
+Warehouse_DEN,Dallas,DHL,18.6,923.0,144.95,0,4.0,Returned,0.157042,0.020152,Medium,0
+Warehouse_ATL,Houston,DHL,16.9,1434.0,208.26,0,3.0,Delivered,0.14523,0.011785,Medium,0
+Warehouse_BOS,Phoenix,LaserShip,36.9,1682.0,307.4,0,7.0,Delivered,0.182759,0.021938,Long,0
+Warehouse_LA,Dallas,OnTrac,26.3,1435.0,200.48,0,4.0,Delivered,0.139707,0.018328,Medium,0
+Warehouse_LA,Denver,FedEx,12.5,2386.0,326.12,0,5.0,Delivered,0.136681,0.005239,Long,0
+Warehouse_NYC,Los Angeles,FedEx,6.8,1007.0,155.95,0,4.0,Delivered,0.154866,0.006753,Medium,0
+Warehouse_MIA,New York,UPS,15.4,1636.0,238.58,0,4.0,Delivered,0.145831,0.009413,Long,0
+Warehouse_ATL,Boston,LaserShip,46.9,993.0,180.87,0,3.0,Delayed,0.182145,0.047231,Medium,0
+Warehouse_MIA,Detroit,LaserShip,19.2,810.0,132.01,0,4.0,Delivered,0.162975,0.023704,Medium,0
+Warehouse_HOU,Chicago,DHL,77.7,2113.0,196.325,1,8.0,Delivered,0.092913,0.036772,Long,1
+Warehouse_LA,Chicago,Amazon Logistics,12.4,1640.0,228.09,0,4.0,Delivered,0.139079,0.007561,Long,0
+Warehouse_HOU,Seattle,DHL,9.7,1517.0,233.83,0,4.0,Delivered,0.15414,0.006394,Long,0
+Warehouse_HOU,Minneapolis,Amazon Logistics,12.3,2458.0,306.2,0,6.0,Delivered,0.124573,0.005004,Long,0
+Warehouse_HOU,Miami,UPS,9.9,2114.0,282.29,0,5.0,Delivered,0.133534,0.004683,Long,0
+Warehouse_SF,Boston,Amazon Logistics,24.8,1683.0,213.13,0,6.0,Delivered,0.126637,0.014736,Long,0
+Warehouse_DEN,Dallas,USPS,4.6,345.0,44.35,0,2.0,Delivered,0.128551,0.013333,Short,0
+Warehouse_MIA,Detroit,OnTrac,4.8,2470.0,287.6,0,6.0,Delivered,0.116437,0.001943,Long,0
+Warehouse_BOS,Chicago,DHL,19.2,285.0,196.325,1,2.0,Delivered,0.68886,0.067368,Short,0
+Warehouse_HOU,Chicago,UPS,40.1,428.0,104.23,0,2.0,Delayed,0.243528,0.093692,Short,0
+Warehouse_MIA,Chicago,Amazon Logistics,38.4,1780.0,276.83,0,6.0,Delivered,0.155522,0.021573,Long,0
+Warehouse_SF,Seattle,USPS,30.3,2049.0,247.69,0,5.0,Delivered,0.120883,0.014788,Long,0
+Warehouse_SEA,Phoenix,FedEx,14.1,2363.0,430.99,0,9.0,Delivered,0.182391,0.005967,Long,0
+Warehouse_SEA,Chicago,OnTrac,6.2,2315.0,314.26,0,7.0,Delivered,0.135749,0.002678,Long,0
+Warehouse_MIA,Detroit,Amazon Logistics,51.8,1415.0,231.8,0,3.0,Delivered,0.163816,0.036608,Medium,1
+Warehouse_MIA,Chicago,USPS,24.6,454.0,87.65,0,3.0,In Transit,0.193062,0.054185,Short,0
+Warehouse_MIA,Portland,LaserShip,18.4,862.0,151.67,0,2.0,Delivered,0.175951,0.021346,Medium,0
+Warehouse_DEN,Boston,OnTrac,14.5,1889.0,301.8,0,6.0,Delivered,0.159767,0.007676,Long,0
+Warehouse_NYC,Los Angeles,LaserShip,14.7,909.0,124.34,0,3.0,Delivered,0.136788,0.016172,Medium,0
+Warehouse_CHI,Portland,LaserShip,46.3,675.0,140.84,0,2.0,Delivered,0.208652,0.068593,Medium,0
+Warehouse_BOS,New York,LaserShip,17.0,677.0,113.42,0,4.0,Lost,0.167533,0.025111,Medium,0
+Warehouse_ATL,Phoenix,USPS,36.1,1315.0,234.42,0,5.0,Delivered,0.178266,0.027452,Medium,0
+Warehouse_CHI,Seattle,LaserShip,57.5,105.0,82.81,0,2.0,Delivered,0.788667,0.547619,Short,1
+Warehouse_LA,New York,USPS,25.2,1791.0,283.73,0,5.0,Delivered,0.15842,0.01407,Long,0
+Warehouse_HOU,Houston,USPS,97.3,1778.0,286.39,0,5.0,Delivered,0.161074,0.054724,Long,1
+Warehouse_ATL,Miami,USPS,7.3,209.0,35.27,0,2.0,Delivered,0.168756,0.034928,Short,0
+Warehouse_NYC,Dallas,OnTrac,21.4,350.0,73.84,0,4.0,Delivered,0.210971,0.061143,Short,0
+Warehouse_DEN,Minneapolis,DHL,50.2,1802.0,326.57,0,6.0,Delivered,0.181226,0.027858,Long,1
+Warehouse_ATL,Minneapolis,USPS,5.8,1093.0,120.42,0,3.0,Delivered,0.110174,0.005306,Medium,0
+Warehouse_NYC,Atlanta,FedEx,9.7,870.0,162.42,0,6.0,Delivered,0.18669,0.011149,Medium,0
+Warehouse_LA,Los Angeles,FedEx,39.1,1645.0,277.98,0,4.0,Delivered,0.168985,0.023769,Long,0
+Warehouse_NYC,Detroit,DHL,27.7,121.0,51.34,0,2.0,Delivered,0.424298,0.228926,Short,0
+Warehouse_HOU,Atlanta,USPS,38.4,800.0,125.03,0,2.0,Delivered,0.156288,0.048,Medium,0
+Warehouse_CHI,Detroit,OnTrac,0.0,283.0,35.85,0,1.0,Delivered,0.126678,0.0,Short,0
+Warehouse_HOU,Minneapolis,OnTrac,12.8,205.0,41.3,0,1.0,Delivered,0.201463,0.062439,Short,0
+Warehouse_CHI,Chicago,USPS,42.2,1943.0,271.44,0,4.0,Delivered,0.139701,0.021719,Long,0
+Warehouse_LA,Houston,Amazon Logistics,13.3,1317.0,179.74,0,3.0,Delivered,0.136477,0.010099,Medium,0
+Warehouse_MIA,New York,DHL,12.4,237.0,47.25,0,1.0,Delivered,0.199367,0.052321,Short,0
+Warehouse_BOS,Detroit,USPS,12.2,489.0,70.06,0,2.0,Delivered,0.143272,0.024949,Short,0
+Warehouse_CHI,Phoenix,LaserShip,28.6,1752.0,223.2,0,4.0,Delivered,0.127397,0.016324,Long,0
+Warehouse_CHI,Miami,FedEx,12.3,1350.0,199.26,0,3.0,Delivered,0.1476,0.009111,Medium,0
+Warehouse_DEN,San Francisco,USPS,7.5,1323.0,165.29,0,4.0,Delivered,0.124936,0.005669,Medium,0
+Warehouse_BOS,San Francisco,OnTrac,10.4,255.0,45.53,0,6.0,Delivered,0.178549,0.040784,Short,0
+Warehouse_LA,New York,UPS,33.5,420.0,88.12,0,3.0,Delivered,0.20981,0.079762,Short,0
+Warehouse_CHI,Atlanta,LaserShip,16.9,1506.0,192.93,0,6.0,Delivered,0.128108,0.011222,Long,0
+Warehouse_MIA,Phoenix,LaserShip,25.9,1763.0,272.0,0,5.0,Delivered,0.154282,0.014691,Long,0
+Warehouse_BOS,Boston,FedEx,6.2,1483.0,217.1,0,4.0,Delivered,0.146392,0.004181,Medium,0
+Warehouse_ATL,Boston,FedEx,7.3,1921.0,238.37,0,5.0,Delivered,0.124086,0.0038,Long,0
+Warehouse_SF,Atlanta,LaserShip,30.8,1737.0,251.75,0,5.0,Delivered,0.144934,0.017732,Long,0
+Warehouse_BOS,Miami,OnTrac,3.6,560.0,68.65,0,3.0,Returned,0.122589,0.006429,Medium,0
+Warehouse_HOU,Dallas,OnTrac,63.5,1118.0,192.27,0,3.0,Delivered,0.171977,0.056798,Medium,1
+Warehouse_CHI,Detroit,FedEx,53.7,283.0,113.89,0,1.0,Delivered,0.402438,0.189753,Short,1
+Warehouse_DEN,Seattle,Amazon Logistics,10.3,2287.0,312.01,0,6.0,Delivered,0.136428,0.004504,Long,0
+Warehouse_NYC,Minneapolis,DHL,23.7,475.0,105.39,0,3.0,Delivered,0.221874,0.049895,Short,0
+Warehouse_MIA,Atlanta,FedEx,12.4,253.0,55.37,0,1.0,Delayed,0.218854,0.049012,Short,0
+Warehouse_CHI,Atlanta,UPS,21.5,976.0,163.13,0,4.0,Delivered,0.167141,0.022029,Medium,0
+Warehouse_HOU,Denver,FedEx,13.7,1030.0,151.52,0,3.0,Delivered,0.147107,0.013301,Medium,0
+Warehouse_BOS,Chicago,USPS,11.5,1702.0,215.48,0,4.0,Delivered,0.126604,0.006757,Long,0
+Warehouse_DEN,Los Angeles,FedEx,7.2,2010.0,340.75,0,4.0,Returned,0.169527,0.003582,Long,0
+Warehouse_HOU,Seattle,Amazon Logistics,12.9,2323.0,311.31,0,6.0,Delivered,0.134012,0.005553,Long,0
+Warehouse_NYC,Detroit,Amazon Logistics,16.3,2263.0,299.25,0,5.0,Delivered,0.132236,0.007203,Long,0
+Warehouse_SEA,Minneapolis,FedEx,8.3,1054.0,166.12,0,3.0,Delivered,0.157609,0.007875,Medium,0
+Warehouse_SF,Phoenix,FedEx,11.6,905.0,147.12,0,4.0,Delivered,0.162564,0.012818,Medium,0
+Warehouse_DEN,Atlanta,USPS,9.1,1069.0,144.68,0,5.0,Delivered,0.135341,0.008513,Medium,0
+Warehouse_BOS,Dallas,UPS,26.8,2274.0,317.7,0,6.0,Delivered,0.13971,0.011785,Long,0
+Warehouse_SF,Atlanta,UPS,14.9,161.0,50.0,0,2.0,Delivered,0.310559,0.092547,Short,0
+Warehouse_MIA,Houston,OnTrac,139.3,547.0,235.27,0,4.0,Delivered,0.43011,0.254662,Medium,1
+Warehouse_NYC,Boston,Amazon Logistics,85.2,215.0,135.67,0,2.0,Delivered,0.631023,0.396279,Short,1
+Warehouse_HOU,Boston,FedEx,61.4,2282.0,405.09,0,6.0,Delivered,0.177515,0.026906,Long,1
+Warehouse_ATL,Chicago,Amazon Logistics,72.5,2411.0,350.54,0,7.0,Delayed,0.145392,0.030071,Long,1
+Warehouse_SEA,Dallas,DHL,26.8,1008.0,176.88,0,3.0,Delivered,0.175476,0.026587,Medium,0
+Warehouse_ATL,San Francisco,FedEx,34.2,439.0,93.52,0,3.0,Delayed,0.21303,0.077904,Short,0
+Warehouse_MIA,Seattle,LaserShip,64.0,1235.0,233.21,0,5.0,Delivered,0.188834,0.051822,Medium,1
+Warehouse_ATL,Boston,Amazon Logistics,32.9,1512.0,227.09,0,4.0,In Transit,0.150192,0.021759,Long,0
+Warehouse_MIA,Seattle,Amazon Logistics,81.9,1836.0,300.38,0,6.0,Delivered,0.163606,0.044608,Long,1
+Warehouse_MIA,Boston,OnTrac,16.7,2415.0,340.65,0,7.0,Delivered,0.141056,0.006915,Long,0
+Warehouse_SF,Seattle,Amazon Logistics,17.4,1969.0,249.13,0,5.0,Delayed,0.126526,0.008837,Long,0
+Warehouse_DEN,Atlanta,OnTrac,108.8,784.0,204.71,0,3.0,Delivered,0.26111,0.138776,Medium,1
+Warehouse_ATL,San Francisco,LaserShip,25.7,1687.0,227.68,0,5.0,Delivered,0.134961,0.015234,Long,0
+Warehouse_BOS,Houston,USPS,11.6,1624.0,214.12,0,5.0,Delivered,0.131847,0.007143,Long,0
+Warehouse_ATL,San Francisco,Amazon Logistics,27.3,337.0,70.85,0,2.0,Delivered,0.210237,0.081009,Short,0
+Warehouse_SF,Portland,Amazon Logistics,11.9,2131.0,260.02,0,5.0,Delivered,0.122018,0.005584,Long,0
+Warehouse_ATL,Los Angeles,OnTrac,125.8,144.0,154.81,0,5.0,Delivered,1.075069,0.873611,Short,1
+Warehouse_HOU,Phoenix,LaserShip,24.7,371.0,73.47,0,4.0,Delivered,0.198032,0.066577,Short,0
+Warehouse_DEN,Minneapolis,USPS,22.8,2393.0,287.85,0,5.0,Delivered,0.120288,0.009528,Long,0
+Warehouse_SF,Boston,DHL,18.1,1504.0,236.64,0,5.0,Delivered,0.15734,0.012035,Long,0
+Warehouse_DEN,Chicago,Amazon Logistics,8.7,2333.0,296.81,0,7.0,Delivered,0.127222,0.003729,Long,0
+Warehouse_SEA,Dallas,FedEx,27.5,303.0,68.71,0,1.0,Delivered,0.226766,0.090759,Short,0
+Warehouse_HOU,Seattle,LaserShip,10.5,2147.0,308.36,0,5.0,In Transit,0.143624,0.004891,Long,0
+Warehouse_DEN,New York,USPS,24.8,118.0,54.1,0,1.0,Delayed,0.458475,0.210169,Short,0
+Warehouse_ATL,Boston,Amazon Logistics,42.3,2282.0,378.62,0,6.0,Delivered,0.165916,0.018536,Long,0
+Warehouse_CHI,Atlanta,USPS,13.5,2106.0,246.0,0,7.0,Delivered,0.116809,0.00641,Long,0
+Warehouse_LA,Phoenix,OnTrac,9.4,373.0,61.04,0,3.0,Delivered,0.163646,0.025201,Short,0
+Warehouse_DEN,San Francisco,OnTrac,20.6,1611.0,219.02,0,4.0,Delivered,0.135953,0.012787,Long,0
+Warehouse_NYC,Atlanta,LaserShip,75.7,870.0,211.3,0,4.0,Delivered,0.242874,0.087011,Medium,1
+Warehouse_SF,New York,LaserShip,11.3,104.0,29.98,0,1.0,Delivered,0.288269,0.108654,Short,0
+Warehouse_SF,Dallas,OnTrac,10.5,917.0,154.75,0,3.0,Delivered,0.168757,0.01145,Medium,0
+Warehouse_LA,Houston,USPS,21.0,1090.0,186.14,0,3.0,Delivered,0.170771,0.019266,Medium,0
+Warehouse_CHI,Denver,UPS,28.7,1000.0,188.12,0,2.0,Delivered,0.18812,0.0287,Medium,0
+Warehouse_MIA,Portland,LaserShip,14.1,181.0,42.48,0,2.0,Delivered,0.234696,0.077901,Short,0
+Warehouse_HOU,Phoenix,UPS,35.7,2300.0,341.41,0,7.0,Delivered,0.148439,0.015522,Long,0
+Warehouse_SF,Denver,OnTrac,40.5,1176.0,175.32,0,5.0,Delivered,0.149082,0.034439,Medium,0
+Warehouse_HOU,Los Angeles,UPS,18.2,915.0,150.78,0,3.0,Delayed,0.164787,0.019891,Medium,0
+Warehouse_LA,Los Angeles,DHL,11.9,495.0,103.0,0,6.0,Delayed,0.208081,0.02404,Short,0
+Warehouse_MIA,Minneapolis,DHL,24.4,605.0,146.91,0,2.0,Delivered,0.242826,0.040331,Medium,0
+Warehouse_LA,Dallas,DHL,18.0,1435.0,271.66,0,3.0,Delivered,0.18931,0.012544,Medium,0
+Warehouse_MIA,Los Angeles,Amazon Logistics,11.8,1973.0,268.59,0,5.0,Delivered,0.136133,0.005981,Long,0
+Warehouse_CHI,Minneapolis,LaserShip,30.9,106.0,46.94,0,3.0,Delivered,0.44283,0.291509,Short,0
+Warehouse_HOU,Miami,OnTrac,59.4,1118.0,192.19,0,3.0,Delivered,0.171905,0.053131,Medium,1
+Warehouse_SF,San Francisco,Amazon Logistics,40.3,1034.0,208.84,0,5.0,Delivered,0.201973,0.038975,Medium,0
+Warehouse_CHI,Seattle,FedEx,14.0,1878.0,337.0,0,5.0,Delivered,0.179446,0.007455,Long,0
+Warehouse_SF,Seattle,DHL,33.7,1819.0,302.22,0,4.0,Delivered,0.166146,0.018527,Long,0
+Warehouse_SF,Dallas,LaserShip,32.0,2355.0,327.1,0,8.0,Delivered,0.138896,0.013588,Long,0
+Warehouse_SF,Boston,Amazon Logistics,15.9,2282.0,308.5,0,5.0,Delivered,0.135188,0.006968,Long,0
+Warehouse_BOS,New York,LaserShip,31.6,308.0,74.81,0,2.0,Delivered,0.24289,0.102597,Short,0
+Warehouse_SF,Portland,Amazon Logistics,16.5,1221.0,169.6,0,4.0,Lost,0.138903,0.013514,Medium,0
+Warehouse_BOS,Los Angeles,UPS,24.6,852.0,150.37,0,4.0,Delayed,0.176491,0.028873,Medium,0
+Warehouse_ATL,Houston,OnTrac,22.5,945.0,172.21,0,3.0,Delivered,0.182233,0.02381,Medium,0
+Warehouse_BOS,Phoenix,UPS,14.0,2256.0,295.74,0,6.0,Delivered,0.13109,0.006206,Long,0
+Warehouse_NYC,Minneapolis,FedEx,8.1,481.0,81.18,0,1.0,Delivered,0.168773,0.01684,Short,0
+Warehouse_BOS,Portland,Amazon Logistics,20.0,1767.0,254.01,0,4.0,Delivered,0.143752,0.011319,Long,0
+Warehouse_MIA,Phoenix,FedEx,35.9,788.0,140.38,0,7.0,Delivered,0.178147,0.045558,Medium,0
+Warehouse_HOU,Minneapolis,DHL,22.5,1017.0,171.17,0,3.0,Delivered,0.168309,0.022124,Medium,0
+Warehouse_DEN,Seattle,UPS,17.6,1577.0,242.22,0,4.0,Delivered,0.153595,0.01116,Long,0
+Warehouse_ATL,Detroit,DHL,12.9,419.0,74.16,0,2.0,In Transit,0.176993,0.030788,Short,0
+Warehouse_HOU,Detroit,UPS,12.8,2490.0,196.325,1,6.0,Delivered,0.078845,0.005141,Long,0
+Warehouse_MIA,Phoenix,OnTrac,71.1,167.0,114.32,0,1.0,Delivered,0.684551,0.425749,Short,1
+Warehouse_BOS,Houston,FedEx,13.6,2328.0,326.71,0,6.0,Delivered,0.140339,0.005842,Long,0
+Warehouse_ATL,New York,OnTrac,24.2,669.0,107.33,0,3.0,Delivered,0.160433,0.036173,Medium,0
+Warehouse_SF,Denver,OnTrac,39.7,468.0,130.73,0,2.0,Delivered,0.279338,0.084829,Short,0
+Warehouse_DEN,San Francisco,Amazon Logistics,9.4,563.0,84.83,0,3.0,Delivered,0.150675,0.016696,Medium,0
+Warehouse_MIA,Phoenix,Amazon Logistics,13.6,1584.0,187.79,0,4.0,Delivered,0.118554,0.008586,Long,0
+Warehouse_SEA,Minneapolis,USPS,32.5,2107.0,252.22,0,5.0,Delivered,0.119706,0.015425,Long,0
+Warehouse_MIA,Los Angeles,UPS,23.3,1473.0,266.08,0,4.0,Delivered,0.180638,0.015818,Medium,0
+Warehouse_NYC,Denver,DHL,88.7,509.0,196.15,0,3.0,Delivered,0.385363,0.174263,Medium,1
+Warehouse_ATL,Minneapolis,OnTrac,36.3,253.0,74.96,0,2.0,Delivered,0.296285,0.143478,Short,0
+Warehouse_SF,Boston,OnTrac,36.5,757.0,128.0,0,3.0,Delivered,0.169089,0.048217,Medium,0
+Warehouse_SEA,San Francisco,USPS,26.9,1796.0,221.1,0,4.0,Delivered,0.123107,0.014978,Long,0
+Warehouse_SEA,Seattle,FedEx,4.4,2087.0,301.81,0,5.0,Delivered,0.144614,0.002108,Long,0
+Warehouse_BOS,Chicago,LaserShip,16.5,1027.0,152.12,0,3.0,Delivered,0.148121,0.016066,Medium,0
+Warehouse_ATL,Denver,FedEx,11.8,2442.0,306.43,0,7.0,Delivered,0.125483,0.004832,Long,0
+Warehouse_SF,San Francisco,FedEx,22.4,862.0,162.76,0,4.0,Delivered,0.188817,0.025986,Medium,0
+Warehouse_HOU,Dallas,FedEx,9.3,813.0,108.95,0,3.0,Delayed,0.13401,0.011439,Medium,0
+Warehouse_DEN,Minneapolis,FedEx,40.9,1805.0,307.96,0,9.0,Delivered,0.170615,0.022659,Long,0
+Warehouse_NYC,Minneapolis,FedEx,11.8,1958.0,345.46,0,5.0,Delayed,0.176435,0.006027,Long,0
+Warehouse_SF,New York,Amazon Logistics,10.1,1943.0,221.55,0,6.0,Delivered,0.114025,0.005198,Long,0
+Warehouse_CHI,Chicago,Amazon Logistics,8.9,2441.0,390.8,0,7.0,Delivered,0.160098,0.003646,Long,0
+Warehouse_NYC,Phoenix,USPS,55.4,1644.0,237.06,0,5.0,In Transit,0.144197,0.033698,Long,1
+Warehouse_HOU,Portland,LaserShip,7.1,1336.0,164.49,0,3.0,Delivered,0.123121,0.005314,Medium,0
+Warehouse_LA,Portland,UPS,45.4,1050.0,172.09,0,4.0,Delivered,0.163895,0.043238,Medium,0
+Warehouse_ATL,Atlanta,UPS,53.8,2107.0,334.19,0,6.0,Delivered,0.158609,0.025534,Long,1
+Warehouse_MIA,Dallas,UPS,20.0,517.0,96.84,0,2.0,Delivered,0.187311,0.038685,Medium,0
+Warehouse_ATL,Dallas,UPS,47.6,1263.0,267.76,0,4.0,Delayed,0.212003,0.037688,Medium,0
+Warehouse_SF,Dallas,LaserShip,14.9,1154.0,148.0,0,3.0,Delivered,0.12825,0.012912,Medium,0
+Warehouse_ATL,San Francisco,OnTrac,62.4,407.0,118.11,0,4.0,Delivered,0.290197,0.153317,Short,1
+Warehouse_NYC,Los Angeles,FedEx,28.3,2076.0,318.34,0,6.0,Delivered,0.153343,0.013632,Long,0
+Warehouse_NYC,Denver,USPS,26.6,2346.0,295.92,0,6.0,Delivered,0.126138,0.011338,Long,0
+Warehouse_BOS,Portland,Amazon Logistics,29.9,576.0,108.93,0,2.0,Delivered,0.189115,0.05191,Medium,0
+Warehouse_MIA,Atlanta,DHL,5.1,1773.0,236.05,0,5.0,Delivered,0.133136,0.002876,Long,0
+Warehouse_DEN,Atlanta,LaserShip,24.3,1144.0,160.77,0,3.0,In Transit,0.140533,0.021241,Medium,0
+Warehouse_SEA,Boston,FedEx,75.0,2200.0,402.46,0,5.0,Delivered,0.182936,0.034091,Long,1
+Warehouse_SEA,Denver,OnTrac,29.6,2049.0,276.98,0,5.0,Delivered,0.135178,0.014446,Long,0
+Warehouse_HOU,Denver,OnTrac,3.2,1030.0,140.8,0,7.0,Delivered,0.136699,0.003107,Medium,0
+Warehouse_NYC,Dallas,DHL,18.9,1319.0,196.91,0,10.0,Delivered,0.149287,0.014329,Medium,0
+Warehouse_ATL,Miami,UPS,16.1,625.0,102.41,0,2.0,Delivered,0.163856,0.02576,Medium,0
+Warehouse_CHI,Detroit,OnTrac,36.7,283.0,80.24,0,3.0,Delivered,0.283534,0.129682,Short,0
+Warehouse_DEN,Boston,LaserShip,49.6,820.0,169.64,0,5.0,Delivered,0.206878,0.060488,Medium,0
+Warehouse_CHI,Chicago,USPS,7.2,858.0,196.325,1,2.0,Delivered,0.228817,0.008392,Medium,0
+Warehouse_ATL,San Francisco,DHL,24.2,2036.0,318.03,0,7.0,In Transit,0.156203,0.011886,Long,0
+Warehouse_CHI,Atlanta,UPS,18.6,1771.0,264.57,0,4.0,Delivered,0.14939,0.010503,Long,0
+Warehouse_BOS,Seattle,FedEx,26.6,1841.0,302.89,0,5.0,Delivered,0.164525,0.014449,Long,0
+Warehouse_SEA,Denver,UPS,27.5,1875.0,272.07,0,4.0,Delivered,0.145104,0.014667,Long,0
+Warehouse_HOU,Miami,FedEx,30.9,297.0,81.65,0,2.0,Delivered,0.274916,0.10404,Short,0
+Warehouse_ATL,Phoenix,UPS,11.9,1290.0,193.89,0,4.0,Delivered,0.150302,0.009225,Medium,0
+Warehouse_BOS,Denver,OnTrac,16.3,2033.0,25.2,0,5.0,Delivered,0.012395,0.008018,Long,0
+Warehouse_HOU,Houston,UPS,24.7,974.0,179.53,0,7.0,Delivered,0.184322,0.025359,Medium,0
+Warehouse_MIA,Portland,FedEx,32.3,1492.0,233.32,0,4.0,Delivered,0.156381,0.021649,Medium,0
+Warehouse_MIA,Miami,UPS,32.0,2060.0,348.0,0,8.0,Delayed,0.168932,0.015534,Long,0
+Warehouse_DEN,New York,Amazon Logistics,20.2,2051.0,248.02,0,5.0,Delayed,0.120926,0.009849,Long,0
+Warehouse_HOU,New York,UPS,17.7,2198.0,309.3,0,6.0,Delivered,0.140719,0.008053,Long,0
+Warehouse_LA,Dallas,LaserShip,19.7,1435.0,199.0,0,3.0,Delivered,0.138676,0.013728,Medium,0
+Warehouse_DEN,Detroit,Amazon Logistics,23.1,1280.0,221.08,0,4.0,Delivered,0.172719,0.018047,Medium,0
+Warehouse_LA,New York,DHL,9.6,490.0,82.64,0,4.0,Delayed,0.168653,0.019592,Short,0
+Warehouse_SEA,Los Angeles,USPS,7.9,1355.0,161.43,0,4.0,Delivered,0.119137,0.00583,Medium,0
+Warehouse_MIA,Portland,FedEx,16.0,1288.0,178.47,0,3.0,Delivered,0.138564,0.012422,Medium,0
+Warehouse_MIA,Seattle,DHL,66.1,779.0,217.51,0,3.0,Delivered,0.279217,0.084852,Medium,1
+Warehouse_MIA,Chicago,USPS,27.0,1555.0,210.66,0,6.0,Lost,0.135473,0.017363,Long,0
+Warehouse_HOU,Miami,DHL,20.0,1631.0,276.56,0,4.0,Delivered,0.169565,0.012262,Long,0
+Warehouse_CHI,Chicago,UPS,45.0,400.0,108.75,0,4.0,Delivered,0.271875,0.1125,Short,0
+Warehouse_LA,Los Angeles,OnTrac,42.1,1460.0,285.71,0,6.0,Delivered,0.195692,0.028836,Medium,0
+Warehouse_SEA,Denver,LaserShip,27.6,1095.0,151.22,0,3.0,Delayed,0.1381,0.025205,Medium,0
+Warehouse_DEN,Atlanta,FedEx,16.0,336.0,70.65,0,2.0,Delivered,0.210268,0.047619,Short,0
+Warehouse_LA,San Francisco,Amazon Logistics,19.0,1524.0,224.0,0,5.0,Delivered,0.146982,0.012467,Long,0
+Warehouse_ATL,San Francisco,OnTrac,10.4,762.0,96.85,0,3.0,Delivered,0.1271,0.013648,Medium,0
+Warehouse_DEN,Seattle,FedEx,24.2,1524.0,223.55,0,6.0,In Transit,0.146686,0.015879,Long,0
+Warehouse_HOU,Minneapolis,USPS,25.5,688.0,109.88,0,2.0,Delivered,0.159709,0.037064,Medium,0
+Warehouse_ATL,Detroit,DHL,20.0,2339.0,357.86,0,5.0,Delivered,0.152997,0.008551,Long,0
+Warehouse_MIA,Portland,DHL,19.1,2132.0,302.52,0,6.0,Delivered,0.141895,0.008959,Long,0
+Warehouse_BOS,Boston,OnTrac,8.0,1257.0,211.44,0,4.0,Delivered,0.16821,0.006364,Medium,0
+Warehouse_SEA,San Francisco,OnTrac,25.4,749.0,145.24,0,4.0,Delivered,0.193912,0.033912,Medium,0
+Warehouse_HOU,New York,Amazon Logistics,11.6,773.0,99.14,0,3.0,Delivered,0.128254,0.015006,Medium,0
+Warehouse_ATL,Denver,DHL,14.9,228.0,55.89,0,2.0,Delayed,0.245132,0.065351,Short,0
+Warehouse_HOU,New York,LaserShip,19.4,2417.0,348.76,0,7.0,Delivered,0.144295,0.008026,Long,0
+Warehouse_DEN,Chicago,FedEx,3.4,500.0,77.16,0,3.0,Delivered,0.15432,0.0068,Medium,0
+Warehouse_BOS,Detroit,USPS,50.5,493.0,116.2,0,3.0,Delivered,0.2357,0.102434,Short,1
+Warehouse_ATL,Minneapolis,DHL,29.7,456.0,98.25,0,1.0,Delayed,0.215461,0.065132,Short,0
+Warehouse_MIA,Los Angeles,Amazon Logistics,11.7,612.0,108.46,0,5.0,Delivered,0.177222,0.019118,Medium,0
+Warehouse_ATL,Atlanta,OnTrac,0.3,2137.0,281.6,0,5.0,Delivered,0.131774,0.00014,Long,0
+Warehouse_SEA,Atlanta,DHL,27.6,850.0,157.0,0,3.0,Delivered,0.184706,0.032471,Medium,0
+Warehouse_CHI,Detroit,Amazon Logistics,6.9,283.0,39.81,0,3.0,Delayed,0.140671,0.024382,Short,0
+Warehouse_DEN,Minneapolis,FedEx,5.4,1364.0,184.97,0,6.0,Delayed,0.135609,0.003959,Medium,0
+Warehouse_BOS,Phoenix,DHL,20.6,1975.0,317.6,0,6.0,Delivered,0.16081,0.01043,Long,0
+Warehouse_NYC,Chicago,LaserShip,10.1,790.0,104.49,0,3.0,Delivered,0.132266,0.012785,Medium,0
+Warehouse_MIA,New York,DHL,17.0,1685.0,252.92,0,5.0,Delivered,0.150101,0.010089,Long,0
+Warehouse_CHI,Denver,FedEx,30.9,1000.0,179.89,0,3.0,Delivered,0.17989,0.0309,Medium,0
+Warehouse_SEA,Houston,OnTrac,8.2,2254.0,306.04,0,6.0,Delivered,0.135776,0.003638,Long,0
+Warehouse_LA,Atlanta,FedEx,37.6,1761.0,305.62,0,5.0,Delivered,0.173549,0.021352,Long,0
+Warehouse_ATL,Denver,FedEx,78.7,1394.0,309.33,0,6.0,Delivered,0.221901,0.056456,Medium,1
+Warehouse_CHI,Los Angeles,USPS,59.8,789.0,203.1,0,4.0,Delivered,0.257414,0.075792,Medium,1
+Warehouse_MIA,Houston,LaserShip,21.4,790.0,113.32,0,5.0,Lost,0.143443,0.027089,Medium,0
+Warehouse_ATL,Dallas,OnTrac,50.3,1485.0,257.68,0,6.0,Delivered,0.173522,0.033872,Medium,1
+Warehouse_SEA,San Francisco,Amazon Logistics,23.7,2017.0,280.45,0,4.0,Returned,0.139043,0.01175,Long,0
+Warehouse_MIA,Detroit,UPS,43.5,2021.0,324.49,0,5.0,Delivered,0.160559,0.021524,Long,0
+Warehouse_NYC,Boston,UPS,14.9,215.0,196.325,1,1.0,Delayed,0.91314,0.069302,Short,0
+Warehouse_NYC,Denver,OnTrac,16.7,1466.0,200.43,0,7.0,Delivered,0.136719,0.011392,Medium,0
+Warehouse_BOS,Boston,FedEx,12.8,626.0,94.48,0,2.0,Delivered,0.150927,0.020447,Medium,0
+Warehouse_DEN,Atlanta,OnTrac,3.5,1063.0,138.85,0,3.0,Delivered,0.130621,0.003293,Medium,0
+Warehouse_NYC,Atlanta,UPS,166.1,870.0,337.18,0,2.0,Delivered,0.387563,0.19092,Medium,1
+Warehouse_BOS,Chicago,FedEx,21.8,2387.0,325.09,0,5.0,Delivered,0.136192,0.009133,Long,0
+Warehouse_LA,San Francisco,Amazon Logistics,25.3,1260.0,172.77,0,4.0,Delivered,0.137119,0.020079,Medium,0
+Warehouse_DEN,Dallas,OnTrac,8.5,1754.0,228.43,0,4.0,Delayed,0.130234,0.004846,Long,0
+Warehouse_SF,Detroit,UPS,12.4,842.0,129.81,0,3.0,In Transit,0.154169,0.014727,Medium,0
+Warehouse_SF,New York,FedEx,40.7,1457.0,240.08,0,4.0,Delivered,0.164777,0.027934,Medium,0
+Warehouse_SF,Detroit,OnTrac,17.3,2372.0,300.85,0,7.0,Delivered,0.126834,0.007293,Long,0
+Warehouse_BOS,Denver,OnTrac,12.9,1986.0,276.52,0,5.0,Delivered,0.139235,0.006495,Long,0
+Warehouse_SF,Seattle,UPS,27.3,128.0,54.83,0,2.0,Delivered,0.428359,0.213281,Short,0
+Warehouse_NYC,Phoenix,OnTrac,20.2,426.0,82.02,0,2.0,Delivered,0.192535,0.047418,Short,0
+Warehouse_DEN,San Francisco,FedEx,22.6,1708.0,256.62,0,5.0,In Transit,0.150246,0.013232,Long,0
+Warehouse_BOS,New York,OnTrac,15.2,1561.0,261.44,0,3.0,Delayed,0.167482,0.009737,Long,0
+Warehouse_CHI,Phoenix,OnTrac,18.4,1064.0,156.75,0,5.0,Delayed,0.147321,0.017293,Medium,0
+Warehouse_LA,Chicago,DHL,14.7,1842.0,292.83,0,5.0,Delivered,0.158974,0.00798,Long,0
+Warehouse_ATL,Seattle,LaserShip,41.9,670.0,129.64,0,6.0,Delivered,0.193493,0.062537,Medium,0
+Warehouse_SF,Atlanta,UPS,9.4,1675.0,208.22,0,4.0,Delivered,0.12431,0.005612,Long,0
+Warehouse_CHI,Boston,FedEx,8.4,1854.0,237.7,0,5.0,Delayed,0.128209,0.004531,Long,0
+Warehouse_MIA,San Francisco,DHL,20.5,2249.0,369.7,0,7.0,Delivered,0.164384,0.009115,Long,0
+Warehouse_SF,Miami,OnTrac,16.4,1947.0,264.86,0,4.0,Delayed,0.136035,0.008423,Long,0
+Warehouse_ATL,Portland,UPS,19.9,229.0,66.41,0,1.0,Delivered,0.29,0.0869,Short,0
+Warehouse_SF,Minneapolis,USPS,45.5,399.0,87.93,0,2.0,Delivered,0.220376,0.114035,Short,0
+Warehouse_SEA,Los Angeles,LaserShip,31.8,519.0,101.3,0,3.0,In Transit,0.195183,0.061272,Medium,0
+Warehouse_LA,Houston,FedEx,20.3,1505.0,232.45,0,4.0,Delivered,0.154452,0.013488,Long,0
+Warehouse_SEA,Denver,UPS,34.3,2017.0,295.73,0,5.0,Delivered,0.146619,0.017005,Long,0
+Warehouse_NYC,Phoenix,Amazon Logistics,12.7,2264.0,285.48,0,7.0,Lost,0.126095,0.00561,Long,0
+Warehouse_SF,San Francisco,USPS,53.3,2222.0,343.47,0,5.0,Delivered,0.154577,0.023987,Long,1
+Warehouse_DEN,Dallas,OnTrac,85.3,2470.0,406.22,0,6.0,Delivered,0.164462,0.034534,Long,1
+Warehouse_SF,Denver,DHL,18.1,1418.0,205.49,0,4.0,Delivered,0.144915,0.012764,Medium,0
+Warehouse_NYC,Dallas,DHL,8.2,1838.0,257.45,0,7.0,Delivered,0.140071,0.004461,Long,0
+Warehouse_DEN,Atlanta,LaserShip,14.4,253.0,50.76,0,1.0,Delivered,0.200632,0.056917,Short,0
+Warehouse_DEN,Houston,LaserShip,4.3,1565.0,218.11,0,4.0,Delivered,0.139367,0.002748,Long,0
+Warehouse_ATL,Atlanta,OnTrac,57.1,1447.0,259.94,0,4.0,Delivered,0.179641,0.039461,Medium,1
+Warehouse_BOS,New York,UPS,18.0,312.0,63.23,0,3.0,Delivered,0.20266,0.057692,Short,0
+Warehouse_BOS,Phoenix,LaserShip,27.5,101.0,41.66,0,1.0,Delivered,0.412475,0.272277,Short,0
+Warehouse_DEN,Denver,OnTrac,20.7,1413.0,179.54,0,4.0,Delivered,0.127063,0.01465,Medium,0
+Warehouse_HOU,Seattle,FedEx,14.5,581.0,88.92,0,4.0,Delivered,0.153046,0.024957,Medium,0
+Warehouse_NYC,Houston,DHL,9.3,1331.0,223.05,0,3.0,Delayed,0.167581,0.006987,Medium,0
+Warehouse_SF,Dallas,UPS,10.3,1737.0,237.92,0,5.0,Delivered,0.136972,0.00593,Long,0
+Warehouse_HOU,Detroit,DHL,31.3,1873.0,323.1,0,5.0,Delayed,0.172504,0.016711,Long,0
+Warehouse_MIA,Denver,LaserShip,14.3,489.0,88.88,0,3.0,Delivered,0.181759,0.029243,Short,0
+Warehouse_ATL,Miami,LaserShip,42.3,2310.0,297.4,0,6.0,Delivered,0.128745,0.018312,Long,0
+Warehouse_LA,Atlanta,DHL,55.9,1931.0,321.41,0,5.0,Delivered,0.166447,0.028949,Long,1
+Warehouse_CHI,Portland,Amazon Logistics,8.0,207.0,33.03,0,3.0,Delivered,0.159565,0.038647,Short,0
+Warehouse_BOS,Denver,UPS,25.9,2279.0,323.47,0,7.0,Delayed,0.141935,0.011365,Long,0
+Warehouse_SEA,Dallas,UPS,11.6,1463.0,196.42,0,5.0,Delivered,0.134258,0.007929,Medium,0
+Warehouse_CHI,Portland,Amazon Logistics,20.2,780.0,129.06,0,2.0,Delivered,0.165462,0.025897,Medium,0
+Warehouse_ATL,Minneapolis,FedEx,21.9,506.0,101.98,0,2.0,Delivered,0.201542,0.043281,Medium,0
+Warehouse_DEN,Dallas,Amazon Logistics,10.3,2349.0,310.92,0,9.0,Delivered,0.132363,0.004385,Long,0
+Warehouse_ATL,New York,LaserShip,7.0,704.0,114.15,0,2.0,Delivered,0.162145,0.009943,Medium,0
+Warehouse_NYC,Portland,USPS,37.4,1209.0,165.48,0,6.0,Delivered,0.136873,0.030935,Medium,0
+Warehouse_CHI,Miami,Amazon Logistics,13.9,1350.0,163.87,0,4.0,Delivered,0.121385,0.010296,Medium,0
+Warehouse_LA,Boston,Amazon Logistics,6.0,1231.0,162.4,0,6.0,Delivered,0.131925,0.004874,Medium,0
+Warehouse_NYC,Dallas,OnTrac,32.4,415.0,81.15,0,2.0,Delivered,0.195542,0.078072,Short,0
+Warehouse_ATL,Phoenix,USPS,21.1,270.0,49.8,0,2.0,Delivered,0.184444,0.078148,Short,0
+Warehouse_ATL,Houston,Amazon Logistics,66.5,155.0,94.15,0,5.0,Delivered,0.607419,0.429032,Short,1
+Warehouse_NYC,Detroit,UPS,19.5,2393.0,354.28,0,6.0,Delivered,0.148048,0.008149,Long,0
+Warehouse_HOU,Dallas,UPS,7.6,772.0,108.9,0,5.0,Delivered,0.141062,0.009845,Medium,0
+Warehouse_CHI,Miami,Amazon Logistics,84.6,1350.0,260.78,0,3.0,In Transit,0.19317,0.062667,Medium,1
+Warehouse_DEN,San Francisco,DHL,26.7,1505.0,243.13,0,5.0,Delayed,0.161548,0.017741,Long,0
+Warehouse_SF,Portland,Amazon Logistics,22.6,719.0,115.12,0,2.0,Delivered,0.160111,0.031433,Medium,0
+Warehouse_DEN,Phoenix,FedEx,31.0,1045.0,227.94,0,3.0,Delivered,0.218124,0.029665,Medium,0
+Warehouse_SF,Atlanta,FedEx,22.9,1185.0,178.45,0,4.0,Delivered,0.150591,0.019325,Medium,0
+Warehouse_ATL,Boston,UPS,41.5,2120.0,338.34,0,6.0,Delivered,0.159594,0.019575,Long,0
+Warehouse_BOS,Portland,OnTrac,40.0,2431.0,437.26,0,5.0,Delivered,0.179868,0.016454,Long,0
+Warehouse_BOS,New York,DHL,3.5,799.0,105.56,0,2.0,Delivered,0.132115,0.00438,Medium,0
+Warehouse_LA,Detroit,LaserShip,70.4,795.0,166.43,0,3.0,Delivered,0.209346,0.088553,Medium,1
+Warehouse_LA,Detroit,DHL,17.5,427.0,100.77,0,3.0,Delivered,0.235995,0.040984,Short,0
+Warehouse_SF,Atlanta,LaserShip,15.5,1035.0,130.67,0,3.0,Delayed,0.126251,0.014976,Medium,0
+Warehouse_NYC,Portland,DHL,26.5,1670.0,292.13,0,4.0,Delivered,0.174928,0.015868,Long,0
+Warehouse_ATL,Miami,Amazon Logistics,31.7,862.0,134.57,0,4.0,Delivered,0.156114,0.036775,Medium,0
+Warehouse_SF,New York,DHL,15.3,1709.0,271.25,0,4.0,Delivered,0.158719,0.008953,Long,0
+Warehouse_NYC,Phoenix,FedEx,7.1,2397.0,304.96,0,6.0,Delivered,0.127226,0.002962,Long,0
+Warehouse_HOU,Portland,FedEx,90.3,1076.0,248.01,0,6.0,Delivered,0.230493,0.083922,Medium,1
+Warehouse_LA,San Francisco,LaserShip,30.3,862.0,127.04,0,4.0,Delivered,0.147378,0.035151,Medium,0
+Warehouse_DEN,Atlanta,OnTrac,12.6,1256.0,158.56,0,6.0,Delivered,0.126242,0.010032,Medium,0
+Warehouse_NYC,Miami,FedEx,15.0,1368.0,185.82,0,4.0,Delivered,0.135833,0.010965,Medium,0
+Warehouse_CHI,Miami,OnTrac,57.4,1350.0,222.36,0,5.0,Delayed,0.164711,0.042519,Medium,1
+Warehouse_ATL,Houston,UPS,61.5,1976.0,383.67,0,5.0,Delivered,0.194165,0.031123,Long,1
+Warehouse_LA,San Francisco,FedEx,7.7,313.0,49.02,0,6.0,In Transit,0.156613,0.024601,Short,0
+Warehouse_HOU,Denver,FedEx,53.7,1030.0,255.13,0,3.0,Delivered,0.247699,0.052136,Medium,1
+Warehouse_LA,San Francisco,LaserShip,54.6,1942.0,196.325,1,7.0,Delivered,0.101094,0.028115,Long,1
+Warehouse_DEN,San Francisco,UPS,19.0,1291.0,180.68,0,3.0,Delivered,0.139954,0.014717,Medium,0
+Warehouse_SEA,Portland,FedEx,12.6,1899.0,291.61,0,5.0,Delayed,0.15356,0.006635,Long,0
+Warehouse_BOS,Miami,UPS,54.3,1853.0,314.48,0,5.0,Delivered,0.169714,0.029304,Long,1
+Warehouse_LA,Dallas,DHL,11.8,1435.0,193.89,0,3.0,Delivered,0.135115,0.008223,Medium,0
+Warehouse_NYC,Portland,FedEx,22.9,2443.0,358.05,0,6.0,Delivered,0.146562,0.009374,Long,0
+Warehouse_SEA,San Francisco,USPS,24.1,531.0,80.77,0,2.0,Delivered,0.152109,0.045386,Medium,0
+Warehouse_HOU,Houston,USPS,24.2,134.0,44.49,0,1.0,Delivered,0.332015,0.180597,Short,0
+Warehouse_SF,Seattle,FedEx,54.5,2490.0,373.97,0,5.0,Delivered,0.150189,0.021888,Long,1
+Warehouse_CHI,Los Angeles,Amazon Logistics,26.2,2291.0,282.94,0,9.0,Delivered,0.123501,0.011436,Long,0
+Warehouse_HOU,Atlanta,DHL,17.8,800.0,123.19,0,5.0,Delivered,0.153988,0.02225,Medium,0
+Warehouse_LA,Miami,LaserShip,16.4,1914.0,316.52,0,4.0,Returned,0.165371,0.008568,Long,0
+Warehouse_ATL,Dallas,Amazon Logistics,44.6,1333.0,209.38,0,5.0,Delivered,0.157074,0.033458,Medium,0
+Warehouse_BOS,Seattle,USPS,6.7,627.0,88.73,0,6.0,Delivered,0.141515,0.010686,Medium,0
+Warehouse_NYC,Houston,FedEx,54.5,866.0,232.49,0,4.0,Delivered,0.268464,0.062933,Medium,1
+Warehouse_SEA,Boston,FedEx,17.2,1896.0,248.83,0,5.0,Delivered,0.131239,0.009072,Long,0
+Warehouse_LA,San Francisco,FedEx,30.8,1981.0,314.99,0,6.0,Delivered,0.159006,0.015548,Long,0
+Warehouse_MIA,Houston,UPS,14.0,266.0,50.83,0,1.0,In Transit,0.19109,0.052632,Short,0
+Warehouse_NYC,Houston,UPS,7.9,1665.0,219.09,0,4.0,Delivered,0.131586,0.004745,Long,0
+Warehouse_DEN,New York,DHL,14.3,1446.0,256.96,0,4.0,Delivered,0.177704,0.009889,Medium,0
+Warehouse_HOU,Miami,UPS,40.7,807.0,140.21,0,2.0,Delivered,0.173742,0.050434,Medium,0
+Warehouse_NYC,Phoenix,FedEx,24.5,1863.0,300.24,0,6.0,Delivered,0.161159,0.013151,Long,0
+Warehouse_DEN,Phoenix,LaserShip,28.4,496.0,95.99,0,1.0,Delayed,0.193528,0.057258,Short,0
+Warehouse_SEA,Phoenix,USPS,21.5,1391.0,200.39,0,4.0,Delivered,0.144062,0.015457,Medium,0
+Warehouse_NYC,Dallas,DHL,18.2,361.0,77.4,0,1.0,Delivered,0.214404,0.050416,Short,0
+Warehouse_HOU,Minneapolis,UPS,1.1,2484.0,394.62,0,6.0,Delivered,0.158865,0.000443,Long,0
+Warehouse_BOS,Minneapolis,LaserShip,35.4,1171.0,212.98,0,5.0,Delayed,0.181879,0.030231,Medium,0
+Warehouse_BOS,Chicago,UPS,10.4,810.0,107.97,0,5.0,Delivered,0.133296,0.01284,Medium,0
+Warehouse_BOS,Atlanta,USPS,15.6,1230.0,159.13,0,4.0,Delivered,0.129374,0.012683,Medium,0
+Warehouse_NYC,Los Angeles,USPS,9.6,1000.0,196.325,1,7.0,Delivered,0.196325,0.0096,Medium,0
+Warehouse_ATL,Detroit,DHL,15.0,173.0,48.67,0,1.0,Delivered,0.281329,0.086705,Short,0
+Warehouse_SEA,Boston,LaserShip,15.1,1689.0,223.5,0,5.0,Delivered,0.132327,0.00894,Long,0
+Warehouse_CHI,Denver,USPS,26.1,1000.0,147.22,0,4.0,In Transit,0.14722,0.0261,Medium,0
+Warehouse_DEN,New York,FedEx,49.8,910.0,191.95,0,3.0,Delivered,0.210934,0.054725,Medium,0
+Warehouse_SEA,Phoenix,Amazon Logistics,21.1,111.0,42.11,0,2.0,Delivered,0.379369,0.19009,Short,0
+Warehouse_LA,San Francisco,UPS,49.6,1043.0,245.62,0,5.0,Delayed,0.235494,0.047555,Medium,0
+Warehouse_SEA,San Francisco,FedEx,51.1,1170.0,221.01,0,3.0,Delivered,0.188897,0.043675,Medium,1
+Warehouse_HOU,Phoenix,Amazon Logistics,1.9,796.0,119.85,0,2.0,Delivered,0.150565,0.002387,Medium,0
+Warehouse_BOS,Los Angeles,OnTrac,21.2,1849.0,271.48,0,4.0,Delivered,0.146825,0.011466,Long,0
+Warehouse_MIA,Los Angeles,OnTrac,44.8,716.0,183.23,0,8.0,In Transit,0.255908,0.06257,Medium,0
+Warehouse_DEN,Los Angeles,LaserShip,6.6,265.0,39.88,0,1.0,Delivered,0.150491,0.024906,Short,0
+Warehouse_CHI,Seattle,USPS,29.9,1576.0,233.47,0,5.0,Delivered,0.148141,0.018972,Long,0
+Warehouse_LA,Dallas,FedEx,48.1,1435.0,261.72,0,4.0,Delivered,0.182383,0.033519,Medium,0
+Warehouse_SEA,Chicago,USPS,19.0,870.0,782.71,0,3.0,Delivered,0.899667,0.021839,Medium,0
+Warehouse_DEN,Houston,UPS,25.3,2305.0,334.33,0,7.0,Delivered,0.145046,0.010976,Long,0
+Warehouse_NYC,Boston,OnTrac,10.7,215.0,42.56,0,1.0,Delivered,0.197953,0.049767,Short,0
+Warehouse_DEN,Denver,DHL,9.2,1505.0,225.24,0,6.0,In Transit,0.149661,0.006113,Long,0
+Warehouse_MIA,San Francisco,LaserShip,0.3,2149.0,273.62,0,7.0,Delivered,0.127324,0.00014,Long,0
+Warehouse_SEA,Chicago,Amazon Logistics,18.5,1585.0,225.53,0,6.0,Delivered,0.14229,0.011672,Long,0
+Warehouse_LA,Chicago,DHL,10.2,112.0,31.86,0,3.0,Delivered,0.284464,0.091071,Short,0
+Warehouse_SF,Minneapolis,LaserShip,72.2,2135.0,354.2,0,7.0,Delivered,0.165902,0.033817,Long,1
+Warehouse_DEN,Boston,FedEx,25.0,2154.0,316.11,0,6.0,Delivered,0.146755,0.011606,Long,0
+Warehouse_MIA,Boston,OnTrac,9.6,1608.0,202.87,0,5.0,In Transit,0.126163,0.00597,Long,0
+Warehouse_BOS,Atlanta,DHL,6.9,1077.0,149.93,0,3.0,Delivered,0.139211,0.006407,Medium,0
+Warehouse_SEA,Denver,USPS,15.1,565.0,99.27,0,2.0,Delivered,0.175699,0.026726,Medium,0
+Warehouse_CHI,Denver,LaserShip,67.4,1000.0,220.93,0,3.0,Delivered,0.22093,0.0674,Medium,1
+Warehouse_MIA,Chicago,DHL,18.3,453.0,87.07,0,1.0,Delivered,0.192208,0.040397,Short,0
+Warehouse_DEN,Minneapolis,Amazon Logistics,94.1,132.0,117.26,0,3.0,Delivered,0.888333,0.712879,Short,1
+Warehouse_LA,Dallas,DHL,8.2,1435.0,207.39,0,3.0,Delivered,0.144523,0.005714,Medium,0
+Warehouse_HOU,New York,UPS,7.0,2078.0,291.75,0,5.0,Delivered,0.140399,0.003369,Long,0
+Warehouse_LA,Houston,USPS,53.6,1047.0,196.98,0,4.0,Delivered,0.188138,0.051194,Medium,1
+Warehouse_SF,Boston,DHL,5.7,1582.0,241.01,0,5.0,Delivered,0.152345,0.003603,Long,0
+Warehouse_LA,Phoenix,UPS,27.1,373.0,75.57,0,5.0,Delivered,0.202601,0.072654,Short,0
+Warehouse_ATL,Boston,Amazon Logistics,15.9,1814.0,216.07,0,6.0,Delayed,0.119112,0.008765,Long,0
+Warehouse_HOU,Miami,Amazon Logistics,6.5,1302.0,156.0,0,4.0,Delivered,0.119816,0.004992,Medium,0
+Warehouse_HOU,Atlanta,UPS,4.7,800.0,116.83,0,3.0,Delivered,0.146038,0.005875,Medium,0
+Warehouse_LA,Seattle,OnTrac,17.3,1135.0,156.7,0,5.0,Delayed,0.138062,0.015242,Medium,0
+Warehouse_SF,Minneapolis,LaserShip,60.8,1157.0,217.77,0,3.0,Delivered,0.18822,0.05255,Medium,1
+Warehouse_DEN,Portland,FedEx,17.1,1989.0,278.83,0,5.0,Delivered,0.140186,0.008597,Long,0
+Warehouse_SEA,Portland,USPS,21.6,374.0,64.62,0,1.0,Delivered,0.172781,0.057754,Short,0
+Warehouse_ATL,Portland,FedEx,13.1,131.0,32.11,0,1.0,In Transit,0.245115,0.1,Short,0
+Warehouse_DEN,Minneapolis,LaserShip,31.4,422.0,92.42,0,2.0,Delivered,0.219005,0.074408,Short,0
+Warehouse_ATL,Atlanta,FedEx,38.0,1940.0,329.04,0,5.0,Delivered,0.169608,0.019588,Long,0
+Warehouse_NYC,Chicago,DHL,13.4,790.0,137.91,0,4.0,Delayed,0.17457,0.016962,Medium,0
+Warehouse_NYC,Seattle,DHL,13.0,860.0,123.25,0,3.0,Delivered,0.143314,0.015116,Medium,0
+Warehouse_SF,Miami,OnTrac,7.2,1122.0,139.61,0,3.0,Delivered,0.12443,0.006417,Medium,0
+Warehouse_SF,Minneapolis,FedEx,8.4,1640.0,214.35,0,4.0,In Transit,0.130701,0.005122,Long,0
+Warehouse_NYC,San Francisco,DHL,9.5,2274.0,353.39,0,8.0,Delivered,0.155405,0.004178,Long,0
+Warehouse_NYC,Denver,USPS,21.7,461.0,78.83,0,1.0,Delivered,0.170998,0.047072,Short,0
+Warehouse_CHI,Boston,UPS,10.2,1924.0,196.325,1,5.0,Delivered,0.10204,0.005301,Long,0
+Warehouse_LA,Houston,FedEx,22.1,1879.0,301.23,0,5.0,Delayed,0.160314,0.011762,Long,0
+Warehouse_MIA,Detroit,DHL,13.5,702.0,116.78,0,3.0,In Transit,0.166353,0.019231,Medium,0
+Warehouse_HOU,Denver,LaserShip,45.0,1030.0,182.33,0,3.0,Returned,0.177019,0.043689,Medium,0
+Warehouse_SF,San Francisco,FedEx,43.7,462.0,135.18,0,3.0,Delivered,0.292597,0.094589,Short,0
+Warehouse_CHI,Minneapolis,FedEx,152.7,841.0,290.77,0,2.0,Delivered,0.345743,0.18157,Medium,1
+Warehouse_SF,San Francisco,OnTrac,39.3,1317.0,186.59,0,5.0,Delivered,0.141678,0.029841,Medium,0
+Warehouse_LA,San Francisco,OnTrac,19.0,2473.0,416.08,0,5.0,Delivered,0.168249,0.007683,Long,0
+Warehouse_NYC,Chicago,FedEx,9.7,790.0,196.325,1,3.0,Delivered,0.248513,0.012278,Medium,0
+Warehouse_DEN,Phoenix,Amazon Logistics,8.3,1457.0,181.52,0,5.0,Delivered,0.124585,0.005697,Medium,0
+Warehouse_MIA,Phoenix,LaserShip,9.9,1493.0,202.54,0,4.0,Delivered,0.13566,0.006631,Medium,0
+Warehouse_SEA,San Francisco,UPS,27.3,1876.0,317.02,0,6.0,Returned,0.168987,0.014552,Long,0
+Warehouse_MIA,Detroit,USPS,27.9,1067.0,146.44,0,2.0,Delivered,0.137245,0.026148,Medium,0
+Warehouse_DEN,Chicago,USPS,58.9,1762.0,257.07,0,8.0,Delivered,0.145897,0.033428,Long,1
+Warehouse_SF,Chicago,DHL,83.7,1417.0,296.97,0,5.0,Delivered,0.209577,0.059068,Medium,1
+Warehouse_HOU,Los Angeles,LaserShip,19.8,1945.0,271.24,0,6.0,Delivered,0.139455,0.01018,Long,0
+Warehouse_MIA,Denver,UPS,17.5,591.0,90.05,0,3.0,Delivered,0.152369,0.029611,Medium,0
+Warehouse_DEN,Atlanta,FedEx,19.0,850.0,153.23,0,3.0,Delivered,0.180271,0.022353,Medium,0
+Warehouse_BOS,Los Angeles,OnTrac,10.9,1413.0,201.11,0,3.0,Delivered,0.142328,0.007714,Medium,0
+Warehouse_LA,Seattle,OnTrac,28.6,1135.0,180.9,0,3.0,Delayed,0.159383,0.025198,Medium,0
+Warehouse_SEA,Houston,DHL,17.0,1396.0,217.08,0,7.0,Delayed,0.155501,0.012178,Medium,0
+Warehouse_SEA,Boston,FedEx,34.1,2324.0,328.13,0,5.0,Delivered,0.141192,0.014673,Long,0
+Warehouse_BOS,Portland,DHL,10.5,2421.0,366.13,0,5.0,Delivered,0.151231,0.004337,Long,0
+Warehouse_DEN,Denver,UPS,6.5,1109.0,158.31,0,5.0,Delivered,0.14275,0.005861,Medium,0
+Warehouse_SEA,Minneapolis,OnTrac,27.1,2087.0,259.17,0,6.0,Delivered,0.124183,0.012985,Long,0
+Warehouse_CHI,Dallas,FedEx,30.0,2379.0,343.66,0,6.0,Delivered,0.144456,0.01261,Long,0
+Warehouse_LA,San Francisco,FedEx,250.9,239.0,395.0,0,1.0,Delayed,1.65272,1.049791,Short,1
+Warehouse_NYC,Atlanta,OnTrac,23.5,870.0,119.58,0,3.0,Delivered,0.137448,0.027011,Medium,0
+Warehouse_CHI,Miami,FedEx,81.7,1350.0,289.48,0,5.0,Delivered,0.21443,0.060519,Medium,1
+Warehouse_DEN,Dallas,LaserShip,17.5,438.0,66.25,0,2.0,Delivered,0.151256,0.039954,Short,0
+Warehouse_MIA,Dallas,Amazon Logistics,26.1,1611.0,286.32,0,4.0,Delayed,0.177728,0.016201,Long,0
+Warehouse_SEA,Seattle,LaserShip,80.8,805.0,209.48,0,5.0,Delivered,0.260224,0.100373,Medium,1
+Warehouse_BOS,Phoenix,FedEx,36.8,196.0,78.75,0,2.0,Delivered,0.401786,0.187755,Short,0
+Warehouse_HOU,Minneapolis,DHL,48.2,1272.0,262.05,0,4.0,Delivered,0.206014,0.037893,Medium,0
+Warehouse_ATL,Phoenix,UPS,42.0,2255.0,359.87,0,7.0,Delivered,0.159588,0.018625,Long,0
+Warehouse_MIA,Los Angeles,LaserShip,29.5,409.0,109.58,0,2.0,In Transit,0.267922,0.072127,Short,0
+Warehouse_SEA,San Francisco,FedEx,24.9,2438.0,351.21,0,6.0,Delivered,0.144057,0.010213,Long,0
+Warehouse_MIA,Dallas,UPS,17.9,2051.0,336.25,0,4.0,Delivered,0.163944,0.008727,Long,0
+Warehouse_HOU,Chicago,USPS,15.1,2145.0,253.23,0,6.0,Delivered,0.118056,0.00704,Long,0
+Warehouse_ATL,Miami,DHL,36.3,1635.0,266.23,0,4.0,Delayed,0.162832,0.022202,Long,0
+Warehouse_MIA,New York,UPS,17.4,1839.0,250.19,0,7.0,Delivered,0.136047,0.009462,Long,0
+Warehouse_DEN,Los Angeles,Amazon Logistics,18.4,723.0,115.48,0,4.0,Delivered,0.159723,0.02545,Medium,0
+Warehouse_ATL,Boston,LaserShip,10.4,615.0,80.42,0,2.0,Delivered,0.130764,0.016911,Medium,0
+Warehouse_HOU,Chicago,Amazon Logistics,17.8,809.0,122.76,0,3.0,Delivered,0.151743,0.022002,Medium,0
+Warehouse_ATL,Phoenix,USPS,65.6,2255.0,368.43,0,9.0,Delivered,0.163384,0.029091,Long,1
+Warehouse_CHI,Dallas,Amazon Logistics,9.7,997.0,120.4,0,4.0,Delivered,0.120762,0.009729,Medium,0
+Warehouse_ATL,Seattle,USPS,36.2,101.0,196.325,1,1.0,Delivered,1.943812,0.358416,Short,0
+Warehouse_LA,Dallas,DHL,6.2,1435.0,210.74,0,5.0,Delayed,0.146857,0.004321,Medium,0
+Warehouse_SF,Minneapolis,LaserShip,42.8,2389.0,322.49,0,7.0,Delivered,0.13499,0.017915,Long,0
+Warehouse_SEA,Dallas,OnTrac,10.6,2001.0,256.26,0,6.0,Returned,0.128066,0.005297,Long,0
+Warehouse_MIA,Detroit,USPS,10.6,788.0,107.5,0,4.0,Delivered,0.136421,0.013452,Medium,0
+Warehouse_DEN,Los Angeles,USPS,81.2,1220.0,243.39,0,5.0,Delivered,0.1995,0.066557,Medium,1
+Warehouse_DEN,Dallas,LaserShip,25.9,300.0,66.72,0,2.0,Delivered,0.2224,0.086333,Short,0
+Warehouse_ATL,Denver,DHL,10.3,2006.0,310.05,0,6.0,Delivered,0.154561,0.005135,Long,0
+Warehouse_ATL,Denver,LaserShip,22.8,203.0,46.91,0,2.0,Delivered,0.231084,0.112315,Short,0
+Warehouse_DEN,Houston,DHL,10.2,751.0,112.82,0,2.0,Delivered,0.150226,0.013582,Medium,0
+Warehouse_HOU,Seattle,DHL,37.4,2290.0,350.17,0,5.0,In Transit,0.152913,0.016332,Long,0
+Warehouse_SF,Minneapolis,DHL,13.8,261.0,60.56,0,2.0,Delivered,0.232031,0.052874,Short,0
+Warehouse_MIA,Seattle,UPS,45.4,1794.0,270.54,0,5.0,Delivered,0.150803,0.025307,Long,0
+Warehouse_NYC,Chicago,OnTrac,10.8,790.0,105.44,0,2.0,Delivered,0.133468,0.013671,Medium,0
+Warehouse_CHI,Houston,DHL,47.3,2055.0,347.27,0,5.0,Delivered,0.168988,0.023017,Long,0
+Warehouse_SEA,Denver,DHL,58.0,2199.0,389.41,0,6.0,Delayed,0.177085,0.026376,Long,1
+Warehouse_SF,Minneapolis,FedEx,21.4,799.0,136.39,0,3.0,In Transit,0.170701,0.026783,Medium,0
+Warehouse_LA,Portland,LaserShip,15.8,250.0,48.13,0,1.0,Delivered,0.19252,0.0632,Short,0
+Warehouse_BOS,Houston,DHL,10.8,1409.0,224.13,0,5.0,Delivered,0.15907,0.007665,Medium,0
+Warehouse_SF,Atlanta,Amazon Logistics,40.5,1756.0,236.11,0,4.0,Delayed,0.134459,0.023064,Long,0
+Warehouse_CHI,Portland,USPS,9.9,1129.0,150.46,0,4.0,Delivered,0.133268,0.008769,Medium,0
+Warehouse_HOU,Atlanta,LaserShip,44.4,800.0,152.04,0,5.0,Delivered,0.19005,0.0555,Medium,0
+Warehouse_NYC,New York,UPS,15.5,1090.0,159.84,0,3.0,Delivered,0.146642,0.01422,Medium,0
+Warehouse_NYC,Chicago,OnTrac,13.5,790.0,123.13,0,4.0,Delivered,0.155861,0.017089,Medium,0
+Warehouse_CHI,Dallas,Amazon Logistics,14.5,1704.0,202.38,0,5.0,Delivered,0.118768,0.008509,Long,0
+Warehouse_BOS,Los Angeles,LaserShip,45.4,473.0,102.09,0,2.0,Delayed,0.215835,0.095983,Short,0
+Warehouse_MIA,Chicago,UPS,13.1,1331.0,195.45,0,3.0,Delivered,0.146844,0.009842,Medium,0
+Warehouse_NYC,Seattle,LaserShip,25.7,1023.0,159.21,0,3.0,Delivered,0.15563,0.025122,Medium,0
+Warehouse_LA,Portland,USPS,70.5,800.0,159.12,0,3.0,Delivered,0.1989,0.088125,Medium,1
+Warehouse_HOU,Detroit,LaserShip,17.0,1985.0,257.86,0,4.0,Delivered,0.129904,0.008564,Long,0
+Warehouse_SEA,Portland,LaserShip,36.4,243.0,77.58,0,3.0,Delivered,0.319259,0.149794,Short,0
+Warehouse_BOS,Portland,UPS,16.4,1834.0,265.38,0,7.0,Delivered,0.1447,0.008942,Long,0
+Warehouse_SEA,Portland,FedEx,16.4,1726.0,240.73,0,4.0,Delivered,0.139473,0.009502,Long,0
+Warehouse_LA,Portland,Amazon Logistics,9.6,1168.0,153.95,0,3.0,Delivered,0.131807,0.008219,Medium,0
+Warehouse_HOU,Houston,Amazon Logistics,26.1,880.0,142.55,0,2.0,Delivered,0.161989,0.029659,Medium,0
+Warehouse_CHI,Minneapolis,OnTrac,21.6,267.0,60.18,0,2.0,Delivered,0.225393,0.080899,Short,0
+Warehouse_CHI,Boston,LaserShip,19.3,1097.0,163.73,0,3.0,Delivered,0.149253,0.017593,Medium,0
+Warehouse_BOS,Detroit,UPS,10.5,329.0,56.72,0,2.0,Delivered,0.172401,0.031915,Short,0
+Warehouse_ATL,Seattle,FedEx,30.9,880.0,196.94,0,4.0,Delivered,0.223795,0.035114,Medium,0
+Warehouse_HOU,Los Angeles,LaserShip,12.0,376.0,59.08,0,3.0,In Transit,0.157128,0.031915,Short,0
+Warehouse_HOU,Detroit,FedEx,13.7,2205.0,383.07,0,8.0,Delivered,0.173728,0.006213,Long,0
+Warehouse_LA,Chicago,FedEx,48.3,545.0,146.26,0,2.0,In Transit,0.268367,0.088624,Medium,0
+Warehouse_CHI,Boston,Amazon Logistics,63.6,737.0,171.47,0,2.0,Delayed,0.232659,0.086296,Medium,1
+Warehouse_LA,Minneapolis,USPS,24.0,2479.0,307.61,0,7.0,Delivered,0.124086,0.009681,Long,0
+Warehouse_LA,Dallas,LaserShip,35.7,1435.0,268.47,0,5.0,Delivered,0.187087,0.024878,Medium,0
+Warehouse_HOU,Detroit,UPS,33.4,662.0,131.33,0,4.0,Delivered,0.198384,0.050453,Medium,0
+Warehouse_HOU,Portland,USPS,110.7,1985.0,429.91,0,8.0,Returned,0.216579,0.055768,Long,1
+Warehouse_NYC,Detroit,OnTrac,22.5,2161.0,304.34,0,7.0,Delayed,0.140833,0.010412,Long,0
+Warehouse_ATL,Miami,USPS,3.3,677.0,80.0,0,4.0,Delivered,0.118168,0.004874,Medium,0
+Warehouse_ATL,Minneapolis,FedEx,40.1,454.0,122.44,0,4.0,Delivered,0.269692,0.088326,Short,0
+Warehouse_HOU,Phoenix,OnTrac,13.6,1402.0,233.78,0,4.0,Delivered,0.166748,0.0097,Medium,0
+Warehouse_SF,Miami,DHL,24.5,244.0,70.28,0,3.0,Delivered,0.288033,0.10041,Short,0
+Warehouse_LA,Chicago,OnTrac,23.1,1139.0,157.08,0,3.0,Delivered,0.13791,0.020281,Medium,0
+Warehouse_HOU,San Francisco,LaserShip,56.4,531.0,141.61,0,1.0,Delivered,0.266685,0.106215,Medium,1
+Warehouse_ATL,Atlanta,UPS,29.4,796.0,124.1,0,3.0,Delivered,0.155905,0.036935,Medium,0
+Warehouse_SF,Chicago,LaserShip,10.3,188.0,40.65,0,1.0,Lost,0.216223,0.054787,Short,0
+Warehouse_CHI,Denver,FedEx,10.9,1000.0,138.79,0,3.0,Delivered,0.13879,0.0109,Medium,0
+Warehouse_MIA,Minneapolis,Amazon Logistics,42.1,2219.0,344.29,0,5.0,Returned,0.155155,0.018973,Long,0
+Warehouse_CHI,Minneapolis,FedEx,53.0,1709.0,355.09,0,4.0,Delayed,0.207776,0.031012,Long,1
+Warehouse_ATL,Dallas,USPS,25.4,2110.0,245.02,0,5.0,Delivered,0.116123,0.012038,Long,0
+Warehouse_CHI,Minneapolis,LaserShip,19.7,784.0,106.66,0,2.0,Delivered,0.136046,0.025128,Medium,0
+Warehouse_ATL,Houston,USPS,31.8,786.0,134.96,0,3.0,Delivered,0.171705,0.040458,Medium,0
+Warehouse_HOU,Dallas,LaserShip,22.8,1512.0,260.19,0,3.0,Delivered,0.172083,0.015079,Long,0
+Warehouse_SEA,Portland,LaserShip,10.1,1310.0,185.32,0,5.0,Delivered,0.141466,0.00771,Medium,0
+Warehouse_NYC,Detroit,FedEx,17.3,2398.0,325.14,0,8.0,Delivered,0.135588,0.007214,Long,0
+Warehouse_MIA,San Francisco,Amazon Logistics,24.5,1373.0,191.05,0,4.0,Delivered,0.139148,0.017844,Medium,0
+Warehouse_MIA,Atlanta,Amazon Logistics,6.8,1036.0,141.35,0,4.0,Delivered,0.136438,0.006564,Medium,0
+Warehouse_MIA,San Francisco,OnTrac,40.5,894.0,147.62,0,4.0,Delivered,0.165123,0.045302,Medium,0
+Warehouse_BOS,New York,DHL,41.8,1261.0,254.48,0,4.0,Delivered,0.201808,0.033148,Medium,0
+Warehouse_BOS,Minneapolis,LaserShip,78.9,729.0,171.25,0,2.0,Delivered,0.234911,0.10823,Medium,1
+Warehouse_NYC,Miami,USPS,12.3,2145.0,325.51,0,5.0,Delivered,0.151753,0.005734,Long,0
+Warehouse_HOU,Minneapolis,OnTrac,55.7,1737.0,335.88,0,5.0,Delivered,0.193368,0.032067,Long,1
+Warehouse_ATL,Atlanta,UPS,8.3,1965.0,275.36,0,5.0,Delivered,0.140132,0.004224,Long,0
+Warehouse_BOS,Chicago,FedEx,42.3,1178.0,221.5,0,4.0,Delivered,0.188031,0.035908,Medium,0
+Warehouse_LA,Phoenix,DHL,7.6,373.0,61.28,0,4.0,Delivered,0.16429,0.020375,Short,0
+Warehouse_SF,Boston,LaserShip,4.6,1868.0,209.12,0,6.0,Delayed,0.111949,0.002463,Long,0
+Warehouse_SF,Chicago,DHL,11.1,640.0,100.08,0,4.0,Delivered,0.156375,0.017344,Medium,0
+Warehouse_SF,New York,LaserShip,7.0,1503.0,204.47,0,3.0,Delivered,0.136041,0.004657,Long,0
+Warehouse_DEN,Phoenix,Amazon Logistics,25.6,1671.0,270.11,0,4.0,Delivered,0.161646,0.01532,Long,0
+Warehouse_ATL,Houston,OnTrac,16.0,2289.0,322.6,0,7.0,Delivered,0.140935,0.00699,Long,0
+Warehouse_HOU,Phoenix,DHL,9.6,1664.0,248.88,0,7.0,Delivered,0.149567,0.005769,Long,0
+Warehouse_BOS,Houston,Amazon Logistics,28.8,499.0,93.05,0,2.0,Lost,0.186473,0.057715,Short,0
+Warehouse_SEA,Chicago,USPS,34.6,2109.0,280.53,0,6.0,Delivered,0.133016,0.016406,Long,0
+Warehouse_SF,Denver,UPS,21.0,510.0,88.46,0,1.0,Delivered,0.173451,0.041176,Medium,0
+Warehouse_CHI,Seattle,USPS,16.9,2329.0,281.93,0,6.0,Delivered,0.121052,0.007256,Long,0
+Warehouse_CHI,Houston,UPS,21.6,2001.0,251.91,0,5.0,Delivered,0.125892,0.010795,Long,0
+Warehouse_LA,Detroit,Amazon Logistics,11.8,278.0,45.15,0,1.0,In Transit,0.16241,0.042446,Short,0
+Warehouse_DEN,San Francisco,FedEx,17.2,1179.0,226.51,0,4.0,Delivered,0.19212,0.014589,Medium,0
+Warehouse_BOS,Detroit,LaserShip,25.7,251.0,62.58,0,5.0,Delivered,0.249323,0.10239,Short,0
+Warehouse_SEA,Detroit,UPS,48.2,205.0,79.74,0,2.0,Delayed,0.388976,0.235122,Short,0
+Warehouse_LA,Los Angeles,UPS,51.5,926.0,165.79,0,3.0,Delivered,0.179039,0.055616,Medium,1
+Warehouse_SF,Detroit,OnTrac,26.6,365.0,68.27,0,3.0,Returned,0.187041,0.072877,Short,0
+Warehouse_SF,Portland,UPS,127.0,1334.0,342.1,0,4.0,Delivered,0.256447,0.095202,Medium,1
+Warehouse_ATL,Dallas,UPS,25.9,326.0,70.31,0,2.0,Delivered,0.215675,0.079448,Short,0
+Warehouse_BOS,Seattle,OnTrac,13.2,2207.0,300.36,0,7.0,Delivered,0.136094,0.005981,Long,0
+Warehouse_SEA,Houston,OnTrac,14.2,656.0,109.64,0,3.0,Delivered,0.167134,0.021646,Medium,0
+Warehouse_SEA,Portland,LaserShip,16.6,761.0,105.6,0,3.0,Delivered,0.138765,0.021813,Medium,0
+Warehouse_NYC,Houston,FedEx,17.8,1322.0,196.28,0,5.0,Delivered,0.148472,0.013464,Medium,0
+Warehouse_LA,Houston,DHL,57.2,1933.0,339.55,0,6.0,Delivered,0.17566,0.029591,Long,1
+Warehouse_CHI,Phoenix,DHL,52.4,1949.0,339.51,0,5.0,Delivered,0.174197,0.026886,Long,1
+Warehouse_LA,Denver,LaserShip,20.5,638.0,105.64,0,6.0,Delivered,0.16558,0.032132,Medium,0
+Warehouse_CHI,Denver,USPS,21.5,1000.0,127.75,0,3.0,In Transit,0.12775,0.0215,Medium,0
+Warehouse_DEN,Chicago,Amazon Logistics,34.9,1876.0,296.79,0,5.0,Delivered,0.158204,0.018603,Long,0
+Warehouse_HOU,San Francisco,FedEx,73.0,1762.0,347.07,0,6.0,Delivered,0.196975,0.04143,Long,1
+Warehouse_ATL,Miami,Amazon Logistics,37.9,1274.0,183.19,0,4.0,Delivered,0.143791,0.029749,Medium,0
+Warehouse_ATL,Boston,USPS,80.1,2412.0,423.48,0,5.0,Lost,0.175572,0.033209,Long,1
+Warehouse_NYC,Houston,FedEx,28.5,131.0,54.64,0,2.0,Delivered,0.417099,0.217557,Short,0
+Warehouse_BOS,Minneapolis,Amazon Logistics,27.9,2297.0,311.69,0,6.0,Delivered,0.135694,0.012146,Long,0
+Warehouse_SEA,Atlanta,FedEx,11.9,1772.0,263.5,0,6.0,Delivered,0.148702,0.006716,Long,0
+Warehouse_BOS,Detroit,USPS,18.7,2316.0,264.01,0,6.0,Delivered,0.113994,0.008074,Long,0
+Warehouse_NYC,Chicago,USPS,26.3,790.0,113.91,0,3.0,Delivered,0.14419,0.033291,Medium,0
+Warehouse_NYC,Minneapolis,FedEx,50.9,2180.0,324.7,0,5.0,Delivered,0.148945,0.023349,Long,1
+Warehouse_HOU,San Francisco,UPS,47.2,1362.0,231.01,0,5.0,Delivered,0.169611,0.034655,Medium,0
+Warehouse_LA,Phoenix,UPS,13.0,373.0,59.81,0,4.0,Delivered,0.160349,0.034853,Short,0
+Warehouse_LA,Chicago,LaserShip,43.7,1750.0,283.67,0,5.0,Delivered,0.162097,0.024971,Long,0
+Warehouse_LA,Denver,DHL,4.1,1178.0,168.66,0,3.0,Delivered,0.143175,0.00348,Medium,0
+Warehouse_SF,Detroit,DHL,22.1,2348.0,381.8,0,7.0,Delayed,0.162606,0.009412,Long,0
+Warehouse_BOS,Los Angeles,USPS,10.7,2185.0,246.62,0,5.0,In Transit,0.11287,0.004897,Long,0
+Warehouse_DEN,Seattle,OnTrac,25.1,2095.0,298.55,0,6.0,Delivered,0.142506,0.011981,Long,0
+Warehouse_HOU,Seattle,OnTrac,24.3,663.0,115.18,0,1.0,Delivered,0.173725,0.036652,Medium,0
+Warehouse_MIA,Denver,USPS,8.6,2054.0,232.52,0,5.0,Delivered,0.113204,0.004187,Long,0
+Warehouse_SEA,Seattle,LaserShip,5.3,2197.0,325.32,0,6.0,Delivered,0.148075,0.002412,Long,0
+Warehouse_CHI,Minneapolis,LaserShip,5.7,2368.0,29.11,0,6.0,Delivered,0.012293,0.002407,Long,0
+Warehouse_BOS,Chicago,USPS,29.3,1989.0,277.17,0,6.0,Delivered,0.139351,0.014731,Long,0
+Warehouse_LA,Detroit,UPS,47.8,845.0,169.45,0,5.0,Delayed,0.200533,0.056568,Medium,0
+Warehouse_SF,Phoenix,OnTrac,21.2,130.0,45.18,0,2.0,Delayed,0.347538,0.163077,Short,0
+Warehouse_HOU,Phoenix,LaserShip,20.0,1020.0,134.57,0,3.0,Lost,0.131931,0.019608,Medium,0
+Warehouse_SEA,Portland,USPS,8.4,598.0,83.54,0,5.0,Delivered,0.139699,0.014047,Medium,0
+Warehouse_LA,Chicago,DHL,18.7,1743.0,286.31,0,5.0,Delayed,0.164263,0.010729,Long,0
+Warehouse_SF,Atlanta,DHL,35.3,1866.0,316.54,0,4.0,Delivered,0.169636,0.018917,Long,0
+Warehouse_SEA,Los Angeles,Amazon Logistics,12.7,1413.0,208.88,0,4.0,Delivered,0.147827,0.008988,Medium,0
+Warehouse_MIA,San Francisco,LaserShip,28.0,956.0,146.54,0,2.0,Delivered,0.153285,0.029289,Medium,0
+Warehouse_DEN,New York,FedEx,12.0,1580.0,210.09,0,4.0,Delivered,0.132968,0.007595,Long,0
+Warehouse_NYC,Minneapolis,USPS,15.1,1216.0,152.29,0,4.0,Delivered,0.125238,0.012418,Medium,0
+Warehouse_BOS,Dallas,FedEx,28.6,2066.0,328.6,0,6.0,Delivered,0.159051,0.013843,Long,0
+Warehouse_NYC,Los Angeles,OnTrac,40.9,855.0,186.93,0,3.0,Lost,0.218632,0.047836,Medium,0
+Warehouse_MIA,Detroit,USPS,20.7,298.0,57.14,0,3.0,Delivered,0.191745,0.069463,Short,0
+Warehouse_MIA,Houston,USPS,67.2,2311.0,359.97,0,10.0,Lost,0.155764,0.029078,Long,1
+Warehouse_ATL,Phoenix,FedEx,35.2,214.0,87.57,0,3.0,Delivered,0.409206,0.164486,Short,0
+Warehouse_MIA,Boston,USPS,14.9,1859.0,220.29,0,5.0,Delayed,0.118499,0.008015,Long,0
+Warehouse_CHI,Atlanta,USPS,8.6,2199.0,258.78,0,5.0,Delayed,0.117681,0.003911,Long,0
+Warehouse_MIA,Detroit,Amazon Logistics,40.8,2330.0,314.97,0,5.0,Delivered,0.13518,0.017511,Long,0
+Warehouse_ATL,Boston,FedEx,26.8,505.0,120.06,0,3.0,Delivered,0.237743,0.053069,Medium,0
+Warehouse_MIA,Boston,OnTrac,12.0,1617.0,190.22,0,5.0,Returned,0.117638,0.007421,Long,0
+Warehouse_DEN,New York,UPS,54.5,1270.0,215.64,0,4.0,Delivered,0.169795,0.042913,Medium,1
+Warehouse_DEN,Atlanta,Amazon Logistics,43.5,2007.0,288.61,0,4.0,Delivered,0.143802,0.021674,Long,0
+Warehouse_CHI,Denver,USPS,12.5,1000.0,159.23,0,4.0,Delivered,0.15923,0.0125,Medium,0
+Warehouse_LA,New York,USPS,4.3,105.0,17.89,0,4.0,Delayed,0.170381,0.040952,Short,0
+Warehouse_BOS,Los Angeles,Amazon Logistics,41.2,813.0,137.96,0,4.0,Delivered,0.169692,0.050677,Medium,0
+Warehouse_BOS,Chicago,LaserShip,18.3,1746.0,232.16,0,6.0,Delivered,0.132967,0.010481,Long,0
+Warehouse_SF,Atlanta,OnTrac,25.8,1911.0,276.98,0,5.0,Delivered,0.14494,0.013501,Long,0
+Warehouse_SEA,Denver,LaserShip,6.5,1816.0,206.26,0,6.0,Delivered,0.113579,0.003579,Long,0
+Warehouse_SEA,Boston,OnTrac,15.5,1482.0,191.24,0,4.0,Delayed,0.129042,0.010459,Medium,0
+Warehouse_DEN,Phoenix,DHL,23.6,998.0,159.12,0,2.0,Delivered,0.159439,0.023647,Medium,0
+Warehouse_HOU,Boston,FedEx,27.1,470.0,105.17,0,2.0,Delivered,0.223766,0.05766,Short,0
+Warehouse_SF,Miami,UPS,19.7,2455.0,305.45,0,5.0,Delivered,0.12442,0.008024,Long,0
+Warehouse_BOS,Atlanta,LaserShip,31.2,559.0,114.2,0,3.0,Delivered,0.204293,0.055814,Medium,0
+Warehouse_BOS,Phoenix,OnTrac,14.8,2384.0,319.39,0,6.0,Delivered,0.133972,0.006208,Long,0
+Warehouse_LA,Dallas,OnTrac,88.0,1435.0,322.1,0,3.0,Delivered,0.22446,0.061324,Medium,1
+Warehouse_MIA,Boston,FedEx,17.9,1525.0,247.56,0,10.0,Delayed,0.162334,0.011738,Long,0
+Warehouse_DEN,Chicago,LaserShip,11.0,698.0,98.73,0,4.0,Delivered,0.141447,0.015759,Medium,0
+Warehouse_BOS,Denver,Amazon Logistics,16.3,1920.0,247.24,0,8.0,Delayed,0.128771,0.00849,Long,0
+Warehouse_BOS,Portland,LaserShip,32.7,958.0,180.59,0,3.0,Delivered,0.188507,0.034134,Medium,0
+Warehouse_HOU,Detroit,OnTrac,16.3,2057.0,248.97,0,4.0,Delivered,0.121035,0.007924,Long,0
+Warehouse_DEN,San Francisco,UPS,10.5,1148.0,161.38,0,3.0,Delivered,0.140575,0.009146,Medium,0
+Warehouse_BOS,Boston,DHL,26.5,2221.0,373.28,0,7.0,Delivered,0.168068,0.011932,Long,0
+Warehouse_HOU,Phoenix,FedEx,17.2,2287.0,331.37,0,6.0,Delivered,0.144893,0.007521,Long,0
+Warehouse_MIA,Seattle,DHL,24.1,1807.0,256.71,0,4.0,Delivered,0.142064,0.013337,Long,0
+Warehouse_BOS,New York,LaserShip,38.8,2362.0,361.92,0,6.0,Delivered,0.153226,0.016427,Long,0
+Warehouse_LA,Phoenix,Amazon Logistics,12.9,373.0,61.0,0,2.0,Delivered,0.163539,0.034584,Short,0
+Warehouse_SEA,Phoenix,Amazon Logistics,20.3,544.0,86.78,0,2.0,Delivered,0.159522,0.037316,Medium,0
+Warehouse_CHI,Miami,OnTrac,39.9,1350.0,220.09,0,4.0,Delivered,0.16303,0.029556,Medium,0
+Warehouse_CHI,Los Angeles,Amazon Logistics,22.0,544.0,86.67,0,4.0,Delivered,0.15932,0.040441,Medium,0
+Warehouse_DEN,Los Angeles,Amazon Logistics,20.8,637.0,99.54,0,2.0,Delivered,0.156264,0.032653,Medium,0
+Warehouse_ATL,Minneapolis,LaserShip,5.5,507.0,70.39,0,2.0,Delivered,0.138836,0.010848,Medium,0
+Warehouse_DEN,Atlanta,UPS,14.0,2009.0,260.56,0,7.0,Delivered,0.129696,0.006969,Long,0
+Warehouse_DEN,New York,LaserShip,12.0,852.0,113.5,0,3.0,Delayed,0.133216,0.014085,Medium,0
+Warehouse_ATL,New York,DHL,24.9,2010.0,297.44,0,6.0,Delivered,0.14798,0.012388,Long,0
+Warehouse_CHI,Chicago,DHL,5.8,487.0,71.35,0,2.0,Delivered,0.146509,0.01191,Short,0
+Warehouse_MIA,Portland,FedEx,20.4,1369.0,211.34,0,4.0,Delivered,0.154375,0.014901,Medium,0
+Warehouse_SF,Chicago,DHL,38.0,1542.0,286.58,0,7.0,Delivered,0.18585,0.024643,Long,0
+Warehouse_HOU,Portland,DHL,18.7,1838.0,326.9,0,6.0,Delivered,0.177856,0.010174,Long,0
+Warehouse_LA,Denver,OnTrac,13.7,1364.0,175.73,0,3.0,Delivered,0.128834,0.010044,Medium,0
+Warehouse_SEA,Atlanta,DHL,38.7,173.0,77.84,0,3.0,Delivered,0.449942,0.223699,Short,0
+Warehouse_NYC,Miami,DHL,23.4,2343.0,356.56,0,6.0,Delivered,0.152181,0.009987,Long,0
+Warehouse_ATL,Detroit,DHL,11.1,505.0,109.93,0,2.0,Delivered,0.217683,0.02198,Medium,0
+Warehouse_SEA,Minneapolis,LaserShip,30.6,206.0,62.81,0,1.0,Delivered,0.304903,0.148544,Short,0
+Warehouse_SEA,New York,DHL,6.6,1656.0,289.77,0,6.0,Delivered,0.174982,0.003986,Long,0
+Warehouse_HOU,San Francisco,USPS,13.2,377.0,57.43,0,2.0,Delivered,0.152334,0.035013,Short,0
+Warehouse_SF,Dallas,OnTrac,34.0,1631.0,255.91,0,5.0,Delivered,0.156904,0.020846,Long,0
+Warehouse_ATL,Denver,FedEx,11.0,403.0,68.25,0,2.0,Returned,0.169355,0.027295,Short,0
+Warehouse_ATL,San Francisco,UPS,4.9,1591.0,196.325,1,4.0,Delivered,0.123397,0.00308,Long,0
+Warehouse_CHI,Atlanta,DHL,19.8,611.0,117.68,0,3.0,Delivered,0.192602,0.032406,Medium,0
+Warehouse_SF,Chicago,LaserShip,42.4,1111.0,171.56,0,4.0,Delivered,0.154419,0.038164,Medium,0
+Warehouse_CHI,Seattle,LaserShip,14.5,1162.0,160.17,0,3.0,Delivered,0.13784,0.012478,Medium,0
+Warehouse_LA,Houston,OnTrac,30.6,146.0,48.89,0,1.0,Delivered,0.334863,0.209589,Short,0
+Warehouse_HOU,Houston,LaserShip,11.3,1541.0,181.83,0,4.0,In Transit,0.117995,0.007333,Long,0
+Warehouse_CHI,Atlanta,LaserShip,12.1,1865.0,228.01,0,4.0,Returned,0.122257,0.006488,Long,0
+Warehouse_DEN,Los Angeles,OnTrac,10.2,1659.0,201.85,0,5.0,Delayed,0.12167,0.006148,Long,0
+Warehouse_DEN,Boston,DHL,10.4,1924.0,266.13,0,4.0,Delivered,0.138321,0.005405,Long,0
+Warehouse_BOS,Minneapolis,DHL,19.1,302.0,70.45,0,2.0,Delayed,0.233278,0.063245,Short,0
+Warehouse_BOS,Boston,USPS,111.0,1782.0,301.2,0,4.0,Delivered,0.169024,0.06229,Long,1
+Warehouse_HOU,San Francisco,Amazon Logistics,47.3,854.0,144.28,0,3.0,Lost,0.168946,0.055386,Medium,0
+Warehouse_CHI,Portland,LaserShip,24.2,2469.0,314.11,0,6.0,Delivered,0.127222,0.009802,Long,0
+Warehouse_SEA,Dallas,UPS,7.7,166.0,30.59,0,1.0,In Transit,0.184277,0.046386,Short,0
+Warehouse_CHI,San Francisco,Amazon Logistics,67.2,794.0,183.1,0,5.0,Delivered,0.230605,0.084635,Medium,1
+Warehouse_HOU,Portland,FedEx,5.8,528.0,83.76,0,1.0,Lost,0.158636,0.010985,Medium,0
+Warehouse_SF,Minneapolis,USPS,11.5,1908.0,219.67,0,6.0,Delivered,0.115131,0.006027,Long,0
+Warehouse_ATL,Phoenix,OnTrac,41.9,1800.0,260.33,0,4.0,Delayed,0.144628,0.023278,Long,0
+Warehouse_NYC,Denver,FedEx,22.9,713.0,123.35,0,2.0,Delivered,0.173001,0.032118,Medium,0
+Warehouse_BOS,Denver,FedEx,30.6,306.0,83.44,0,3.0,Delivered,0.27268,0.1,Short,0
+Warehouse_NYC,San Francisco,LaserShip,41.7,302.0,91.23,0,3.0,Delivered,0.302086,0.138079,Short,0
+Warehouse_CHI,Houston,LaserShip,35.4,1655.0,217.42,0,6.0,Delivered,0.131372,0.02139,Long,0
+Warehouse_CHI,Detroit,UPS,36.4,283.0,74.25,0,3.0,Delivered,0.262367,0.128622,Short,0
+Warehouse_DEN,Miami,DHL,7.4,2239.0,348.3,0,8.0,Delivered,0.155561,0.003305,Long,0
+Warehouse_NYC,San Francisco,USPS,6.4,2003.0,256.19,0,7.0,Delivered,0.127903,0.003195,Long,0
+Warehouse_NYC,San Francisco,UPS,9.8,1553.0,223.01,0,5.0,Delivered,0.143599,0.00631,Long,0
+Warehouse_ATL,Minneapolis,Amazon Logistics,29.2,1843.0,279.85,0,7.0,Lost,0.151845,0.015844,Long,0
+Warehouse_BOS,Phoenix,USPS,11.5,487.0,62.46,0,3.0,Delivered,0.128255,0.023614,Short,0
+Warehouse_DEN,Miami,USPS,7.5,1061.0,141.08,0,3.0,Delivered,0.132969,0.007069,Medium,0
+Warehouse_NYC,Detroit,OnTrac,10.0,585.0,85.04,0,2.0,Delivered,0.145368,0.017094,Medium,0
+Warehouse_NYC,Denver,FedEx,12.2,691.0,109.31,0,2.0,Delivered,0.158191,0.017656,Medium,0
+Warehouse_SEA,Detroit,Amazon Logistics,12.1,1097.0,163.06,0,2.0,Delivered,0.148642,0.01103,Medium,0
+Warehouse_ATL,Phoenix,UPS,100.9,390.0,172.46,0,3.0,Delivered,0.442205,0.258718,Short,1
+Warehouse_ATL,Boston,Amazon Logistics,29.2,2216.0,323.13,0,6.0,Delivered,0.145817,0.013177,Long,0
+Warehouse_SF,Phoenix,DHL,34.4,1229.0,214.6,0,7.0,Delivered,0.174614,0.02799,Medium,0
+Warehouse_NYC,Minneapolis,Amazon Logistics,27.8,1591.0,239.99,0,5.0,In Transit,0.150842,0.017473,Long,0
+Warehouse_LA,New York,USPS,32.6,807.0,164.69,0,5.0,Delivered,0.204077,0.040397,Medium,0
+Warehouse_NYC,Dallas,USPS,23.1,1065.0,176.66,0,5.0,Delivered,0.165878,0.02169,Medium,0
+Warehouse_BOS,Minneapolis,LaserShip,14.0,1408.0,184.53,0,3.0,Delivered,0.131058,0.009943,Medium,0
+Warehouse_BOS,Denver,DHL,71.7,635.0,188.04,0,3.0,Delivered,0.296126,0.112913,Medium,1
+Warehouse_CHI,Denver,USPS,10.7,1000.0,152.15,0,3.0,Delivered,0.15215,0.0107,Medium,0
+Warehouse_DEN,Denver,FedEx,70.6,323.0,151.86,0,1.0,Delivered,0.470155,0.218576,Short,1
+Warehouse_SF,Phoenix,DHL,54.4,1340.0,266.93,0,5.0,Delivered,0.199201,0.040597,Medium,1
+Warehouse_BOS,Atlanta,OnTrac,20.1,451.0,74.85,0,4.0,Delivered,0.165965,0.044568,Short,0
+Warehouse_DEN,San Francisco,OnTrac,11.3,1360.0,176.58,0,4.0,Delivered,0.129838,0.008309,Medium,0
+Warehouse_MIA,Los Angeles,OnTrac,14.8,2212.0,318.26,0,5.0,Delivered,0.143879,0.006691,Long,0
+Warehouse_LA,Portland,DHL,28.4,2293.0,390.3,0,6.0,Delivered,0.170214,0.012386,Long,0
+Warehouse_MIA,Portland,UPS,28.1,1711.0,303.53,0,6.0,Delivered,0.177399,0.016423,Long,0
+Warehouse_ATL,Seattle,FedEx,153.0,1058.0,334.41,0,4.0,Delivered,0.316078,0.144612,Medium,1
+Warehouse_MIA,San Francisco,DHL,14.2,580.0,101.86,0,3.0,Delivered,0.175621,0.024483,Medium,0
+Warehouse_NYC,Detroit,FedEx,34.0,1463.0,228.26,0,5.0,Delivered,0.156022,0.02324,Medium,0
+Warehouse_SF,New York,LaserShip,30.1,615.0,101.62,0,2.0,Delayed,0.165236,0.048943,Medium,0
+Warehouse_SF,Atlanta,LaserShip,79.1,1487.0,264.42,0,4.0,Delivered,0.177821,0.053194,Medium,1
+Warehouse_HOU,Dallas,OnTrac,8.1,1472.0,188.86,0,3.0,Delivered,0.128302,0.005503,Medium,0
+Warehouse_NYC,Phoenix,OnTrac,22.7,787.0,110.05,0,3.0,Delivered,0.139835,0.028844,Medium,0
+Warehouse_BOS,Houston,DHL,21.8,1364.0,202.57,0,3.0,Delivered,0.148512,0.015982,Medium,0
+Warehouse_LA,Los Angeles,FedEx,12.0,1377.0,178.39,0,4.0,Delivered,0.12955,0.008715,Medium,0
+Warehouse_SEA,San Francisco,UPS,11.3,1332.0,199.25,0,5.0,Delivered,0.149587,0.008483,Medium,0
+Warehouse_HOU,Phoenix,USPS,21.5,1209.0,154.34,0,4.0,Delivered,0.127659,0.017783,Medium,0
+Warehouse_BOS,Minneapolis,DHL,17.8,2300.0,407.33,0,5.0,Delivered,0.1771,0.007739,Long,0
+Warehouse_BOS,Phoenix,USPS,22.5,289.0,63.76,0,1.0,In Transit,0.220623,0.077855,Short,0
+Warehouse_CHI,Denver,UPS,15.8,1000.0,152.2,0,4.0,Delivered,0.1522,0.0158,Medium,0
+Warehouse_SEA,Seattle,LaserShip,11.8,670.0,88.65,0,4.0,Delivered,0.132313,0.017612,Medium,0
+Warehouse_SEA,Boston,DHL,11.6,2379.0,359.48,0,6.0,Delivered,0.151106,0.004876,Long,0
+Warehouse_BOS,San Francisco,OnTrac,13.8,274.0,50.83,0,1.0,Delivered,0.185511,0.050365,Short,0
+Warehouse_SF,Boston,UPS,33.3,1438.0,236.83,0,4.0,Returned,0.164694,0.023157,Medium,0
+Warehouse_DEN,Seattle,USPS,13.2,2309.0,269.86,0,5.0,Delivered,0.116873,0.005717,Long,0
+Warehouse_LA,Chicago,Amazon Logistics,29.9,1581.0,235.86,0,4.0,Delivered,0.149184,0.018912,Long,0
+Warehouse_NYC,New York,LaserShip,16.1,932.0,127.74,0,3.0,Delivered,0.13706,0.017275,Medium,0
+Warehouse_HOU,Minneapolis,DHL,10.8,185.0,196.325,1,1.0,Delivered,1.061216,0.058378,Short,0
+Warehouse_HOU,Boston,UPS,19.4,812.0,116.18,0,4.0,In Transit,0.143079,0.023892,Medium,0
+Warehouse_HOU,Phoenix,UPS,37.7,925.0,164.72,0,3.0,In Transit,0.178076,0.040757,Medium,0
+Warehouse_BOS,Portland,Amazon Logistics,16.0,770.0,110.54,0,6.0,Delayed,0.143558,0.020779,Medium,0
+Warehouse_BOS,Atlanta,UPS,26.2,1541.0,212.17,0,5.0,Delivered,0.137683,0.017002,Long,0
+Warehouse_MIA,Chicago,FedEx,18.4,974.0,149.34,0,3.0,Delivered,0.153326,0.018891,Medium,0
+Warehouse_CHI,Denver,FedEx,22.3,1000.0,151.26,0,2.0,Delivered,0.15126,0.0223,Medium,0
+Warehouse_NYC,Miami,Amazon Logistics,21.1,190.0,49.13,0,1.0,Delivered,0.258579,0.111053,Short,0
+Warehouse_ATL,Minneapolis,OnTrac,7.7,1140.0,157.65,0,3.0,Delayed,0.138289,0.006754,Medium,0
+Warehouse_SF,Miami,LaserShip,23.1,1646.0,232.72,0,5.0,Delayed,0.141385,0.014034,Long,0
+Warehouse_SEA,Miami,FedEx,15.5,2200.0,303.18,0,7.0,Delivered,0.137809,0.007045,Long,0
+Warehouse_DEN,Phoenix,OnTrac,6.8,2246.0,343.72,0,5.0,Delivered,0.153037,0.003028,Long,0
+Warehouse_HOU,Boston,UPS,40.9,295.0,86.69,0,1.0,Delivered,0.293864,0.138644,Short,0
+Warehouse_ATL,Chicago,LaserShip,13.9,2212.0,302.88,0,7.0,In Transit,0.136926,0.006284,Long,0
+Warehouse_LA,New York,UPS,29.3,458.0,95.51,0,2.0,Delivered,0.208537,0.063974,Short,0
+Warehouse_ATL,Detroit,LaserShip,23.9,2386.0,321.25,0,5.0,Delayed,0.13464,0.010017,Long,0
+Warehouse_BOS,Miami,Amazon Logistics,48.5,1396.0,220.96,0,4.0,Delivered,0.158281,0.034742,Medium,0
+Warehouse_CHI,Phoenix,OnTrac,39.7,890.0,186.77,0,5.0,Delivered,0.209854,0.044607,Medium,0
+Warehouse_HOU,New York,Amazon Logistics,27.7,916.0,131.18,0,3.0,Delayed,0.14321,0.03024,Medium,0
+Warehouse_SF,Chicago,LaserShip,18.8,496.0,80.05,0,2.0,Delivered,0.161391,0.037903,Short,0
+Warehouse_NYC,San Francisco,USPS,9.7,2488.0,284.71,0,9.0,Delivered,0.114433,0.003899,Long,0
+Warehouse_BOS,Dallas,DHL,34.9,1507.0,261.45,0,4.0,Delivered,0.17349,0.023159,Long,0
+Warehouse_DEN,Portland,LaserShip,22.3,148.0,196.325,1,1.0,Delivered,1.32652,0.150676,Short,0
+Warehouse_HOU,Dallas,Amazon Logistics,28.2,599.0,103.67,0,2.0,Delivered,0.173072,0.047078,Medium,0
+Warehouse_DEN,Denver,DHL,11.4,234.0,44.4,0,1.0,Delivered,0.189744,0.048718,Short,0
+Warehouse_SF,San Francisco,DHL,10.8,1974.0,271.64,0,8.0,Delivered,0.137609,0.005471,Long,0
+Warehouse_CHI,San Francisco,Amazon Logistics,12.2,2271.0,259.25,0,6.0,Delivered,0.114157,0.005372,Long,0
+Warehouse_SF,Miami,FedEx,22.8,1599.0,221.62,0,4.0,Returned,0.138599,0.014259,Long,0
+Warehouse_CHI,Minneapolis,DHL,15.1,977.0,142.08,0,5.0,Delivered,0.145425,0.015455,Medium,0
+Warehouse_NYC,Denver,Amazon Logistics,11.3,1311.0,154.45,0,3.0,Delivered,0.117811,0.008619,Medium,0
+Warehouse_CHI,Los Angeles,Amazon Logistics,64.7,268.0,105.03,0,2.0,Delivered,0.391903,0.241418,Short,1
+Warehouse_DEN,San Francisco,USPS,64.8,1466.0,258.52,0,4.0,Delivered,0.176344,0.044202,Medium,1
+Warehouse_ATL,Chicago,DHL,21.2,2181.0,312.87,0,9.0,Delivered,0.143453,0.00972,Long,0
+Warehouse_HOU,Houston,OnTrac,13.4,379.0,62.54,0,2.0,Delivered,0.165013,0.035356,Short,0
+Warehouse_HOU,Portland,USPS,9.2,123.0,22.1,0,3.0,Delivered,0.179675,0.074797,Short,0
+Warehouse_SF,Houston,LaserShip,35.4,1203.0,196.325,1,3.0,Delivered,0.163196,0.029426,Medium,0
+Warehouse_ATL,Phoenix,USPS,41.9,501.0,108.73,0,3.0,Delivered,0.217026,0.083633,Medium,0
+Warehouse_SF,Minneapolis,Amazon Logistics,10.3,1034.0,164.78,0,4.0,Lost,0.159362,0.009961,Medium,0
+Warehouse_MIA,Denver,FedEx,6.0,283.0,50.96,0,1.0,In Transit,0.180071,0.021201,Short,0
+Warehouse_SF,San Francisco,DHL,14.8,655.0,137.77,0,4.0,Delayed,0.210336,0.022595,Medium,0
+Warehouse_SEA,Minneapolis,OnTrac,17.9,552.0,87.69,0,2.0,Delivered,0.158859,0.032428,Medium,0
+Warehouse_CHI,Miami,FedEx,179.1,1350.0,216.48,0,4.0,Delivered,0.160356,0.132667,Medium,1
+Warehouse_LA,Minneapolis,FedEx,36.3,2181.0,439.48,0,6.0,Delivered,0.201504,0.016644,Long,0
+Warehouse_ATL,Minneapolis,DHL,5.8,2466.0,338.34,0,6.0,Delivered,0.137202,0.002352,Long,0
+Warehouse_SF,Phoenix,OnTrac,5.6,636.0,78.42,0,5.0,Delivered,0.123302,0.008805,Medium,0
+Warehouse_CHI,Detroit,USPS,14.1,283.0,58.04,0,2.0,Delivered,0.205088,0.049823,Short,0
+Warehouse_SF,Miami,Amazon Logistics,12.0,208.0,43.35,0,2.0,Delivered,0.208413,0.057692,Short,0
+Warehouse_LA,Seattle,LaserShip,51.0,1135.0,196.325,1,3.0,Delivered,0.172974,0.044934,Medium,1
+Warehouse_SEA,Atlanta,OnTrac,25.2,1442.0,190.12,0,3.0,Delivered,0.131845,0.017476,Medium,0
+Warehouse_LA,New York,LaserShip,24.1,295.0,70.43,0,3.0,Delivered,0.238746,0.081695,Short,0
+Warehouse_BOS,Denver,OnTrac,17.5,1720.0,240.07,0,8.0,Delivered,0.139576,0.010174,Long,0
+Warehouse_HOU,Boston,OnTrac,46.3,912.0,155.66,0,3.0,Delivered,0.17068,0.050768,Medium,0
+Warehouse_BOS,Miami,LaserShip,25.6,2129.0,287.97,0,7.0,Lost,0.135261,0.012024,Long,0
+Warehouse_ATL,Miami,OnTrac,41.5,305.0,85.01,0,1.0,Delivered,0.278721,0.136066,Short,0
+Warehouse_BOS,Atlanta,LaserShip,50.5,2250.0,323.77,0,6.0,Delivered,0.143898,0.022444,Long,1
+Warehouse_MIA,Detroit,LaserShip,9.0,2105.0,261.35,0,7.0,Delivered,0.124157,0.004276,Long,0
+Warehouse_SF,Houston,DHL,10.5,397.0,81.73,0,2.0,Delayed,0.205869,0.026448,Short,0
+Warehouse_DEN,Miami,Amazon Logistics,6.7,392.0,54.04,0,4.0,Delivered,0.137857,0.017092,Short,0
+Warehouse_SF,Houston,OnTrac,9.0,979.0,126.74,0,4.0,Delayed,0.129459,0.009193,Medium,0
+Warehouse_CHI,Portland,USPS,15.1,1427.0,193.28,0,4.0,Delayed,0.135445,0.010582,Medium,0
+Warehouse_SF,Dallas,OnTrac,20.7,1956.0,254.82,0,5.0,Delivered,0.130276,0.010583,Long,0
+Warehouse_NYC,Houston,USPS,18.1,863.0,132.04,0,5.0,Delivered,0.153001,0.020973,Medium,0
+Warehouse_SEA,New York,USPS,22.1,2347.0,305.98,0,7.0,Delivered,0.130371,0.009416,Long,0
+Warehouse_SEA,Houston,DHL,28.8,919.0,151.25,0,4.0,Delivered,0.164581,0.031338,Medium,0
+Warehouse_LA,Boston,OnTrac,46.2,176.0,94.64,0,3.0,Delivered,0.537727,0.2625,Short,0
+Warehouse_SEA,Detroit,DHL,49.5,2055.0,383.77,0,5.0,Delivered,0.186749,0.024088,Long,0
+Warehouse_HOU,Los Angeles,USPS,17.7,1439.0,168.61,0,5.0,Delivered,0.117172,0.0123,Medium,0
+Warehouse_HOU,Minneapolis,FedEx,27.9,860.0,138.4,0,2.0,Delivered,0.16093,0.032442,Medium,0
+Warehouse_SF,Atlanta,DHL,4.6,2171.0,291.01,0,5.0,Delivered,0.134044,0.002119,Long,0
+Warehouse_MIA,Detroit,UPS,13.6,2029.0,261.01,0,7.0,Delivered,0.12864,0.006703,Long,0
+Warehouse_CHI,Chicago,LaserShip,137.5,136.0,165.56,0,4.0,Delivered,1.217353,1.011029,Short,1
+Warehouse_DEN,Minneapolis,Amazon Logistics,17.1,2247.0,303.85,0,7.0,Delivered,0.135225,0.00761,Long,0
+Warehouse_SF,Denver,UPS,25.9,131.0,60.74,0,1.0,Delivered,0.463664,0.19771,Short,0
+Warehouse_CHI,Denver,DHL,18.3,1000.0,172.23,0,4.0,Delivered,0.17223,0.0183,Medium,0
+Warehouse_DEN,Denver,OnTrac,6.8,152.0,30.04,0,2.0,Delivered,0.197632,0.044737,Short,0
+Warehouse_DEN,Phoenix,FedEx,34.7,224.0,86.21,0,1.0,Delivered,0.384866,0.154911,Short,0
+Warehouse_LA,Houston,OnTrac,36.8,882.0,150.78,0,2.0,Delayed,0.170952,0.041723,Medium,0
+Warehouse_MIA,San Francisco,Amazon Logistics,28.7,1229.0,238.39,0,4.0,Delivered,0.193971,0.023352,Medium,0
+Warehouse_ATL,Atlanta,FedEx,8.1,1305.0,171.35,0,3.0,Returned,0.131303,0.006207,Medium,0
+Warehouse_NYC,Seattle,DHL,34.6,344.0,91.64,0,3.0,Delivered,0.266395,0.100581,Short,0
+Warehouse_SEA,Chicago,OnTrac,10.8,1369.0,225.38,0,7.0,Delivered,0.164631,0.007889,Medium,0
+Warehouse_LA,Los Angeles,UPS,16.5,2056.0,282.23,0,5.0,Delivered,0.137271,0.008025,Long,0
+Warehouse_HOU,Chicago,USPS,108.5,1240.0,299.16,0,4.0,Delivered,0.241258,0.0875,Medium,1
+Warehouse_DEN,Los Angeles,OnTrac,5.8,1355.0,173.56,0,4.0,Delivered,0.128089,0.00428,Medium,0
+Warehouse_HOU,Chicago,DHL,31.0,2201.0,346.62,0,8.0,Delayed,0.157483,0.014085,Long,0
+Warehouse_BOS,Atlanta,USPS,58.5,122.0,83.51,0,1.0,Delivered,0.684508,0.479508,Short,1
+Warehouse_MIA,Denver,Amazon Logistics,18.3,860.0,119.1,0,2.0,Lost,0.138488,0.021279,Medium,0
+Warehouse_HOU,Detroit,Amazon Logistics,38.1,1115.0,172.76,0,5.0,Delivered,0.154942,0.03417,Medium,0
+Warehouse_SEA,Atlanta,Amazon Logistics,15.2,1098.0,160.36,0,3.0,Delivered,0.146047,0.013843,Medium,0
+Warehouse_MIA,Los Angeles,OnTrac,23.4,2447.0,311.04,0,6.0,Delivered,0.127111,0.009563,Long,0
+Warehouse_BOS,Los Angeles,UPS,31.7,1114.0,195.68,0,5.0,Delivered,0.175655,0.028456,Medium,0
+Warehouse_NYC,Dallas,USPS,16.3,759.0,105.67,0,3.0,Delivered,0.139223,0.021476,Medium,0
+Warehouse_SEA,Dallas,USPS,34.0,2176.0,267.21,0,5.0,Delivered,0.122799,0.015625,Long,0
+Warehouse_MIA,Dallas,Amazon Logistics,10.0,287.0,60.18,0,3.0,Delivered,0.209686,0.034843,Short,0
+Warehouse_LA,New York,UPS,17.4,1356.0,250.16,0,4.0,Delivered,0.184484,0.012832,Medium,0
+Warehouse_DEN,Atlanta,OnTrac,20.0,737.0,113.54,0,2.0,Delivered,0.154057,0.027137,Medium,0
+Warehouse_SF,Phoenix,Amazon Logistics,11.5,1189.0,148.69,0,3.0,Delivered,0.125055,0.009672,Medium,0
+Warehouse_CHI,Denver,DHL,35.1,1000.0,226.64,0,3.0,Delivered,0.22664,0.0351,Medium,0
+Warehouse_LA,Minneapolis,LaserShip,32.3,2156.0,304.81,0,6.0,Delivered,0.141378,0.014981,Long,0
+Warehouse_MIA,Miami,UPS,38.4,916.0,177.3,0,2.0,Delivered,0.193559,0.041921,Medium,0
+Warehouse_SF,Seattle,USPS,71.9,450.0,123.54,0,2.0,Delayed,0.274533,0.159778,Short,1
+Warehouse_CHI,New York,OnTrac,10.7,1474.0,219.96,0,4.0,Delivered,0.149227,0.007259,Medium,0
+Warehouse_SEA,Miami,USPS,20.6,1523.0,181.01,0,4.0,In Transit,0.118851,0.013526,Long,0
+Warehouse_NYC,Seattle,OnTrac,27.4,986.0,196.325,1,6.0,Delivered,0.199113,0.027789,Medium,0
+Warehouse_BOS,Detroit,DHL,23.1,1989.0,323.18,0,6.0,Delayed,0.162484,0.011614,Long,0
+Warehouse_SEA,Houston,LaserShip,8.2,1713.0,212.27,0,5.0,Delivered,0.123917,0.004787,Long,0
+Warehouse_MIA,Portland,LaserShip,30.1,594.0,122.82,0,2.0,Delivered,0.206768,0.050673,Medium,0
+Warehouse_NYC,Phoenix,FedEx,12.6,2151.0,367.26,0,5.0,Delivered,0.170739,0.005858,Long,0
+Warehouse_CHI,Boston,Amazon Logistics,33.4,989.0,160.62,0,4.0,Delivered,0.162406,0.033771,Medium,0
+Warehouse_ATL,Denver,UPS,17.3,250.0,70.13,0,1.0,Delivered,0.28052,0.0692,Short,0
+Warehouse_LA,Boston,OnTrac,39.6,378.0,95.86,0,3.0,Delivered,0.253598,0.104762,Short,0
+Warehouse_CHI,Detroit,Amazon Logistics,58.9,283.0,105.74,0,1.0,Delivered,0.37364,0.208127,Short,1
+Warehouse_BOS,Detroit,DHL,66.7,1387.0,268.34,0,3.0,Delivered,0.193468,0.048089,Medium,1
+Warehouse_SEA,Houston,FedEx,7.0,2228.0,303.42,0,6.0,Delivered,0.136185,0.003142,Long,0
+Warehouse_DEN,Atlanta,LaserShip,49.9,2067.0,288.11,0,5.0,Delivered,0.139386,0.024141,Long,0
+Warehouse_HOU,Detroit,USPS,7.2,881.0,196.325,1,5.0,Delayed,0.222843,0.008173,Medium,0
+Warehouse_SF,Boston,USPS,8.8,1021.0,132.34,0,3.0,Delivered,0.129618,0.008619,Medium,0
+Warehouse_MIA,Minneapolis,LaserShip,14.5,1420.0,183.23,0,3.0,Delivered,0.129035,0.010211,Medium,0
+Warehouse_BOS,Phoenix,LaserShip,25.8,896.0,137.06,0,4.0,In Transit,0.152969,0.028795,Medium,0
+Warehouse_SF,Los Angeles,OnTrac,10.6,752.0,110.85,0,2.0,Delivered,0.147407,0.014096,Medium,0
+Warehouse_ATL,Atlanta,USPS,22.1,398.0,93.0,0,2.0,Delivered,0.233668,0.055528,Short,0
+Warehouse_DEN,Miami,Amazon Logistics,15.3,1237.0,157.36,0,5.0,Delivered,0.127211,0.012369,Medium,0
+Warehouse_DEN,Miami,OnTrac,16.2,1651.0,230.74,0,4.0,Delivered,0.139758,0.009812,Long,0
+Warehouse_LA,Miami,Amazon Logistics,37.0,1658.0,306.42,0,4.0,Delivered,0.184813,0.022316,Long,0
+Warehouse_MIA,Denver,USPS,42.7,1829.0,319.58,0,6.0,Delivered,0.174729,0.023346,Long,0
+Warehouse_NYC,Houston,DHL,7.4,1879.0,252.34,0,5.0,Delivered,0.134295,0.003938,Long,0
+Warehouse_HOU,Detroit,Amazon Logistics,23.4,454.0,89.92,0,1.0,Delayed,0.198062,0.051542,Short,0
+Warehouse_NYC,Minneapolis,Amazon Logistics,34.9,197.0,61.85,0,1.0,Delivered,0.313959,0.177157,Short,0
+Warehouse_DEN,Chicago,OnTrac,8.1,1325.0,174.87,0,5.0,Delivered,0.131977,0.006113,Medium,0
+Warehouse_LA,Portland,FedEx,6.2,1538.0,268.27,0,6.0,Delivered,0.174428,0.004031,Long,0
+Warehouse_SF,Chicago,OnTrac,14.0,1077.0,151.05,0,5.0,Delivered,0.140251,0.012999,Medium,0
+Warehouse_HOU,Miami,DHL,10.0,638.0,118.15,0,2.0,Delayed,0.185188,0.015674,Medium,0
+Warehouse_SF,Boston,USPS,43.6,1947.0,304.3,0,9.0,Delivered,0.156292,0.022393,Long,0
+Warehouse_DEN,Atlanta,Amazon Logistics,16.1,1074.0,143.0,0,5.0,Delivered,0.133147,0.014991,Medium,0
+Warehouse_ATL,Chicago,LaserShip,21.3,587.0,91.45,0,3.0,Delivered,0.155792,0.036286,Medium,0
+Warehouse_LA,Seattle,USPS,66.3,1135.0,204.27,0,4.0,Delivered,0.179974,0.058414,Medium,1
+Warehouse_MIA,Atlanta,OnTrac,5.9,746.0,103.51,0,3.0,Delivered,0.138753,0.007909,Medium,0
+Warehouse_BOS,Boston,USPS,28.9,1675.0,227.91,0,4.0,Lost,0.136066,0.017254,Long,0
+Warehouse_LA,Boston,USPS,32.4,1636.0,226.41,0,7.0,Delivered,0.138392,0.019804,Long,0
+Warehouse_HOU,San Francisco,USPS,53.0,2490.0,322.97,0,7.0,Delivered,0.129707,0.021285,Long,1
+Warehouse_MIA,Portland,USPS,37.0,1433.0,211.45,0,4.0,Delayed,0.147558,0.02582,Medium,0
+Warehouse_ATL,Detroit,OnTrac,33.8,775.0,134.61,0,2.0,Lost,0.17369,0.043613,Medium,0
+Warehouse_HOU,San Francisco,OnTrac,12.3,1393.0,190.39,0,6.0,Delivered,0.136676,0.00883,Medium,0
+Warehouse_LA,Los Angeles,DHL,15.5,2499.0,351.5,0,6.0,Delivered,0.140656,0.006202,Long,0
+Warehouse_ATL,Phoenix,OnTrac,29.2,680.0,126.94,0,3.0,Delivered,0.186676,0.042941,Medium,0
+Warehouse_CHI,Houston,DHL,39.9,2190.0,36.45,0,6.0,Delayed,0.016644,0.018219,Long,0
+Warehouse_LA,Los Angeles,DHL,24.6,1899.0,295.52,0,6.0,Delivered,0.155619,0.012954,Long,0
+Warehouse_ATL,Phoenix,FedEx,27.4,2166.0,336.51,0,5.0,Delivered,0.15536,0.01265,Long,0
+Warehouse_CHI,Dallas,OnTrac,9.9,520.0,67.66,0,3.0,Delivered,0.130115,0.019038,Medium,0
+Warehouse_DEN,New York,Amazon Logistics,16.2,715.0,106.95,0,2.0,Delivered,0.14958,0.022657,Medium,0
+Warehouse_ATL,Dallas,LaserShip,27.9,1773.0,261.5,0,5.0,In Transit,0.14749,0.015736,Long,0
+Warehouse_SEA,Detroit,DHL,16.2,369.0,75.07,0,2.0,Delivered,0.203442,0.043902,Short,0
+Warehouse_NYC,Los Angeles,FedEx,5.3,846.0,107.55,0,2.0,Delivered,0.127128,0.006265,Medium,0
+Warehouse_LA,Boston,Amazon Logistics,23.7,905.0,137.37,0,3.0,Delivered,0.15179,0.026188,Medium,0
+Warehouse_BOS,Los Angeles,DHL,5.6,171.0,36.1,0,2.0,Delivered,0.211111,0.032749,Short,0
+Warehouse_MIA,Minneapolis,DHL,8.9,2222.0,296.47,0,6.0,Delivered,0.133425,0.004005,Long,0
+Warehouse_SEA,Miami,FedEx,27.2,2462.0,375.67,0,6.0,Delivered,0.152587,0.011048,Long,0
+Warehouse_ATL,Minneapolis,OnTrac,9.7,1529.0,191.62,0,5.0,Delivered,0.125324,0.006344,Long,0
+Warehouse_BOS,Miami,UPS,3.0,1912.0,237.95,0,5.0,Delivered,0.124451,0.001569,Long,0
+Warehouse_LA,New York,LaserShip,60.3,1194.0,272.78,0,3.0,Delivered,0.228459,0.050503,Medium,1
+Warehouse_CHI,Detroit,UPS,10.3,283.0,196.325,1,1.0,Delayed,0.693728,0.036396,Short,0
+Warehouse_SF,Portland,LaserShip,34.3,1916.0,296.22,0,6.0,Delivered,0.154603,0.017902,Long,0
+Warehouse_MIA,Denver,UPS,34.2,504.0,113.11,0,5.0,Delivered,0.224425,0.067857,Medium,0
+Warehouse_SEA,Chicago,Amazon Logistics,70.5,2442.0,367.67,0,8.0,Delivered,0.150561,0.02887,Long,1
+Warehouse_LA,Seattle,LaserShip,13.1,1135.0,162.21,0,5.0,Delivered,0.142916,0.011542,Medium,0
+Warehouse_CHI,Phoenix,LaserShip,26.5,1815.0,254.13,0,5.0,Delivered,0.140017,0.014601,Long,0
+Warehouse_DEN,Denver,FedEx,13.6,834.0,166.26,0,3.0,In Transit,0.199353,0.016307,Medium,0
+Warehouse_ATL,Seattle,DHL,18.6,997.0,202.15,0,3.0,Delivered,0.202758,0.018656,Medium,0
+Warehouse_LA,Phoenix,Amazon Logistics,32.6,373.0,89.42,0,2.0,Delivered,0.239732,0.087399,Short,0
+Warehouse_MIA,Chicago,FedEx,9.0,1993.0,352.78,0,7.0,Delivered,0.17701,0.004516,Long,0
+Warehouse_NYC,San Francisco,LaserShip,19.4,2423.0,322.16,0,7.0,Delivered,0.132959,0.008007,Long,0
+Warehouse_BOS,Dallas,LaserShip,4.7,1732.0,228.78,0,4.0,Delivered,0.13209,0.002714,Long,0
+Warehouse_MIA,Portland,USPS,15.9,928.0,119.24,0,2.0,Delivered,0.128491,0.017134,Medium,0
+Warehouse_SEA,Detroit,FedEx,16.0,1521.0,220.43,0,4.0,Delivered,0.144924,0.010519,Long,0
+Warehouse_ATL,Detroit,Amazon Logistics,11.4,2178.0,263.34,0,7.0,Delivered,0.120909,0.005234,Long,0
+Warehouse_HOU,Atlanta,OnTrac,43.6,800.0,155.15,0,4.0,Delayed,0.193938,0.0545,Medium,0
+Warehouse_DEN,Boston,LaserShip,45.5,2201.0,293.95,0,5.0,Delivered,0.133553,0.020672,Long,0
+Warehouse_SF,Phoenix,USPS,18.3,117.0,31.27,0,1.0,Delivered,0.267265,0.15641,Short,0
+Warehouse_ATL,Boston,DHL,29.2,1739.0,280.92,0,5.0,Delivered,0.161541,0.016791,Long,0
+Warehouse_MIA,Atlanta,FedEx,81.9,1123.0,247.05,0,3.0,Delayed,0.219991,0.07293,Medium,1
+Warehouse_SF,Chicago,LaserShip,43.5,421.0,111.47,0,1.0,Delivered,0.264774,0.103325,Short,0
+Warehouse_SF,Seattle,UPS,12.5,916.0,119.12,0,6.0,Delivered,0.130044,0.013646,Medium,0
+Warehouse_NYC,San Francisco,USPS,21.5,2202.0,271.82,0,6.0,Delivered,0.123442,0.009764,Long,0
+Warehouse_NYC,Boston,OnTrac,19.0,215.0,46.94,0,2.0,Delivered,0.218326,0.088372,Short,0
+Warehouse_SEA,Seattle,OnTrac,53.8,371.0,121.01,0,3.0,Delivered,0.326173,0.145013,Short,1
+Warehouse_SF,Seattle,Amazon Logistics,21.6,378.0,73.32,0,3.0,Delayed,0.193968,0.057143,Short,0
+Warehouse_SEA,Chicago,FedEx,14.8,1456.0,215.86,0,8.0,Delivered,0.148255,0.010165,Medium,0
+Warehouse_LA,Chicago,FedEx,10.7,1114.0,170.69,0,3.0,Delayed,0.153223,0.009605,Medium,0
+Warehouse_DEN,Portland,UPS,42.0,1417.0,218.32,0,4.0,Delivered,0.154072,0.02964,Medium,0
+Warehouse_SEA,Houston,DHL,19.0,1402.0,224.15,0,5.0,Delivered,0.159879,0.013552,Medium,0
+Warehouse_LA,Atlanta,DHL,18.4,178.0,46.71,0,1.0,Delivered,0.262416,0.103371,Short,0
+Warehouse_DEN,Houston,UPS,16.0,1575.0,205.32,0,5.0,Delivered,0.130362,0.010159,Long,0
+Warehouse_NYC,Atlanta,USPS,13.9,870.0,107.12,0,7.0,Delivered,0.123126,0.015977,Medium,0
+Warehouse_ATL,Portland,Amazon Logistics,6.3,1995.0,258.52,0,7.0,Delivered,0.129584,0.003158,Long,0
+Warehouse_DEN,Portland,USPS,20.0,606.0,92.89,0,2.0,Delivered,0.153284,0.033003,Medium,0
+Warehouse_NYC,Minneapolis,OnTrac,30.8,433.0,84.89,0,3.0,Delivered,0.196051,0.071132,Short,0
+Warehouse_SEA,Portland,DHL,38.8,755.0,192.95,0,4.0,Delivered,0.255563,0.051391,Medium,0
+Warehouse_CHI,Portland,LaserShip,69.7,1580.0,267.92,0,5.0,Delivered,0.16957,0.044114,Long,1
+Warehouse_ATL,Los Angeles,USPS,45.3,1464.0,234.57,0,5.0,Delivered,0.160225,0.030943,Medium,0
+Warehouse_HOU,Minneapolis,Amazon Logistics,43.7,2299.0,350.82,0,6.0,Delayed,0.152597,0.019008,Long,0
+Warehouse_CHI,Miami,Amazon Logistics,16.4,1350.0,178.38,0,6.0,Delivered,0.132133,0.012148,Medium,0
+Warehouse_HOU,Los Angeles,USPS,7.0,386.0,49.21,0,1.0,Returned,0.127487,0.018135,Short,0
+Warehouse_BOS,Portland,UPS,13.0,1899.0,250.6,0,8.0,Delivered,0.131964,0.006846,Long,0
+Warehouse_LA,Portland,LaserShip,40.5,787.0,155.06,0,4.0,Delivered,0.197027,0.051461,Medium,0
+Warehouse_NYC,Portland,LaserShip,50.6,2388.0,328.01,0,6.0,Delivered,0.137358,0.021189,Long,1
+Warehouse_ATL,Dallas,Amazon Logistics,35.4,2347.0,301.47,0,5.0,Delivered,0.128449,0.015083,Long,0
+Warehouse_SF,San Francisco,FedEx,9.7,1364.0,228.09,0,5.0,Delivered,0.167221,0.007111,Medium,0
+Warehouse_LA,Seattle,UPS,7.2,1135.0,137.16,0,3.0,Delivered,0.120846,0.006344,Medium,0
+Warehouse_CHI,Boston,OnTrac,10.7,2200.0,290.55,0,7.0,Delivered,0.132068,0.004864,Long,0
+Warehouse_CHI,Denver,FedEx,19.5,1000.0,150.02,0,6.0,Delivered,0.15002,0.0195,Medium,0
+Warehouse_BOS,Chicago,UPS,11.7,701.0,99.97,0,3.0,Delivered,0.142611,0.01669,Medium,0
+Warehouse_NYC,Detroit,DHL,28.8,1883.0,325.2,0,4.0,Delivered,0.172703,0.015295,Long,0
+Warehouse_BOS,Detroit,UPS,7.0,2424.0,296.15,0,6.0,Delivered,0.122174,0.002888,Long,0
+Warehouse_SF,New York,FedEx,48.9,2059.0,354.59,0,8.0,Lost,0.172215,0.023749,Long,0
+Warehouse_SEA,Portland,OnTrac,108.8,1857.0,368.09,0,5.0,Delayed,0.198218,0.058589,Long,1
+Warehouse_MIA,Atlanta,USPS,12.2,152.0,37.96,0,5.0,Delivered,0.249737,0.080263,Short,0
+Warehouse_MIA,Minneapolis,DHL,9.0,1495.0,287.97,0,5.0,In Transit,0.192622,0.00602,Medium,0
+Warehouse_HOU,Denver,OnTrac,17.3,1030.0,146.14,0,3.0,Delivered,0.141883,0.016796,Medium,0
+Warehouse_SF,Denver,FedEx,19.4,854.0,143.96,0,3.0,Delivered,0.168571,0.022717,Medium,0
+Warehouse_SEA,Portland,USPS,22.8,101.0,36.24,0,1.0,Delivered,0.358812,0.225743,Short,0
+Warehouse_HOU,Boston,LaserShip,27.4,2353.0,392.67,0,5.0,Delivered,0.166881,0.011645,Long,0
+Warehouse_HOU,Los Angeles,USPS,17.7,1382.0,170.71,0,3.0,Delivered,0.123524,0.012808,Medium,0
+Warehouse_DEN,Boston,DHL,38.5,975.0,174.45,0,3.0,Delayed,0.178923,0.039487,Medium,0
+Warehouse_LA,Denver,USPS,15.2,1453.0,181.08,0,4.0,Delivered,0.124625,0.010461,Medium,0
+Warehouse_ATL,Houston,UPS,9.5,1321.0,177.71,0,3.0,In Transit,0.134527,0.007192,Medium,0
+Warehouse_ATL,Boston,USPS,25.2,2279.0,295.59,0,7.0,Delivered,0.129702,0.011057,Long,0
+Warehouse_HOU,New York,FedEx,11.8,835.0,116.39,0,5.0,Delivered,0.139389,0.014132,Medium,0
+Warehouse_LA,Miami,OnTrac,8.7,1035.0,124.66,0,4.0,Delivered,0.120444,0.008406,Medium,0
+Warehouse_DEN,San Francisco,USPS,226.6,202.0,44.83,0,4.0,Delivered,0.221931,1.121782,Short,1
+Warehouse_CHI,Minneapolis,Amazon Logistics,14.3,226.0,44.86,0,2.0,Delivered,0.198496,0.063274,Short,0
+Warehouse_HOU,Miami,FedEx,47.6,2194.0,434.73,0,6.0,Delivered,0.198145,0.021696,Long,0
+Warehouse_CHI,Denver,FedEx,19.1,1000.0,159.14,0,4.0,Delivered,0.15914,0.0191,Medium,0
+Warehouse_BOS,Minneapolis,USPS,58.8,892.0,177.73,0,5.0,Delivered,0.199249,0.065919,Medium,1
+Warehouse_SF,Phoenix,LaserShip,32.0,2356.0,301.33,0,8.0,Delivered,0.127899,0.013582,Long,0
+Warehouse_DEN,Miami,LaserShip,5.0,165.0,33.88,0,1.0,Delivered,0.205333,0.030303,Short,0
+Warehouse_MIA,Miami,FedEx,0.2,403.0,88.88,0,2.0,Delivered,0.220546,0.000496,Short,0
+Warehouse_LA,Phoenix,OnTrac,9.7,373.0,60.27,0,2.0,Delivered,0.161582,0.026005,Short,0
+Warehouse_LA,New York,DHL,29.8,1462.0,248.19,0,4.0,Delivered,0.169761,0.020383,Medium,0
+Warehouse_SF,Minneapolis,USPS,15.7,1715.0,199.62,0,7.0,Delivered,0.116397,0.009155,Long,0
+Warehouse_NYC,Detroit,OnTrac,55.0,2033.0,282.54,0,5.0,Delivered,0.138977,0.027054,Long,1
+Warehouse_MIA,Phoenix,Amazon Logistics,31.4,1430.0,226.08,0,5.0,Delayed,0.158098,0.021958,Medium,0
+Warehouse_ATL,Dallas,LaserShip,54.2,1309.0,240.9,0,4.0,Delivered,0.184034,0.041406,Medium,1
+Warehouse_HOU,Boston,USPS,54.6,942.0,185.97,0,5.0,Delivered,0.19742,0.057962,Medium,1
+Warehouse_LA,Seattle,USPS,46.8,1135.0,230.72,0,3.0,Delayed,0.203278,0.041233,Medium,0
+Warehouse_SF,Portland,USPS,36.7,1070.0,163.14,0,4.0,Delivered,0.152467,0.034299,Medium,0
+Warehouse_ATL,San Francisco,UPS,20.9,2032.0,267.89,0,5.0,Delivered,0.131836,0.010285,Long,0
+Warehouse_NYC,Portland,FedEx,6.6,2132.0,297.63,0,6.0,Delivered,0.139601,0.003096,Long,0
+Warehouse_ATL,Seattle,LaserShip,12.4,1030.0,167.33,0,3.0,Lost,0.162456,0.012039,Medium,0
+Warehouse_BOS,Dallas,LaserShip,20.2,1360.0,196.325,1,5.0,Delivered,0.144357,0.014853,Medium,0
+Warehouse_DEN,Phoenix,Amazon Logistics,40.3,645.0,158.18,0,3.0,Delivered,0.24524,0.062481,Medium,0
+Warehouse_SF,Denver,USPS,12.4,2179.0,256.57,0,6.0,Delayed,0.117747,0.005691,Long,0
+Warehouse_SEA,Chicago,DHL,22.2,368.0,83.4,0,2.0,Returned,0.22663,0.060326,Short,0
+Warehouse_SF,Phoenix,USPS,24.6,1225.0,171.1,0,5.0,Delivered,0.139673,0.020082,Medium,0
+Warehouse_LA,Phoenix,OnTrac,94.0,373.0,143.2,0,1.0,Delivered,0.383914,0.252011,Short,1
+Warehouse_ATL,Denver,FedEx,59.3,2161.0,388.44,0,5.0,Delivered,0.17975,0.027441,Long,1
+Warehouse_BOS,Seattle,UPS,13.1,610.0,85.44,0,2.0,Delivered,0.140066,0.021475,Medium,0
+Warehouse_SEA,Los Angeles,FedEx,20.0,847.0,140.66,0,3.0,Delivered,0.166068,0.023613,Medium,0
+Warehouse_SEA,Minneapolis,Amazon Logistics,49.4,2256.0,333.09,0,8.0,Delivered,0.147646,0.021897,Long,0
+Warehouse_DEN,Minneapolis,OnTrac,23.5,1324.0,194.11,0,4.0,Delivered,0.146609,0.017749,Medium,0
+Warehouse_CHI,Chicago,USPS,85.1,2467.0,391.46,0,5.0,Delivered,0.158679,0.034495,Long,1
+Warehouse_LA,Denver,LaserShip,41.4,1801.0,251.14,0,4.0,Delivered,0.139445,0.022987,Long,0
+Warehouse_SF,Seattle,FedEx,5.3,559.0,76.55,0,3.0,Delivered,0.136941,0.009481,Medium,0
+Warehouse_CHI,Chicago,UPS,122.7,962.0,288.29,0,2.0,Delivered,0.299678,0.127547,Medium,1
+Warehouse_BOS,Los Angeles,OnTrac,24.4,2429.0,321.82,0,5.0,Delivered,0.132491,0.010045,Long,0
+Warehouse_SF,Detroit,UPS,6.1,2102.0,279.81,0,5.0,Delivered,0.133116,0.002902,Long,0
+Warehouse_HOU,New York,DHL,18.1,914.0,148.79,0,3.0,Delivered,0.16279,0.019803,Medium,0
+Warehouse_DEN,Miami,OnTrac,3.5,1843.0,215.07,0,5.0,Delivered,0.116696,0.001899,Long,0
+Warehouse_LA,Detroit,UPS,15.8,878.0,132.3,0,2.0,Delivered,0.150683,0.017995,Medium,0
+Warehouse_SEA,Portland,FedEx,40.7,816.0,168.17,0,5.0,Delivered,0.206091,0.049877,Medium,0
+Warehouse_ATL,Miami,DHL,33.7,2414.0,402.35,0,8.0,Delivered,0.166674,0.01396,Long,0
+Warehouse_LA,Chicago,OnTrac,27.0,391.0,79.51,0,1.0,Delivered,0.20335,0.069054,Short,0
+Warehouse_BOS,Seattle,FedEx,9.7,757.0,119.44,0,6.0,Delivered,0.157781,0.012814,Medium,0
+Warehouse_MIA,Portland,FedEx,12.8,2488.0,331.5,0,9.0,Delivered,0.13324,0.005145,Long,0
+Warehouse_DEN,Detroit,OnTrac,6.3,2188.0,282.62,0,5.0,Delivered,0.129168,0.002879,Long,0
+Warehouse_CHI,Minneapolis,USPS,23.1,1547.0,204.7,0,3.0,Delivered,0.132321,0.014932,Long,0
+Warehouse_SEA,Atlanta,FedEx,10.3,224.0,47.05,0,2.0,Delivered,0.210045,0.045982,Short,0
+Warehouse_BOS,Houston,DHL,73.9,747.0,268.7,0,3.0,Delivered,0.359705,0.098929,Medium,1
+Warehouse_DEN,Miami,USPS,47.3,1552.0,215.93,0,3.0,Lost,0.13913,0.030477,Long,0
+Warehouse_HOU,Detroit,OnTrac,30.5,2410.0,322.75,0,6.0,Delivered,0.133921,0.012656,Long,0
+Warehouse_SF,Denver,UPS,14.7,395.0,81.27,0,1.0,Delivered,0.205747,0.037215,Short,0
+Warehouse_SEA,San Francisco,DHL,12.6,1462.0,201.27,0,3.0,Delivered,0.137668,0.008618,Medium,0
+Warehouse_NYC,Portland,OnTrac,28.8,1399.0,183.25,0,4.0,Delivered,0.130986,0.020586,Medium,0
+Warehouse_NYC,Seattle,FedEx,45.7,1025.0,206.4,0,5.0,Delivered,0.201366,0.044585,Medium,0
+Warehouse_SEA,New York,OnTrac,24.3,118.0,45.64,0,1.0,Delivered,0.38678,0.205932,Short,0
+Warehouse_DEN,Phoenix,Amazon Logistics,22.5,1226.0,199.07,0,3.0,Delivered,0.162374,0.018352,Medium,0
+Warehouse_LA,Portland,OnTrac,48.8,2192.0,347.95,0,6.0,Delayed,0.158736,0.022263,Long,0
+Warehouse_NYC,Chicago,UPS,7.9,790.0,99.83,0,2.0,Delivered,0.126367,0.01,Medium,0
+Warehouse_SF,Denver,UPS,34.0,2072.0,316.69,0,6.0,Delayed,0.152843,0.016409,Long,0
+Warehouse_ATL,New York,UPS,21.9,1073.0,174.25,0,3.0,Delivered,0.162395,0.02041,Medium,0
+Warehouse_DEN,San Francisco,Amazon Logistics,17.9,255.0,54.51,0,3.0,Delivered,0.213765,0.070196,Short,0
+Warehouse_DEN,Detroit,UPS,7.9,865.0,111.49,0,3.0,Delivered,0.12889,0.009133,Medium,0
+Warehouse_LA,Minneapolis,OnTrac,6.7,1694.0,213.54,0,7.0,In Transit,0.126057,0.003955,Long,0
+Warehouse_ATL,Los Angeles,FedEx,5.1,1317.0,175.6,0,6.0,Delivered,0.133333,0.003872,Medium,0
+Warehouse_MIA,Portland,USPS,13.1,645.0,82.17,0,2.0,Delivered,0.127395,0.02031,Medium,0
+Warehouse_NYC,Chicago,USPS,19.5,790.0,122.68,0,2.0,Delivered,0.155291,0.024684,Medium,0
+Warehouse_SEA,New York,OnTrac,12.1,1172.0,147.53,0,3.0,Delivered,0.125879,0.010324,Medium,0
+Warehouse_CHI,Atlanta,OnTrac,24.6,1711.0,231.44,0,4.0,Delivered,0.135266,0.014378,Long,0
+Warehouse_HOU,Dallas,OnTrac,17.7,2345.0,325.61,0,5.0,Delivered,0.138853,0.007548,Long,0
+Warehouse_LA,Los Angeles,DHL,61.4,128.0,111.25,0,2.0,Delivered,0.869141,0.479688,Short,1
+Warehouse_SF,San Francisco,FedEx,13.6,2044.0,260.65,0,6.0,Delivered,0.12752,0.006654,Long,0
+Warehouse_LA,Dallas,USPS,29.4,1435.0,212.9,0,6.0,In Transit,0.148362,0.020488,Medium,0
+Warehouse_HOU,Miami,FedEx,14.7,1715.0,224.05,0,5.0,Delayed,0.130641,0.008571,Long,0
+Warehouse_ATL,Phoenix,DHL,7.4,1880.0,323.36,0,4.0,Delivered,0.172,0.003936,Long,0
+Warehouse_NYC,Houston,OnTrac,16.2,1870.0,245.98,0,6.0,Delivered,0.13154,0.008663,Long,0
+Warehouse_NYC,Portland,LaserShip,6.2,1227.0,139.44,0,4.0,Delivered,0.113643,0.005053,Medium,0
+Warehouse_HOU,San Francisco,OnTrac,15.7,2321.0,318.84,0,7.0,Delivered,0.137372,0.006764,Long,0
+Warehouse_DEN,Atlanta,USPS,30.2,1393.0,196.325,1,4.0,Delivered,0.140937,0.02168,Medium,0
+Warehouse_ATL,Atlanta,FedEx,32.8,2464.0,360.03,0,8.0,Delivered,0.146116,0.013312,Long,0
+Warehouse_MIA,Detroit,DHL,29.5,476.0,110.42,0,2.0,Delivered,0.231975,0.061975,Short,0
+Warehouse_NYC,Phoenix,OnTrac,16.7,1423.0,203.66,0,4.0,Delivered,0.14312,0.011736,Medium,0
+Warehouse_SEA,San Francisco,FedEx,16.6,2126.0,285.36,0,7.0,Delayed,0.134224,0.007808,Long,0
+Warehouse_DEN,San Francisco,LaserShip,17.0,1731.0,245.26,0,4.0,Delivered,0.141687,0.009821,Long,0
+Warehouse_LA,Denver,Amazon Logistics,30.5,619.0,115.38,0,2.0,Delivered,0.186397,0.049273,Medium,0
+Warehouse_MIA,Minneapolis,DHL,17.7,2208.0,326.9,0,5.0,Delivered,0.148053,0.008016,Long,0
+Warehouse_CHI,Dallas,USPS,11.6,1021.0,135.55,0,4.0,Delivered,0.132762,0.011361,Medium,0
+Warehouse_BOS,Detroit,OnTrac,34.6,2216.0,319.66,0,8.0,Delivered,0.144251,0.015614,Long,0
+Warehouse_BOS,Denver,DHL,35.3,1724.0,314.52,0,6.0,Delivered,0.182436,0.020476,Long,0
+Warehouse_SF,Los Angeles,USPS,5.3,2362.0,263.08,0,6.0,Delivered,0.11138,0.002244,Long,0
+Warehouse_MIA,Detroit,OnTrac,32.1,2360.0,323.03,0,5.0,Delivered,0.136877,0.013602,Long,0
+Warehouse_ATL,Boston,OnTrac,17.1,2450.0,302.85,0,6.0,Delivered,0.123612,0.00698,Long,0
+Warehouse_HOU,Boston,Amazon Logistics,7.5,1642.0,208.84,0,4.0,Delivered,0.127186,0.004568,Long,0
+Warehouse_HOU,New York,USPS,89.4,1548.0,267.14,0,7.0,Delivered,0.172571,0.057752,Long,1
+Warehouse_HOU,Seattle,Amazon Logistics,16.7,2305.0,336.83,0,8.0,Delayed,0.14613,0.007245,Long,0
+Warehouse_MIA,Chicago,FedEx,17.8,1657.0,263.77,0,4.0,Delivered,0.159185,0.010742,Long,0
+Warehouse_NYC,Minneapolis,UPS,19.8,1855.0,253.63,0,5.0,Delivered,0.136728,0.010674,Long,0
+Warehouse_NYC,Seattle,USPS,35.9,1360.0,220.77,0,4.0,Delivered,0.162331,0.026397,Medium,0
+Warehouse_SF,Portland,FedEx,27.9,139.0,59.52,0,1.0,Delivered,0.428201,0.200719,Short,0
+Warehouse_LA,Portland,USPS,82.7,1023.0,243.19,0,3.0,Delivered,0.237722,0.080841,Medium,1
+Warehouse_SEA,Miami,Amazon Logistics,39.1,2104.0,273.41,0,6.0,Delivered,0.129948,0.018584,Long,0
+Warehouse_SF,Dallas,Amazon Logistics,26.2,116.0,48.64,0,2.0,Lost,0.41931,0.225862,Short,0
+Warehouse_MIA,Denver,LaserShip,20.4,1809.0,281.08,0,5.0,Delivered,0.155379,0.011277,Long,0
+Warehouse_BOS,Detroit,USPS,4.8,1478.0,173.28,0,3.0,Delivered,0.11724,0.003248,Medium,0
+Warehouse_BOS,Portland,USPS,6.4,1811.0,219.55,0,6.0,Delivered,0.121231,0.003534,Long,0
+Warehouse_HOU,Miami,LaserShip,25.4,1145.0,171.77,0,4.0,Delivered,0.150017,0.022183,Medium,0
+Warehouse_SF,Los Angeles,LaserShip,15.2,2106.0,322.73,0,5.0,Delivered,0.153243,0.007217,Long,0
+Warehouse_SF,Houston,UPS,19.5,629.0,123.49,0,2.0,Delivered,0.196328,0.031002,Medium,0
+Warehouse_ATL,Portland,FedEx,25.1,1809.0,296.48,0,4.0,Delivered,0.163892,0.013875,Long,0
+Warehouse_BOS,Los Angeles,Amazon Logistics,34.0,113.0,63.15,0,4.0,In Transit,0.55885,0.300885,Short,0
+Warehouse_ATL,Dallas,DHL,25.0,2462.0,381.58,0,5.0,Delayed,0.154988,0.010154,Long,0
+Warehouse_HOU,Detroit,OnTrac,5.3,503.0,73.0,0,3.0,Delivered,0.145129,0.010537,Medium,0
+Warehouse_HOU,Houston,USPS,52.0,1460.0,229.42,0,4.0,Delivered,0.157137,0.035616,Medium,1
+Warehouse_NYC,Dallas,Amazon Logistics,27.4,1518.0,196.325,1,6.0,Delivered,0.129331,0.01805,Long,0
+Warehouse_NYC,San Francisco,Amazon Logistics,17.3,489.0,73.25,0,4.0,In Transit,0.149796,0.035378,Short,0
+Warehouse_DEN,Denver,Amazon Logistics,38.9,491.0,101.69,0,2.0,Delivered,0.207108,0.079226,Short,0
+Warehouse_MIA,Detroit,OnTrac,12.6,464.0,77.29,0,3.0,Delayed,0.166573,0.027155,Short,0
+Warehouse_ATL,Minneapolis,Amazon Logistics,79.6,1521.0,196.325,1,6.0,Delayed,0.129076,0.052334,Long,1
+Warehouse_CHI,Atlanta,DHL,7.7,1814.0,272.22,0,5.0,Delivered,0.150066,0.004245,Long,0
+Warehouse_SEA,Portland,LaserShip,16.6,2220.0,261.31,0,6.0,Delivered,0.117707,0.007477,Long,0
+Warehouse_NYC,Portland,USPS,20.8,2420.0,289.2,0,6.0,Delivered,0.119504,0.008595,Long,0
+Warehouse_SF,Atlanta,Amazon Logistics,6.6,613.0,81.82,0,5.0,Delayed,0.133475,0.010767,Medium,0
+Warehouse_BOS,San Francisco,LaserShip,21.5,2170.0,293.41,0,6.0,Delivered,0.135212,0.009908,Long,0
+Warehouse_MIA,Los Angeles,DHL,13.7,451.0,87.28,0,2.0,Delivered,0.193525,0.030377,Short,0
+Warehouse_NYC,Dallas,Amazon Logistics,16.0,1052.0,158.75,0,7.0,Delayed,0.150903,0.015209,Medium,0
+Warehouse_SEA,Portland,USPS,20.0,379.0,63.36,0,2.0,Delayed,0.167177,0.05277,Short,0
+Warehouse_ATL,Phoenix,DHL,4.2,1931.0,266.62,0,5.0,Delivered,0.138074,0.002175,Long,0
+Warehouse_ATL,Minneapolis,UPS,12.4,2449.0,345.97,0,8.0,Delivered,0.14127,0.005063,Long,0
+Warehouse_HOU,Atlanta,USPS,15.6,800.0,116.02,0,4.0,Delivered,0.145025,0.0195,Medium,0
+Warehouse_SF,Dallas,USPS,43.4,1323.0,196.44,0,3.0,Delivered,0.148481,0.032804,Medium,0
+Warehouse_SEA,Detroit,OnTrac,46.6,510.0,122.94,0,5.0,Delivered,0.241059,0.091373,Medium,0
+Warehouse_NYC,San Francisco,USPS,9.5,465.0,76.52,0,3.0,Delivered,0.164559,0.02043,Short,0
+Warehouse_LA,Chicago,OnTrac,16.1,664.0,105.58,0,4.0,Delivered,0.159006,0.024247,Medium,0
+Warehouse_SF,New York,FedEx,88.9,2356.0,424.24,0,6.0,Delivered,0.180068,0.037733,Long,1
+Warehouse_MIA,New York,USPS,24.8,944.0,140.88,0,3.0,Lost,0.149237,0.026271,Medium,0
+Warehouse_LA,Denver,Amazon Logistics,18.1,1746.0,242.86,0,8.0,Delivered,0.139095,0.010367,Long,0
+Warehouse_HOU,Portland,LaserShip,29.7,2067.0,271.76,0,4.0,Delivered,0.131476,0.014369,Long,0
+Warehouse_BOS,Boston,FedEx,5404.2,1053.0,226.51,0,4.0,Delivered,0.215109,5.132194,Medium,1
+Warehouse_CHI,Los Angeles,OnTrac,32.2,447.0,96.92,0,2.0,Delivered,0.216823,0.072036,Short,0
+Warehouse_DEN,Houston,OnTrac,119.7,1834.0,390.46,0,4.0,Delivered,0.212901,0.065267,Long,1
+Warehouse_BOS,Chicago,OnTrac,28.4,677.0,117.74,0,3.0,In Transit,0.173914,0.04195,Medium,0
+Warehouse_LA,New York,LaserShip,17.3,1780.0,309.39,0,6.0,Delivered,0.173815,0.009719,Long,0
+Warehouse_CHI,Detroit,UPS,13.8,283.0,63.06,0,2.0,Delivered,0.222827,0.048763,Short,0
+Warehouse_ATL,Houston,OnTrac,79.3,2393.0,348.67,0,5.0,Delivered,0.145704,0.033138,Long,1
+Warehouse_CHI,Denver,UPS,5.9,1000.0,145.47,0,5.0,Delivered,0.14547,0.0059,Medium,0
+Warehouse_NYC,Dallas,DHL,26.2,351.0,86.35,0,1.0,Delivered,0.246011,0.074644,Short,0
+Warehouse_LA,Seattle,UPS,16.8,1135.0,174.76,0,5.0,Delivered,0.153974,0.014802,Medium,0
+Warehouse_BOS,Seattle,USPS,24.1,1794.0,213.6,0,4.0,Delivered,0.119064,0.013434,Long,0
+Warehouse_NYC,Seattle,DHL,10.2,1919.0,286.07,0,4.0,Delivered,0.149072,0.005315,Long,0
+Warehouse_NYC,Minneapolis,OnTrac,25.6,801.0,114.68,0,3.0,Delivered,0.143171,0.03196,Medium,0
+Warehouse_MIA,Miami,FedEx,6.1,218.0,39.84,0,2.0,Delivered,0.182752,0.027982,Short,0
+Warehouse_LA,Phoenix,UPS,29.9,373.0,84.58,0,4.0,Delivered,0.226756,0.080161,Short,0
+Warehouse_ATL,Boston,OnTrac,7.2,1306.0,212.11,0,4.0,Delivered,0.162412,0.005513,Medium,0
+Warehouse_CHI,Minneapolis,Amazon Logistics,40.7,2247.0,292.44,0,7.0,Delivered,0.130147,0.018113,Long,0
+Warehouse_CHI,Los Angeles,Amazon Logistics,34.7,1603.0,252.26,0,4.0,Delivered,0.157367,0.021647,Long,0
+Warehouse_SF,Detroit,LaserShip,24.8,1099.0,206.07,0,3.0,Delivered,0.187507,0.022566,Medium,0
+Warehouse_HOU,Miami,OnTrac,28.1,1012.0,195.61,0,5.0,Returned,0.193291,0.027767,Medium,0
+Warehouse_NYC,San Francisco,Amazon Logistics,10.7,392.0,196.325,1,2.0,Delivered,0.500829,0.027296,Short,0
+Warehouse_MIA,Detroit,DHL,32.8,2012.0,303.32,0,7.0,Delivered,0.150755,0.016302,Long,0
+Warehouse_SF,Seattle,DHL,29.5,2273.0,326.18,0,7.0,Delivered,0.143502,0.012978,Long,0
+Warehouse_LA,New York,OnTrac,66.3,1743.0,337.55,0,5.0,In Transit,0.19366,0.038038,Long,1
+Warehouse_SEA,Atlanta,UPS,21.7,1919.0,291.81,0,4.0,Delivered,0.152064,0.011308,Long,0
+Warehouse_ATL,Chicago,DHL,37.0,1506.0,279.2,0,4.0,Delivered,0.185392,0.024568,Long,0
+Warehouse_HOU,Miami,DHL,21.6,2053.0,334.73,0,6.0,Delivered,0.163044,0.010521,Long,0
+Warehouse_CHI,Denver,UPS,40.7,1000.0,175.45,0,3.0,Delivered,0.17545,0.0407,Medium,0
+Warehouse_NYC,Minneapolis,FedEx,84.8,2141.0,383.33,0,8.0,Delivered,0.179043,0.039608,Long,1
+Warehouse_HOU,Seattle,Amazon Logistics,13.7,2225.0,328.21,0,5.0,Delivered,0.14751,0.006157,Long,0
+Warehouse_CHI,Miami,LaserShip,20.5,1350.0,171.02,0,3.0,Delivered,0.126681,0.015185,Medium,0
+Warehouse_SEA,Los Angeles,USPS,9.2,2393.0,196.325,1,6.0,Delivered,0.082041,0.003845,Long,0
+Warehouse_SEA,Atlanta,DHL,78.2,620.0,211.42,0,2.0,Delayed,0.341,0.126129,Medium,1
+Warehouse_ATL,Seattle,Amazon Logistics,17.2,2018.0,247.67,0,5.0,Delivered,0.12273,0.008523,Long,0
+Warehouse_DEN,Minneapolis,Amazon Logistics,14.7,1949.0,243.7,0,4.0,Delivered,0.125038,0.007542,Long,0
+Warehouse_HOU,Atlanta,FedEx,18.9,800.0,122.95,0,3.0,Delivered,0.153688,0.023625,Medium,0
+Warehouse_HOU,Detroit,FedEx,8.1,2307.0,290.02,0,5.0,Delivered,0.125713,0.003511,Long,0
+Warehouse_SEA,Detroit,LaserShip,44.3,2041.0,311.3,0,6.0,Delivered,0.152523,0.021705,Long,0
+Warehouse_CHI,New York,DHL,59.9,628.0,183.69,0,3.0,Delivered,0.2925,0.095382,Medium,1
+Warehouse_DEN,Portland,LaserShip,8.8,1852.0,210.56,0,7.0,Lost,0.113693,0.004752,Long,0
+Warehouse_CHI,Los Angeles,FedEx,10.5,162.0,33.67,0,2.0,Delivered,0.20784,0.064815,Short,0
+Warehouse_CHI,Chicago,Amazon Logistics,16.6,1995.0,256.68,0,6.0,Returned,0.128662,0.008321,Long,0
+Warehouse_MIA,Minneapolis,DHL,23.5,1469.0,213.18,0,9.0,Delivered,0.145119,0.015997,Medium,0
+Warehouse_CHI,Denver,FedEx,34.9,1000.0,162.44,0,4.0,Delivered,0.16244,0.0349,Medium,0
+Warehouse_LA,Portland,UPS,14.6,2187.0,196.325,1,7.0,Delivered,0.089769,0.006676,Long,0
+Warehouse_NYC,Miami,LaserShip,49.0,1875.0,265.52,0,4.0,Delivered,0.141611,0.026133,Long,0
+Warehouse_HOU,Houston,Amazon Logistics,82.4,1705.0,279.42,0,4.0,Delivered,0.163883,0.048328,Long,1
+Warehouse_SF,New York,USPS,23.5,409.0,79.71,0,4.0,Delivered,0.19489,0.057457,Short,0
+Warehouse_SEA,Seattle,USPS,17.2,513.0,84.6,0,2.0,Delivered,0.164912,0.033528,Medium,0
+Warehouse_BOS,Denver,LaserShip,21.1,1974.0,256.12,0,7.0,Delivered,0.129747,0.010689,Long,0
+Warehouse_NYC,Boston,USPS,6.7,215.0,42.11,0,1.0,Delayed,0.19586,0.031163,Short,0
+Warehouse_DEN,Seattle,OnTrac,17.4,284.0,59.13,0,2.0,Delivered,0.208204,0.061268,Short,0
+Warehouse_LA,Portland,FedEx,31.2,1128.0,228.61,0,3.0,Lost,0.202668,0.02766,Medium,0
+Warehouse_HOU,San Francisco,LaserShip,25.7,231.0,55.3,0,1.0,Delivered,0.239394,0.111255,Short,0
+Warehouse_MIA,Denver,OnTrac,35.6,542.0,107.89,0,4.0,Delivered,0.199059,0.065683,Medium,0
+Warehouse_DEN,New York,OnTrac,29.4,636.0,116.46,0,1.0,Delivered,0.183113,0.046226,Medium,0
+Warehouse_NYC,Portland,USPS,16.7,1438.0,179.65,0,5.0,Delivered,0.12493,0.011613,Medium,0
+Warehouse_BOS,Phoenix,Amazon Logistics,7.2,822.0,97.04,0,2.0,Delivered,0.118054,0.008759,Medium,0
+Warehouse_HOU,Phoenix,Amazon Logistics,11.7,744.0,94.37,0,3.0,Delivered,0.126841,0.015726,Medium,0
+Warehouse_MIA,Portland,UPS,27.6,1549.0,242.8,0,5.0,Delivered,0.156746,0.017818,Long,0
+Warehouse_LA,Phoenix,LaserShip,20.5,373.0,75.98,0,3.0,Delivered,0.2037,0.05496,Short,0
+Warehouse_SF,Miami,LaserShip,41.0,2478.0,321.15,0,6.0,Delivered,0.1296,0.016546,Long,0
+Warehouse_MIA,Seattle,OnTrac,13.8,142.0,30.2,0,1.0,Delivered,0.212676,0.097183,Short,0
+Warehouse_LA,Seattle,USPS,34.2,1135.0,156.85,0,3.0,Delivered,0.138194,0.030132,Medium,0
+Warehouse_BOS,Denver,DHL,10.4,1467.0,196.325,1,3.0,Delivered,0.133828,0.007089,Medium,0
+Warehouse_DEN,Miami,USPS,20.3,2353.0,295.36,0,6.0,Delivered,0.125525,0.008627,Long,0
+Warehouse_HOU,Detroit,LaserShip,9.9,1163.0,161.25,0,3.0,Delivered,0.13865,0.008512,Medium,0
+Warehouse_CHI,Detroit,Amazon Logistics,9.5,283.0,43.35,0,1.0,Delivered,0.15318,0.033569,Short,0
+Warehouse_ATL,Dallas,Amazon Logistics,27.0,1068.0,188.63,0,3.0,Delivered,0.17662,0.025281,Medium,0
+Warehouse_SEA,Boston,Amazon Logistics,12.9,1875.0,305.45,0,5.0,Delivered,0.162907,0.00688,Long,0
+Warehouse_LA,Detroit,FedEx,61.7,2430.0,455.69,0,7.0,Delivered,0.187527,0.025391,Long,1
+Warehouse_SF,Portland,LaserShip,25.3,505.0,92.95,0,2.0,Delivered,0.184059,0.050099,Medium,0
+Warehouse_LA,Seattle,OnTrac,26.4,1135.0,161.78,0,5.0,Delivered,0.142537,0.02326,Medium,0
+Warehouse_ATL,Minneapolis,USPS,69.0,1868.0,302.62,0,4.0,Lost,0.162002,0.036938,Long,1
+Warehouse_ATL,Portland,USPS,17.0,2191.0,283.07,0,7.0,Delivered,0.129197,0.007759,Long,0
+Warehouse_SEA,Chicago,USPS,18.0,971.0,196.325,1,2.0,Delivered,0.202188,0.018538,Medium,0
+Warehouse_LA,New York,UPS,15.9,1899.0,329.11,0,6.0,Delivered,0.173307,0.008373,Long,0
+Warehouse_SF,Chicago,LaserShip,9.1,1754.0,210.06,0,4.0,Delivered,0.119761,0.005188,Long,0
+Warehouse_NYC,Houston,OnTrac,17.5,956.0,138.84,0,3.0,In Transit,0.14523,0.018305,Medium,0
+Warehouse_DEN,Los Angeles,USPS,22.8,2114.0,287.52,0,6.0,Delivered,0.136008,0.010785,Long,0
+Warehouse_DEN,Portland,LaserShip,10.1,1084.0,138.89,0,3.0,Delivered,0.128127,0.009317,Medium,0
+Warehouse_HOU,Houston,OnTrac,22.6,1375.0,208.71,0,4.0,Delivered,0.151789,0.016436,Medium,0
+Warehouse_HOU,Denver,UPS,6.9,1030.0,133.01,0,3.0,Delivered,0.129136,0.006699,Medium,0
+Warehouse_CHI,Los Angeles,DHL,10.1,169.0,42.45,0,2.0,Delivered,0.251183,0.059763,Short,0
+Warehouse_CHI,New York,USPS,39.0,706.0,112.83,0,3.0,Delivered,0.159816,0.055241,Medium,0
+Warehouse_BOS,Los Angeles,OnTrac,30.0,985.0,143.34,0,3.0,Delivered,0.145523,0.030457,Medium,0
+Warehouse_DEN,Denver,FedEx,24.0,506.0,103.6,0,2.0,Delayed,0.204743,0.047431,Medium,0
+Warehouse_BOS,Atlanta,UPS,47.5,545.0,127.02,0,4.0,Delivered,0.233064,0.087156,Medium,0
+Warehouse_DEN,Dallas,FedEx,26.5,1116.0,181.68,0,3.0,Delivered,0.162796,0.023746,Medium,0
+Warehouse_MIA,Chicago,DHL,9.8,992.0,157.8,0,3.0,Delivered,0.159073,0.009879,Medium,0
+Warehouse_DEN,Boston,USPS,23.4,1921.0,226.29,0,6.0,In Transit,0.117798,0.012181,Long,0
+Warehouse_SEA,New York,USPS,6.1,247.0,38.31,0,1.0,Delivered,0.155101,0.024696,Short,0
+Warehouse_MIA,Boston,FedEx,12.9,1734.0,245.79,0,5.0,Delivered,0.141747,0.007439,Long,0
+Warehouse_SEA,Chicago,UPS,25.7,1515.0,208.58,0,4.0,Delivered,0.137677,0.016964,Long,0
+Warehouse_LA,Phoenix,UPS,10.9,373.0,66.58,0,4.0,Delayed,0.178499,0.029223,Short,0
+Warehouse_MIA,San Francisco,LaserShip,31.5,1900.0,320.88,0,6.0,Delivered,0.168884,0.016579,Long,0
+Warehouse_HOU,Los Angeles,UPS,36.7,2317.0,314.18,0,8.0,Delivered,0.135598,0.015839,Long,0
+Warehouse_CHI,Houston,USPS,19.2,2300.0,300.32,0,7.0,Delivered,0.130574,0.008348,Long,0
+Warehouse_HOU,Dallas,UPS,53.9,2226.0,377.64,0,6.0,Delivered,0.16965,0.024214,Long,1
+Warehouse_SEA,Denver,LaserShip,39.4,826.0,149.04,0,5.0,Delivered,0.180436,0.0477,Medium,0
+Warehouse_NYC,Seattle,LaserShip,73.2,1577.0,294.41,0,7.0,Delivered,0.18669,0.046417,Long,1
+Warehouse_LA,Dallas,Amazon Logistics,8.3,1435.0,174.8,0,3.0,Delivered,0.121812,0.005784,Medium,0
+Warehouse_SF,Dallas,OnTrac,20.4,943.0,149.89,0,3.0,Delivered,0.15895,0.021633,Medium,0
+Warehouse_HOU,Chicago,LaserShip,9.5,1843.0,217.11,0,4.0,Delivered,0.117802,0.005155,Long,0
+Warehouse_ATL,Houston,USPS,9.5,209.0,31.25,0,1.0,Delivered,0.149522,0.045455,Short,0
+Warehouse_NYC,Houston,FedEx,16.1,1711.0,252.26,0,4.0,Delivered,0.147434,0.00941,Long,0
+Warehouse_LA,Houston,DHL,14.4,693.0,125.69,0,4.0,Delivered,0.181371,0.020779,Medium,0
+Warehouse_ATL,Houston,LaserShip,18.7,998.0,166.44,0,2.0,Delivered,0.166774,0.018737,Medium,0
+Warehouse_LA,Dallas,Amazon Logistics,27.8,1435.0,198.3,0,4.0,Delivered,0.138188,0.019373,Medium,0
+Warehouse_CHI,Houston,UPS,29.6,2345.0,300.77,0,6.0,Delayed,0.12826,0.012623,Long,0
+Warehouse_CHI,Atlanta,USPS,31.3,2030.0,291.05,0,5.0,Delivered,0.143374,0.015419,Long,0
+Warehouse_SF,Portland,FedEx,54.6,1675.0,307.9,0,5.0,Delivered,0.183821,0.032597,Long,1
+Warehouse_SF,Detroit,DHL,21.5,1813.0,264.67,0,6.0,Delivered,0.145985,0.011859,Long,0
+Warehouse_SF,New York,UPS,20.1,596.0,100.6,0,2.0,Delivered,0.168792,0.033725,Medium,0
+Warehouse_DEN,Minneapolis,OnTrac,33.9,1174.0,172.51,0,8.0,Delivered,0.146942,0.028876,Medium,0
+Warehouse_SEA,Atlanta,Amazon Logistics,36.5,145.0,58.02,0,1.0,Delivered,0.400138,0.251724,Short,0
+Warehouse_LA,Denver,UPS,33.0,111.0,58.45,0,1.0,Delivered,0.526577,0.297297,Short,0
+Warehouse_NYC,New York,DHL,40.0,2018.0,308.59,0,5.0,Delivered,0.152919,0.019822,Long,0
+Warehouse_MIA,Detroit,OnTrac,4.8,236.0,31.95,0,3.0,Delayed,0.135381,0.020339,Short,0
+Warehouse_HOU,Miami,LaserShip,6.5,948.0,115.78,0,3.0,Delivered,0.122131,0.006857,Medium,0
+Warehouse_LA,Atlanta,Amazon Logistics,78.2,2309.0,392.0,0,8.0,Delivered,0.16977,0.033867,Long,1
+Warehouse_CHI,Miami,FedEx,29.1,1350.0,240.47,0,5.0,Delivered,0.178126,0.021556,Medium,0
+Warehouse_HOU,Chicago,OnTrac,38.8,1877.0,248.5,0,5.0,Delivered,0.132392,0.020671,Long,0
+Warehouse_SEA,Seattle,DHL,17.7,2300.0,368.38,0,6.0,Delivered,0.160165,0.007696,Long,0
+Warehouse_ATL,Portland,OnTrac,43.2,177.0,73.03,0,1.0,Delivered,0.412599,0.244068,Short,0
+Warehouse_CHI,Boston,DHL,10.3,2350.0,355.32,0,6.0,Delivered,0.1512,0.004383,Long,0
+Warehouse_SF,Seattle,Amazon Logistics,59.7,237.0,130.0,0,2.0,Delivered,0.548523,0.251899,Short,1
+Warehouse_BOS,San Francisco,FedEx,7.9,1616.0,217.78,0,5.0,Delivered,0.134765,0.004889,Long,0
+Warehouse_HOU,Phoenix,UPS,36.5,1708.0,279.47,0,5.0,Delivered,0.163624,0.02137,Long,0
+Warehouse_HOU,Portland,LaserShip,11.4,1912.0,250.32,0,6.0,Delivered,0.130921,0.005962,Long,0
+Warehouse_SEA,Detroit,USPS,10.9,2188.0,272.31,0,5.0,Delivered,0.124456,0.004982,Long,0
