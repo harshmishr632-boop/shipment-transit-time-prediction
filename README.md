@@ -1,37 +1,148 @@
-Shipment Transit Time Prediction & Delay Analysis (Alteryx)
-Project overview
-An end-to-end predictive analytics project using Alteryx Designer to prepare logistics shipment data, engineer operational features, score shipment transit times, and compare model predictions with observed transit duration. The business objective is to support better delivery estimates, shipment planning, and carrier performance review.
+# Shipment Transit Time Prediction & Delay Analysis (Alteryx)
 
-Repository contents
-data/logistics_features.csv — prepared feature dataset supplied with the project (1,965 rows; 13 columns).
-workflow/Shipment_Days_Scoring.yxmd — Alteryx Designer workflow file.
-outputs/shipment_transit_predictions.csv — prediction/scoring output derived from the provided Booster Excel output.
-outputs/shipment_prediction_results.xlsx — Excel workbook with predictions, error columns, summary metrics, and a data dictionary.
-documentation/Alteryx_Workflow_Explanation.pdf — step-by-step workflow documentation.
-images/ — screenshots of the Alteryx workflow canvas.
-Workflow summary
-Load and profile shipment data.
-Clean shipping-cost values and handle incomplete records.
-Convert fields to suitable data types and filter transit-day values to the documented range.
-Engineer Cost_Per_Mile, Weight_Per_Mile, Distance_Band, and Is_Heavy.
-Split data into training and validation samples (documented as 70:30).
-Train/score predictive models and compare error metrics.
-Export scored shipment records for further analysis.
-Results file
-The supplied booster 000001.xlsx scoring output contained 589 records. In this repository, the Score field is treated as the predicted transit time and Transit_Days as the observed transit time. The results workbook calculates MAE, RMSE, and a descriptive R-squared value from those rows. These are metrics for the provided scoring workbook only; do not describe them as held-out test metrics unless you verify that those 589 rows are an independent test/validation set.
+An end-to-end logistics analytics project that prepares shipment data, engineers operational features, trains predictive regression models in Alteryx Designer, scores shipment transit times, and evaluates prediction error.
 
-Open the workflow
-Install/open Alteryx Designer with the required predictive tools available.
-Open workflow/Shipment_Days_Scoring.yxmd.
-The workflow originally references Windows paths from the machine where it was created. Update the Input Data and Output Data paths in Alteryx to the local copies in this repository before running.
-Confirm the model/tool configuration and run the workflow. Output paths may be set to outputs/.
-Important notes
-The workflow file is provided as an Alteryx artifact; this repository does not include Alteryx itself or guarantee execution in every environment.
-The current CSV is a prepared feature dataset, not necessarily the untouched original raw dataset.
-Status may reflect an outcome of the shipment. Avoid using it as a predictor if it leaks information unavailable at dispatch time.
-Predicting transit days is a regression task. Calling it a delay classifier would require a defined promised-delivery threshold and a separate on-time/late label.
-Skills demonstrated
-Alteryx Designer · Data Cleaning · Feature Engineering · Predictive Analytics · Regression · Model Scoring · MAE/RMSE Evaluation · Logistics Analytics · Excel
+> **Project status:** Portfolio-ready prototype. The repository includes the prepared dataset, Alteryx workflow, scoring outputs, documentation, and workflow screenshots. The workflow requires Alteryx Designer and is not currently runnable without updating its machine-specific file paths.
 
-Suggested resume title
-Shipment Transit Time Prediction & Delay Analysis | Alteryx Designer
+## What this project does
+
+The project predicts `Transit_Days` for shipment records using route, carrier, distance, weight, cost, and engineered logistics features. It also compares model predictions with observed transit times using regression metrics such as MAE and RMSE.
+
+This is a **transit-time regression** project. It is not a delay-classification model unless a promised-delivery threshold and an explicit on-time/late target are defined.
+
+## Repository contents
+
+```text
+.
+├── README.md
+└── shipment-transit-prediction-alteryx/
+    ├── data/
+    │   └── logistics_features.csv
+    ├── documentation/
+    │   ├── Alteryx_Workflow_Explanation.pdf
+    │   └── METRICS_AND_DATA_NOTES.md
+    ├── images/
+    │   ├── workflow_overview_1.png
+    │   └── workflow_overview_2.png
+    ├── outputs/
+    │   ├── booster_scoring_output_original.xlsx
+    │   ├── shipment_prediction_results.xlsx
+    │   └── shipment_transit_predictions.csv
+    ├── workflow/
+    │   └── Shipment_Days_Scoring.yxmd
+    └── README.md
+```
+
+### Key files
+
+| File | Purpose |
+|---|---|
+| `data/logistics_features.csv` | Prepared feature dataset with 1,965 shipment records and 13 columns |
+| `workflow/Shipment_Days_Scoring.yxmd` | Alteryx Designer workflow for sampling, model training, comparison, scoring, and export |
+| `outputs/shipment_transit_predictions.csv` | Scored shipment records with predictions and error columns |
+| `outputs/shipment_prediction_results.xlsx` | Workbook containing prediction results, summary metrics, and a data dictionary |
+| `documentation/Alteryx_Workflow_Explanation.pdf` | Visual explanation of the Alteryx workflow |
+| `documentation/METRICS_AND_DATA_NOTES.md` | Definitions and interpretation notes for evaluation metrics |
+
+## Data and features
+
+The prepared dataset includes the following fields:
+
+- **Shipment attributes:** `Origin_Warehouse`, `Destination`, `Carrier`
+- **Operational inputs:** `Weight_kg`, `Distance_miles`, `Cost_Numeric`
+- **Data-quality flag:** `Cost_Was_Null`
+- **Target:** `Transit_Days`
+- **Shipment status:** `Status`
+- **Engineered features:** `Cost_Per_Mile`, `Weight_Per_Mile`, `Distance_Band`, `Is_Heavy`
+
+The dataset is a prepared feature artifact rather than a guaranteed copy of the untouched raw source data. It contains examples of missing-cost handling, categorical route/carrier fields, continuous operational variables, and derived ratios.
+
+## Workflow
+
+The Alteryx workflow follows this high-level sequence:
+
+1. Read the prepared logistics feature CSV.
+2. Select fields and convert numeric columns to appropriate types.
+3. Split the data into estimation and validation samples using a documented 70:30 split and random seed `1`.
+4. Train a random-forest model and a boosted regression model.
+5. Compare model performance on the validation sample.
+6. Score validation records with the selected model.
+7. Export scored results to Excel.
+
+The current workflow starts from an already prepared feature dataset. The repository README describes the upstream data-preparation work for context, but the `.yxmd` file does not contain a complete raw-data cleaning pipeline.
+
+## Important modeling note: possible target leakage
+
+`Status` is present in the current model predictor configuration. Values such as `Delivered`, `Delayed`, `Lost`, and `Returned` may only be known after shipment progress or completion, so they may not be available at dispatch time.
+
+For a genuine dispatch-time prediction use case, remove `Status` from the predictors and retrain the models. Keep `Status` only for post-shipment analysis or if it is demonstrably available at prediction time.
+
+## Evaluation fields and metrics
+
+The scoring output uses:
+
+- **Observed value:** `Transit_Days`
+- **Predicted value:** `Score`
+- **Prediction error:** `Transit_Days - Score`
+- **Absolute error:** `abs(Transit_Days - Score)`
+- **MAE:** mean absolute error in days; lower is better
+- **RMSE:** root mean squared error in days; penalizes larger errors more heavily
+- **R-squared:** descriptive fit statistic; interpret only after confirming the evaluation split and model context
+
+The supplied scoring workbook contains 589 rows. The feature CSV contains 1,965 rows. These are different artifacts and should not be treated as identical datasets or as proof that every CSV record appears in the workbook.
+
+## How to run the workflow
+
+### Requirements
+
+- Alteryx Designer compatible with the workflow version
+- Alteryx Predictive Tools, including the Forest Model, Boosted Model, Model Comparison, and scoring macros
+- A local copy of this repository
+
+### Steps
+
+1. Open `shipment-transit-prediction-alteryx/workflow/Shipment_Days_Scoring.yxmd` in Alteryx Designer.
+2. Update the input path to:
+
+   ```text
+   shipment-transit-prediction-alteryx/data/logistics_features.csv
+   ```
+
+3. Update the output path to a local file under:
+
+   ```text
+   shipment-transit-prediction-alteryx/outputs/
+   ```
+
+4. Review the model predictors, especially the use of `Status`.
+5. Run the workflow and inspect the validation metrics and scored output.
+
+> The workflow currently contains absolute Windows paths from the original authoring environment. It will require path updates on another machine.
+
+## Output interpretation
+
+`shipment_transit_predictions.csv` includes the original shipment fields plus:
+
+- `Score` — predicted transit time
+- `Prediction_Error_Days` — signed error, observed minus predicted
+- `Absolute_Error_Days` — magnitude of the prediction error
+
+A positive signed error means the model underpredicted the observed transit time. A negative signed error means it overpredicted the observed transit time.
+
+## Reproducibility and limitations
+
+- Alteryx Designer is not included in this repository.
+- The workflow depends on Alteryx Predictive Tools installed outside the repository.
+- The current `.yxmd` contains machine-specific Windows paths and should be made portable before sharing as a reusable workflow.
+- The checked-in CSV is a prepared feature dataset, not necessarily the original raw data.
+- The current outputs should be treated as supplied scoring artifacts unless regenerated from the workflow.
+- No automated test suite or CI validation is included yet.
+- Data-quality checks for outliers, duplicates, zero weights, and unusual cost-per-mile values should be added before operational use.
+
+## Skills demonstrated
+
+Alteryx Designer · Data Cleaning · Feature Engineering · Predictive Analytics · Regression · Random Forest · Boosting · Model Scoring · MAE/RMSE Evaluation · Logistics Analytics · Excel Reporting
+
+## Suggested resume title
+
+**Shipment Transit Time Prediction & Delay Analysis | Alteryx Designer**
